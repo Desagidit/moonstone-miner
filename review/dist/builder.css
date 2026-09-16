@@ -65,3 +65,5 @@
  .roster .chip{font-size:12px;padding:3px 7px}.roster .help{font-size:12px;margin:8px 0}.metric-help{font-size:12px;margin-top:4px}.metric-help p,.metric-help dl{margin:6px 0}
  .getting-started{overflow:auto;margin-top:0}.focus:has(#advice-tabs[hidden]){grid-template-rows:minmax(0,1fr)}
 }
+
+.focus-actions{column-gap:18px;row-gap:8px}.focus-actions .focus-links{margin:0;gap:12px}.focus-actions .card-navigation{margin-left:auto}.inspection-warning{flex-shrink:0;margin:0 0 10px;line-height:1.5}

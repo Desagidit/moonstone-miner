@@ -110,13 +110,13 @@ function show(c,recordVisit=true){
  const b=node('button',inTeam?'Remove from troupe':'Add to troupe','primary');b.disabled=!inTeam&&!!reason;b.onclick=()=>inTeam?remove(c):add(c);actions.append(b);
  const navigation=node('div',undefined,'card-navigation');
  for(const [label,offset] of [['Previous',-1],['Next',1]]){const nav=node('button',label);nav.type='button';nav.disabled=offset<0?visitIndex<=0:visitIndex>=visits.length-1;nav.setAttribute('aria-label',label+' viewed character');nav.title=offset<0?'Go back to the previously viewed character':'Go forward in browsing history';nav.onclick=()=>{const next=visitIndex+offset;if(next<0||next>=visits.length)return;visitIndex=next;show(cards.find(v=>v.id===visits[visitIndex]),false);renderCards()};navigation.append(nav)}
- actions.append(navigation);
  const links=node('div',undefined,'focus-links');
- if(!inTeam&&reason)links.append(node('span',inspectionReason(c,reason),'compatibility'));
  const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.title='Open the official character card';review.target='_blank';review.rel='noopener';links.append(review);
  if(c.miniature?.store_url){const store=node('a','Mini store ↗');store.href=c.miniature.store_url;store.title='Open the miniature in the official store';store.target='_blank';store.rel='noopener';links.append(store)}
- if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);links.append(photo)}
- const rules=node('a','Troupe rules ↗');rules.href='https://www.moonstonethegame.com/troupe-building';rules.target='_blank';rules.rel='noopener';rules.title='Read the official troupe-building rules';links.append(rules);actions.append(...links.children);p.append(actions);
+ const rules=node('a','Troupe rules ↗');rules.href='https://www.moonstonethegame.com/troupe-building';rules.target='_blank';rules.rel='noopener';rules.title='Read the official troupe-building rules';links.append(rules);actions.append(links);
+ if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);actions.append(photo)}
+ actions.append(navigation);p.append(actions);if(!inTeam&&reason)p.append(node('p',inspectionReason(c,reason),'inspection-warning compatibility'));
+
  const imageFrame=node('div',undefined,'focus-image-frame'),image=node('img');image.src='/'+c.source.image_path+'?quality=360';image.alt='Original cards for '+c.name;image.className='focused-image';imageFrame.append(image);p.append(imageFrame);
  renderRelated(c,p);$('strategy-panel').replaceChildren();renderGuide(c,$('strategy-panel'));
 }
