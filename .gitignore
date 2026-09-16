@@ -1,0 +1,9 @@
+__pycache__/
+tmp/
+data/cards/
+data/extraction.json
+data/moonstone.sqlite
+data/moonstone.next.sqlite
+site/
+.env
+.env.*

@@ -1,0 +1,62 @@
+{
+  "selectable": 127,
+  "summon": 14,
+  "summons": [
+    {
+      "page": 64,
+      "name": "Murder Bunny"
+    },
+    {
+      "page": 65,
+      "name": "Murder Bunny"
+    },
+    {
+      "page": 66,
+      "name": "Murder Bunny"
+    },
+    {
+      "page": 77,
+      "name": "Striga Anya"
+    },
+    {
+      "page": 99,
+      "name": "Brave Sir Pidge"
+    },
+    {
+      "page": 100,
+      "name": "Terrible Musician"
+    },
+    {
+      "page": 101,
+      "name": "Flay, Bearer of Knowledge"
+    },
+    {
+      "page": 102,
+      "name": "Lampy Darkson"
+    },
+    {
+      "page": 103,
+      "name": "Jeremy, Lord of the Deep"
+    },
+    {
+      "page": 104,
+      "name": "Teacake of Torment"
+    },
+    {
+      "page": 120,
+      "name": "Urchin"
+    },
+    {
+      "page": 121,
+      "name": "Sprog"
+    },
+    {
+      "page": 122,
+      "name": "Pookie"
+    },
+    {
+      "page": 139,
+      "name": "Pickles"
+    }
+  ]
+}
