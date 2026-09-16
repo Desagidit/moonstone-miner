@@ -98,4 +98,3 @@ Numeric filters now use discrete sliders over the distinct valid values in the c
 
 Use **Compare** in the header to select saved troupes and inspect their members, faction, average radar profile and keyword counts. Click a character name to open its card above the comparer. **Share** copies an MS1 code containing the troupe name and ordered character names; import validates the code and creates a separate saved troupe. Codes work across browsers without an account; they do not include favourites or personal browser data.
 
-The header Display selector remembers Auto, Compact (85%), Comfortable (100%) or Large (140%). Auto uses 125% at browser widths of at least 2,200 CSS pixels and 160% at 3,200; OS scaling and browser zoom therefore naturally affect when it applies. The centered layout can widen to 1,760 CSS pixels when space permits, while columns, scrolling panels and dialogs account for the selected display scale.
