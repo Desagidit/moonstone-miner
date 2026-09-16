@@ -11,3 +11,5 @@ assert.match(L.reason({...c,eligibility:{selectable:false}},[],'Commonwealth',6)
 assert.match(L.reason(c,[c],'Commonwealth',6),/Already/);assert.match(L.reason(c,[{id:'other',name:'Other'}],'Commonwealth',1),/full/);
 assert.equal(L.tally([c,{...c,keywords:['human','Human']}],'keywords').find(v=>v.label==='Human').count,2);
 console.log('Grouped AND/OR, numeric filters, mixed factions, summons, duplicates, size and summaries passed.');
+
+assert.equal(L.reason(c,[],'Undecided',6),'');assert.ok(L.compatible(c,'Undecided'));assert.match(L.reason({...c,eligibility:{selectable:false}},[],'Undecided',6),/Summon/);

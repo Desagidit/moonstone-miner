@@ -7,7 +7,8 @@
  }
  function combine(values,mode){return mode==='or'?values.some(Boolean):values.every(Boolean)}
  function matches(c,query){const groups=query.groups.filter(g=>g.rules.length);return !groups.length||combine(groups.map(g=>combine(g.rules.map(r=>match(c,r)),g.mode)),query.mode)}
- function reason(c,team,faction,size){if(!c.eligibility.selectable)return 'Summon — cannot be selected';if(!c.factions.includes(faction))return 'Outside '+faction;if(team.some(t=>t.id===c.id||t.name.toLowerCase()===c.name.toLowerCase()))return 'Already in your troupe';if(team.length>=size)return 'Troupe is full';return ''}
+ function compatible(c,faction){return faction==='Undecided'||c.factions.includes(faction)}
+ function reason(c,team,faction,size){if(!c.eligibility.selectable)return 'Summon — cannot be selected';if(!compatible(c,faction))return 'Outside '+faction;if(team.some(t=>t.id===c.id||t.name.toLowerCase()===c.name.toLowerCase()))return 'Already in your troupe';if(team.length>=size)return 'Troupe is full';return ''}
  function tally(team,field){const counts=new Map();for(const c of team){const seen=new Set();for(const label of c[field]){const key=label.toLowerCase();if(seen.has(key))continue;seen.add(key);const v=counts.get(key)||{label,count:0};v.count++;counts.set(key,v)}}return [...counts.values()].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label))}
- const api={numeric,match,matches,reason,tally};root.TeamLogic=api;if(typeof module!=='undefined')module.exports=api;
+ const api={numeric,match,matches,compatible,reason,tally};root.TeamLogic=api;if(typeof module!=='undefined')module.exports=api;
 })(globalThis);
