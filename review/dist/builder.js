@@ -1,6 +1,6 @@
 const L=TeamLogic,$=id=>document.getElementById(id),clone=v=>JSON.parse(JSON.stringify(v));
 let cards=[],focus=null,teamIds=[],filterSettings={},visits=[],visitIndex=-1,savedTroupes=[],activeTroupeId=null,troupeName='New troupe',favouriteIds=new Set(),draggedMemberId=null,factionQuickFilter=false;
-const fields={favourite:'Favourite',keyword:'Keyword',tag:'Custom tag',faction:'Faction',eligibility:'Selectable / summon',melee:'Melee',arcane:'Arcane',evade:'Evade',range:'Melee range',hp:'Health',energy:'Energy',base:'Base size',version:'Card version',review:'Review status'};
+const fields={favourite:'Favourite',keyword:'Keyword',tag:'Custom tag',faction:'Faction',eligibility:'Summon',melee:'Melee',arcane:'Arcane',evade:'Evade',range:'Melee range',hp:'Health',energy:'Energy',base:'Base size'};
 function node(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n}
 function option(value,text){const n=node('option',text);n.value=value;return n}
 function labelledSelect(label,values,value,fn){const s=node('select');s.setAttribute('aria-label',label);for(const [v,t] of values)s.append(option(v,t));s.value=value;s.onchange=()=>fn(s.value);return s}
@@ -156,18 +156,22 @@ function renderPartners(c){
   row.append(name,node('p',suggested.reason,'partner-reason'),b);if(reason&&!inTeam)row.append(node('small',reason,'compatibility'));target.append(row);
  }
 }
-function choices(field){if(field==='base'||field==='version')return [...new Set(cards.map(c=>field==='base'?c.base_size_mm:c.card_version).filter(v=>v!==null&&v!==undefined))].sort((a,b)=>a-b).map(v=>[String(v),String(v)+(field==='base'?' mm':'')]);if(field==='favourite')return [['yes','Yes'],['no','No']];if(field==='keyword'||field==='tag'||field==='faction')return [...new Set(cards.flatMap(c=>field==='keyword'?c.keywords:field==='tag'?c.custom_tags:c.factions))].sort().map(v=>[v,v]);if(field==='eligibility')return [['selectable','Selectable'],['summon','Summon']];if(field==='review')return [['verified','Verified'],['in_progress','In progress'],['unverified','Unverified']];return null}
+function choices(field){if(field==='favourite')return [['yes','Yes'],['no','No']];if(field==='keyword'||field==='tag'||field==='faction')return [...new Set(cards.flatMap(c=>field==='keyword'?c.keywords:field==='tag'?c.custom_tags:c.factions))].sort().map(v=>[v,v]);return null}
+function sliderValues(field){return [...new Set(cards.map(c=>L.numeric[field](c)).filter(v=>typeof v==='number'&&Number.isFinite(v)))].sort((a,b)=>a-b)}
 function minimumField(field){return !!L.numeric[field]&&!['base','version'].includes(field)}
 function filterLabel(field){return minimumField(field)?'Min '+fields[field].toLowerCase():fields[field]}
 function matchesFilters(c){return Object.entries(filterSettings).every(([field,setting])=>!setting.active||L.match(c,{field,op:minimumField(field)?'gte':'eq',value:setting.value},{favourites:favouriteIds}))}
 function renderFilters(){const parent=$('filter-fields');parent.replaceChildren();for(const field of Object.keys(fields)){
  const setting=filterSettings[field]||(filterSettings[field]={value:'',active:false}),row=node('div',undefined,'filter-row'),label=node('label',filterLabel(field));label.htmlFor='filter-'+field;
- const values=minimumField(field)?null:choices(field),control=node(values?'select':'input');control.id='filter-'+field;control.setAttribute('aria-label',filterLabel(field));
- if(values){control.append(option('','Any'));for(const [value,text] of values)control.append(option(value,text))}else{control.type='number';control.step=field==='range'?'0.5':'1';control.placeholder='Any'}control.value=setting.value;
+ const slider=!!L.numeric[field],toggle=field==='eligibility',values=slider?sliderValues(field):choices(field),control=node(slider||toggle?'input':'select');control.id='filter-'+field;control.setAttribute('aria-label',filterLabel(field));
  const clear=node('button','×','filter-clear');clear.type='button';clear.setAttribute('aria-label','Clear '+fields[field]+' filter');clear.title='Exclude '+fields[field]+' from search';
- const updateRow=()=>{row.className='filter-row'+(setting.active?' filter-active':'');row.setAttribute('data-active',String(setting.active));clear.disabled=!setting.active};
- const edit=()=>{setting.value=control.value;setting.active=control.value!==''&&(!!values||Number.isFinite(Number(control.value)));updateRow();renderCards()};if(values)control.onchange=edit;else control.oninput=edit;
- clear.onclick=()=>{setting.active=false;setting.value='';control.value='';updateRow();renderCards()};updateRow();row.append(label,control,clear);parent.append(row);
+ let content=control,readout=null;
+ if(slider){control.type='range';control.min=0;control.max=values.length;control.step=1;control.value=setting.active?values.indexOf(Number(setting.value))+1:0;control.className='discrete-slider';content=node('div',undefined,'slider-setting');const track=node('div',undefined,'slider-track'),dots=node('div',undefined,'slider-dots');dots.setAttribute('aria-hidden','true');for(let i=0;i<=values.length;i++)dots.append(node('span'));track.append(dots,control);readout=node('output',undefined,'slider-value');readout.htmlFor=control.id;content.append(track,readout)}
+ else if(toggle){control.type='checkbox';control.className='summon-toggle';control.setAttribute('role','switch');control.checked=setting.active;content=node('div',undefined,'toggle-setting');content.append(control)}
+ else{control.append(option('','Any'));for(const [value,text] of values)control.append(option(value,text));control.value=setting.value}
+ const updateRow=()=>{row.className='filter-row'+(setting.active?' filter-active':'');row.setAttribute('data-active',String(setting.active));clear.disabled=!setting.active;if(readout){readout.textContent=setting.active?(field==='base'?setting.value+' mm':'≥ '+setting.value):'Any';control.setAttribute('aria-valuetext',readout.textContent)}};
+ const edit=()=>{if(slider){const index=Number(control.value);setting.active=Number.isInteger(index)&&index>0&&index<=values.length;setting.value=setting.active?String(values[index-1]):''}else if(toggle){setting.active=control.checked;setting.value=control.checked?'summon':''}else{setting.value=control.value;setting.active=control.value!==''}updateRow();renderCards()};if(slider)control.oninput=edit;else control.onchange=edit;
+ clear.onclick=()=>{setting.active=false;setting.value='';if(toggle)control.checked=false;else control.value=slider?'0':'';updateRow();renderCards()};updateRow();row.append(label,content,clear);parent.append(row);
 }}
 $('clear-filters').onclick=()=>{factionQuickFilter=false;filterSettings={};renderFilters();renderCards()};$('find').oninput=renderCards;$('sort').onchange=renderCards;
 (async()=>{try{const r=await fetch('/api/cards');if(!r.ok)throw new Error('Could not load cards');cards=(await r.json()).cards;restoreFavourites();restoreTroupes();$('load-status').textContent='';renderFilters();renderCards();refreshTeam();show(cards.find(c=>c.eligibility.selectable&&compatibleWithTroupe(c))||cards[0]);renderCards()}catch(e){$('load-status').textContent=e.message}})();
