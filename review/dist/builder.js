@@ -27,7 +27,7 @@ function updateStorageControls(){
 }
 function persist(){const before=clone(savedTroupes),index=savedTroupes.findIndex(t=>t.id===activeTroupeId);if(index>=0)savedTroupes[index]={id:activeTroupeId,...troupeSnapshot()};try{localStorage.setItem(storageKey,JSON.stringify({version:2,activeId:activeTroupeId,draft:troupeSnapshot(),troupes:savedTroupes}));try{localStorage.setItem('moonstone-troupe-v1',JSON.stringify(troupeSnapshot()))}catch{}updateStorageControls();return true}catch{savedTroupes=before;$('storage-status').textContent='Changes could not be saved. Browser storage is unavailable.';return false}}
 function restoreTroupes(){try{const saved=JSON.parse(localStorage.getItem(storageKey)||'null');let draft;if(saved?.version===2&&Array.isArray(saved.troupes)){const used=new Set();savedTroupes=saved.troupes.flatMap(t=>{const clean=cleanTroupe(t);if(!clean||typeof t.id!=='string'||used.has(t.id))return [];used.add(t.id);return [{id:t.id,...clean}]});activeTroupeId=savedTroupes.some(t=>t.id===saved.activeId)?saved.activeId:null;draft=cleanTroupe(saved.draft)}else draft=cleanTroupe(JSON.parse(localStorage.getItem('moonstone-troupe-v1')||'null'));if(draft)applyTroupe(draft);if(activeTroupeId)persist();else updateStorageControls()}catch{$('storage-status').textContent='Saved troupe data could not be read. You can create a new troupe.'}}
-function applyTroupe(troupe){teamIds=[...troupe.ids];troupeName=troupe.name}
+function applyTroupe(troupe){teamIds=[...troupe.ids];troupeName=troupe.name;factionQuickFilter=teamIds.length>0}
 function repaintTroupe(){renderCards();refreshTeam();if(focus)show(focus,false)}
 function switchTroupe(id){if(id===activeTroupeId||!savedTroupes.some(t=>t.id===id))return false;$('saved-troupes').value=activeTroupeId||'';if(!persist())return false;const before=troupeCheckpoint(),target=savedTroupes.find(t=>t.id===id);activeTroupeId=id;applyTroupe(cleanTroupe(target));$('saved-troupes').value=id;if(!persist()){rollbackTroupe(before,'The troupe was not switched. Browser storage is unavailable.');return false}repaintTroupe();return true}
 $('saved-troupes').onchange=()=>switchTroupe($('saved-troupes').value);
@@ -75,7 +75,7 @@ function refreshTeam(){
  summary('tag-summary','custom_tags');summary('keyword-summary','keywords');renderTroupeChart();if(focus)renderPartners(focus);
 }
 function remove(c){teamIds=teamIds.filter(id=>id!==c.id);persist();refreshTeam();renderCards();if(focus)show(focus,false)}
-function add(c,keepFocus=false){const reason=troupeReason(c);if(reason){$('notice').textContent=reason;return}teamIds.push(c.id);$('notice').textContent='';persist();refreshTeam();renderCards();show(keepFocus&&focus?focus:c,!keepFocus)}
+function add(c,keepFocus=false){const reason=troupeReason(c);if(reason){$('notice').textContent=reason;return}if(!teamIds.length)factionQuickFilter=true;teamIds.push(c.id);$('notice').textContent='';persist();refreshTeam();renderCards();show(keepFocus&&focus?focus:c,!keepFocus)}
 const favouritesKey='moonstone-favourites-v1';
 function restoreFavourites(){try{const saved=JSON.parse(localStorage.getItem(favouritesKey)||'[]');favouriteIds=new Set(Array.isArray(saved)?saved.filter(id=>typeof id==='string'&&cards.some(c=>c.id===id)):[])}catch{favouriteIds=new Set()}}
 function toggleFavourite(c){if(favouriteIds.has(c.id))favouriteIds.delete(c.id);else favouriteIds.add(c.id);try{localStorage.setItem(favouritesKey,JSON.stringify([...favouriteIds]))}catch{$('notice').textContent='Browser storage is unavailable. Favourites will last until this page closes.'}renderCards()}
@@ -117,7 +117,7 @@ function show(c,recordVisit=true){
  if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);links.append(photo)}
  actions.append(...links.children);p.append(actions);
  const imageFrame=node('div',undefined,'focus-image-frame'),image=node('img');image.src='/'+c.source.image_path+'?quality=360';image.alt='Original cards for '+c.name;image.className='focused-image';imageFrame.append(image);p.append(imageFrame);
- renderRelated(c,p);renderGuide(c,p);
+ renderRelated(c,p);$('strategy-panel').replaceChildren();renderGuide(c,$('strategy-panel'));
 }
 function renderRelated(c,parent){
  for(const [key,title] of [['summons','Summons / transformations'],['summoned_by','Called into play by']]){
@@ -132,10 +132,12 @@ function renderRelated(c,parent){
   parent.append(section);
  }
 }
-let strategySummaryOpen=false;
+function selectAdviceTab(selected){for(const name of ['strategy','partners']){const tab=$(name+'-tab'),active=name===selected;tab.setAttribute('aria-selected',String(active));tab.setAttribute('tabindex',active?'0':'-1');$(name==='strategy'?'strategy-panel':'partner-section').hidden=!active}}
+for(const name of ['strategy','partners']){const tab=$(name+'-tab');tab.onclick=()=>selectAdviceTab(name);tab.onkeydown=e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const next=e.key==='Home'?'strategy':e.key==='End'?'partners':name==='strategy'?'partners':'strategy';selectAdviceTab(next);$(next+'-tab').focus()}}
+
 function renderGuide(c,parent){
  const guide=c.strategy_guide;if(!guide)return;
- const section=node('details',undefined,'strategy-guide');section.open=strategySummaryOpen;section.ontoggle=()=>{if(section.parentNode)strategySummaryOpen=section.open};section.append(node('summary','Strategy Summary'),node('p',guide.role,'guide-role'));
+ const section=node('section',undefined,'strategy-guide');section.append(node('h3','Strategy Summary'),node('p',guide.role,'guide-role'));
  for(const [field,label] of [['play','Game plan'],['needs','Needs help with'],['caution','Watch out']]){const paragraph=node('p');paragraph.append(node('strong',label+': '),node('span',guide[field]));section.append(paragraph)}
  section.append(node('p','Based on current cards and tactical judgement, with published advice linked below.','help'));
  const sources=node('div',undefined,'guide-sources');

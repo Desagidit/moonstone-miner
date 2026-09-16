@@ -98,3 +98,4 @@ Numeric filters now use discrete sliders over the distinct valid values in the c
 
 Use **Compare** in the header to select saved troupes and inspect their members, faction, average radar profile and keyword counts. Click a character name to open its card above the comparer. **Share** copies an MS1 code containing the troupe name and ordered character names; import validates the code and creates a separate saved troupe. Codes work across browsers without an account; they do not include favourites or personal browser data.
 
+Strategy and Partners share keyboard-accessible tabs beneath the inspected card. Faction filtering automatically starts when the first hero is added or a populated troupe is loaded, and resets for an empty troupe. The faction funnel remains a manual override.
