@@ -1,9 +1,4 @@
 const L=TeamLogic,$=id=>document.getElementById(id),clone=v=>JSON.parse(JSON.stringify(v));
-const cardSizeKey='moonstone-card-size-v1';
-function readCardSize(){try{const value=Number(localStorage.getItem(cardSizeKey));return Number.isFinite(value)&&value>=30&&value<=100?value:100}catch{return 100}}
-let cardSize=readCardSize();
-function applyCardSize(){const frame=$('focused-card-frame');if(frame)frame.style.width=cardSize+'%';for(const [id,blocked] of [['card-smaller',cardSize<=30],['card-larger',cardSize>=100]]){const b=$(id);if(b){b.disabled=blocked;b.title=(id==='card-smaller'?'Make card smaller':'Make card larger')+' (current size: '+cardSize+'%)'}}}
-function changeCardSize(delta){cardSize=Math.max(30,Math.min(100,cardSize+delta));try{localStorage.setItem(cardSizeKey,String(cardSize))}catch{}applyCardSize()}
 let cards=[],focus=null,teamIds=[],filterSettings={},visits=[],visitIndex=-1,savedTroupes=[],activeTroupeId=null,troupeName='New troupe',favouriteIds=new Set(),draggedMemberId=null,factionQuickFilter=false;
 const fields={favourite:'Favourite',keyword:'Keyword',keyword2:'Keyword 2',tag:'Tags',faction:'Faction',eligibility:'Summon',melee:'Melee',arcane:'Arcane',evade:'Evade',range:'Melee range',hp:'Health',energy:'Energy',base:'Base size'};
 const tagDescriptions={Healer:'Can heal or restore wounds.',Tank:'Has at least 8 health.',Energetic:'Has at least 4 energy.',Blue:'Has a blue arcane action.',Green:'Has a green arcane action.',Red:'Has a red arcane action.',Shover:'Has an action, arcane action or passive that moves another character.',Woodland:'Creates or interacts with wood tiles.',Wet:'Creates or interacts with water tiles.'};
@@ -110,14 +105,13 @@ function show(c,recordVisit=true){
  const navigation=node('div',undefined,'card-navigation');
  for(const [label,offset] of [['Previous',-1],['Next',1]]){const nav=node('button',label);nav.type='button';nav.disabled=offset<0?visitIndex<=0:visitIndex>=visits.length-1;nav.setAttribute('aria-label',label+' viewed character');nav.title=offset<0?'Go back to the previously viewed character':'Go forward in browsing history';nav.onclick=()=>{const next=visitIndex+offset;if(next<0||next>=visits.length)return;visitIndex=next;show(cards.find(v=>v.id===visits[visitIndex]),false);renderCards()};navigation.append(nav)}
  actions.append(navigation);
- const sizing=node('div',undefined,'card-size-controls');for(const [id,label,delta] of [['card-smaller','Make card smaller',-10],['card-larger','Make card larger',10]]){const button=node('button');button.id=id;button.type='button';button.setAttribute('aria-label',label);const icon=svgNode('svg',{width:20,height:20,viewBox:'0 0 24 24',fill:'none',stroke:'currentColor','stroke-width':2,'aria-hidden':'true'});icon.append(svgNode('circle',{cx:10,cy:10,r:7}),svgNode('path',{d:'M15 15l6 6M6 10h8'+(delta>0?'M10 6v8':'')}));button.append(icon);button.onclick=()=>changeCardSize(delta);sizing.append(button)}actions.append(sizing);
  const links=node('div',undefined,'focus-links');
  if(!inTeam&&reason)links.append(node('span',inspectionReason(c,reason),'compatibility'));
  const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.title='Open the official character card';review.target='_blank';review.rel='noopener';links.append(review);
  if(c.miniature?.store_url){const store=node('a','Mini store ↗');store.href=c.miniature.store_url;store.title='Open the miniature in the official store';store.target='_blank';store.rel='noopener';links.append(store)}
  if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);links.append(photo)}
  actions.append(...links.children);p.append(actions);
- const imageFrame=node('div',undefined,'focus-image-frame'),image=node('img');image.src='/'+c.source.image_path+'?quality=360';image.alt='Original cards for '+c.name;image.className='focused-image';imageFrame.id='focused-card-frame';imageFrame.append(image);p.append(imageFrame);applyCardSize();
+ const imageFrame=node('div',undefined,'focus-image-frame'),image=node('img');image.src='/'+c.source.image_path+'?quality=360';image.alt='Original cards for '+c.name;image.className='focused-image';imageFrame.append(image);p.append(imageFrame);
  renderRelated(c,p);renderGuide(c,p);
 }
 function renderRelated(c,parent){
