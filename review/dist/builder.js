@@ -20,14 +20,22 @@ function updateStorageControls(){
  for(const troupe of savedTroupes)select.append(option(troupe.id,troupe.name));
  select.value=savedTroupes.some(t=>t.id===previous)?previous:savedTroupes.some(t=>t.id===activeTroupeId)?activeTroupeId:savedTroupes[0]?.id||'';
  const chosen=savedTroupes.some(t=>t.id===select.value),active=savedTroupes.find(t=>t.id===activeTroupeId);
- $('load-troupe').disabled=!chosen;$('rename-troupe').disabled=!chosen;$('save-troupe').disabled=!active||select.value!==activeTroupeId;
- $('storage-status').textContent=!savedTroupes.length?'Click New to create a troupe.':!active?'Choose a troupe and click Load.':JSON.stringify(troupeSnapshot())===JSON.stringify(cleanTroupe(active))?'Saved locally':'Unsaved changes · click Save to keep this troupe';
+ $('rename-troupe').disabled=!chosen;$('save-troupe').disabled=!active||select.value!==activeTroupeId;
+ $('storage-status').textContent=!savedTroupes.length?'Click New to create a troupe.':!active?'Select a troupe.':JSON.stringify(troupeSnapshot())===JSON.stringify(cleanTroupe(active))?'Saved locally':'Unsaved changes · click Save to keep this troupe';
 }
 function persist(){try{localStorage.setItem(storageKey,JSON.stringify({version:2,activeId:activeTroupeId,draft:troupeSnapshot(),troupes:savedTroupes}));try{localStorage.setItem('moonstone-troupe-v1',JSON.stringify(troupeSnapshot()))}catch{}updateStorageControls();return true}catch{$('storage-status').textContent='Browser storage is unavailable. Troupes cannot be saved.';return false}}
 function restoreTroupes(){try{const saved=JSON.parse(localStorage.getItem(storageKey)||'null');let draft;if(saved?.version===2&&Array.isArray(saved.troupes)){const used=new Set();savedTroupes=saved.troupes.flatMap(t=>{const clean=cleanTroupe(t);if(!clean||typeof t.id!=='string'||used.has(t.id))return [];used.add(t.id);return [{id:t.id,...clean}]});activeTroupeId=savedTroupes.some(t=>t.id===saved.activeId)?saved.activeId:null;draft=cleanTroupe(saved.draft)}else draft=cleanTroupe(JSON.parse(localStorage.getItem('moonstone-troupe-v1')||'null'));if(draft)applyTroupe(draft);updateStorageControls()}catch{$('storage-status').textContent='Saved troupe data could not be read. You can create a new troupe.'}}
 function applyTroupe(troupe){teamIds=[...troupe.ids];troupeName=troupe.name}
 function repaintTroupe(){renderCards();refreshTeam();if(focus)show(focus,false)}
-$('saved-troupes').onchange=()=>updateStorageControls();
+let pendingTroupeId=null;
+function closeTroupeSwitchDialog(){pendingTroupeId=null;$('troupe-switch-dialog').close()}
+function switchTroupe(id,saveCurrent=false){const target=savedTroupes.find(t=>t.id===id);if(!target)return false;const before=troupeCheckpoint();if(saveCurrent){const index=savedTroupes.findIndex(t=>t.id===activeTroupeId);if(index<0)return false;savedTroupes[index]={id:activeTroupeId,...troupeSnapshot()}}activeTroupeId=id;applyTroupe(cleanTroupe(target));$('saved-troupes').value=id;if(!persist()){rollbackTroupe(before,'Browser storage is unavailable. The troupe was not switched.');$('troupe-switch-error').textContent='Changes could not be saved. Try again or Cancel.';return false}repaintTroupe();return true}
+$('saved-troupes').onchange=()=>{const id=$('saved-troupes').value;if(id===activeTroupeId||!savedTroupes.some(t=>t.id===id))return;$('saved-troupes').value=activeTroupeId||'';const active=savedTroupes.find(t=>t.id===activeTroupeId);if(active&&JSON.stringify(troupeSnapshot())!==JSON.stringify(cleanTroupe(active))){pendingTroupeId=id;$('troupe-switch-message').textContent=troupeName+' has unsaved changes.';$('troupe-switch-error').textContent='';$('troupe-switch-dialog').showModal();$('troupe-switch-save').focus()}else switchTroupe(id)};
+$('troupe-switch-cancel').onclick=closeTroupeSwitchDialog;
+$('troupe-switch-dialog').oncancel=()=>{pendingTroupeId=null};
+$('troupe-switch-dialog').onclick=e=>{if(e.target===$('troupe-switch-dialog'))closeTroupeSwitchDialog()};
+$('troupe-switch-discard').onclick=()=>{if(pendingTroupeId&&switchTroupe(pendingTroupeId))closeTroupeSwitchDialog()};
+$('troupe-switch-save').onclick=()=>{if(pendingTroupeId&&switchTroupe(pendingTroupeId,true))closeTroupeSwitchDialog()};
 function troupeId(){return globalThis.crypto?.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2)}
 function rollbackTroupe(before,message){savedTroupes=before.troupes;activeTroupeId=before.id;applyTroupe(before.draft);$('saved-troupes').value=before.selected;updateStorageControls();$('storage-status').textContent=message}
 function troupeCheckpoint(){return {troupes:clone(savedTroupes),id:activeTroupeId,draft:troupeSnapshot(),selected:$('saved-troupes').value}}
@@ -36,7 +44,6 @@ let nameDialogAction=null;
 function openTroupeNameDialog(id=null){const saved=id?savedTroupes.find(t=>t.id===id):null;if(id&&!saved)return;nameDialogAction={id};$('troupe-name-title').textContent=id?'Rename troupe':'New troupe';$('troupe-name-confirm').textContent=id?'Rename':'Create troupe';$('troupe-name-input').value=saved?.name||'';$('troupe-name-error').textContent='';$('troupe-name-dialog').showModal();$('troupe-name-input').focus();if(id)$('troupe-name-input').select()}
 function closeTroupeNameDialog(){nameDialogAction=null;$('troupe-name-dialog').close()}
 $('new-troupe').onclick=()=>openTroupeNameDialog();
-$('load-troupe').onclick=()=>{const saved=savedTroupes.find(t=>t.id===$('saved-troupes').value);if(!saved)return;activeTroupeId=saved.id;applyTroupe(cleanTroupe(saved));persist();repaintTroupe()};
 $('rename-troupe').onclick=()=>{const id=$('saved-troupes').value;if(savedTroupes.some(t=>t.id===id))openTroupeNameDialog(id)};
 $('troupe-name-cancel').onclick=closeTroupeNameDialog;
 $('troupe-name-dialog').oncancel=()=>{nameDialogAction=null};

@@ -20,4 +20,4 @@
 
 .troupe-buttons button:disabled{opacity:.4;cursor:default}
 
-#troupe-name-dialog{width:min(420px,calc(100vw - 32px));padding:0;border:1px solid var(--line);border-radius:12px;background:#162237;color:#e5edf7}#troupe-name-dialog::backdrop{background:rgba(3,8,16,.82)}.name-dialog-content{padding:24px}.name-dialog-content h2{font-family:Segoe UI,sans-serif;font-size:22px;margin:0 0 20px}#troupe-name-error:empty{display:none}.name-dialog-content .buttons{justify-content:flex-end;margin-top:20px}
+#troupe-name-dialog,#troupe-switch-dialog{width:min(420px,calc(100vw - 32px));padding:0;border:1px solid var(--line);border-radius:12px;background:#162237;color:#e5edf7}#troupe-name-dialog::backdrop,#troupe-switch-dialog::backdrop{background:rgba(3,8,16,.82)}.name-dialog-content{padding:24px}.name-dialog-content h2{font-family:Segoe UI,sans-serif;font-size:22px;margin:0 0 20px}#troupe-name-error:empty{display:none}.name-dialog-content .buttons{justify-content:flex-end;margin-top:20px}
