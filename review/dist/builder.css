@@ -48,3 +48,20 @@
 .content-tabs{display:flex;gap:8px;border-top:1px solid var(--line);padding-top:16px;margin-top:20px}.content-tabs [aria-selected="true"]{color:var(--accent);border-color:var(--accent);background:#263b52}#strategy-panel[hidden],#partner-section[hidden]{display:none}#strategy-panel .strategy-guide,#partner-section{border-top:0;margin-top:12px;padding-top:0}.focus #strategy-panel h3,.focus #partner-heading{font-size:20px;font-weight:600;margin:16px 0}
 
 #advice-tabs[hidden]{display:none}.getting-started{padding:24px;border:1px solid var(--line);border-radius:10px;background:#18243a;margin-top:16px;line-height:1.7;color:var(--muted)}.getting-started h2{font-family:Segoe UI,sans-serif;font-size:24px;color:#e9edf4}.getting-started li{margin:12px 0}.getting-started ul{padding-left:22px}
+
+@media(min-width:1101px){
+ body{height:100dvh;overflow:hidden;display:grid;grid-template-rows:auto minmax(0,1fr)}
+ header{padding:12px 24px}.builder{min-height:0;height:100%;overflow:hidden;align-items:stretch}
+ .library,.focus,.roster{height:100%;min-height:0;position:static;max-height:none;padding:16px}
+ .library{overflow:hidden}.focus{display:grid;grid-template-rows:minmax(0,1fr) auto minmax(100px,26%);overflow:hidden;gap:8px}
+ #focused{min-height:0;display:flex;flex-direction:column;overflow:hidden}
+ .focus-actions{flex-shrink:0;margin:0 0 10px;gap:8px;font-size:14px}.focus-actions button{padding:7px 10px}.card-navigation{margin-left:auto}
+ .focus-image-frame{flex:1;min-height:0;width:100%;display:flex;align-items:center;justify-content:center;background:transparent}
+ .focus-image-frame .focused-image{width:100%;height:100%;object-fit:contain}
+ #focused .related-characters{flex-shrink:0;margin-top:8px;padding-top:0;max-height:18%;overflow:auto}.related-characters h3{font-size:15px;margin:5px 0}.related-row{margin:5px 0}
+ .content-tabs{margin:0;padding-top:8px;flex-shrink:0}#strategy-panel,#partner-section{min-height:0;overflow:auto;margin:0;padding-right:6px;overscroll-behavior:contain}
+ .roster{overflow:auto;overscroll-behavior:contain}.roster h2{font-size:20px;margin:0 0 8px}.roster h3{font-size:15px;margin:12px 0 7px}.faction-control .troupe-faction{margin:7px 0;font-size:14px}
+ .member{padding-top:6px;padding-bottom:6px;margin:6px 0;min-height:36px}.member-name{font-size:14px}.roster .troupe-radar{width:100%;height:clamp(130px,21dvh,210px)}
+ .roster .chip{font-size:12px;padding:3px 7px}.roster .help{font-size:12px;margin:8px 0}.metric-help{font-size:12px;margin-top:4px}.metric-help p,.metric-help dl{margin:6px 0}
+ .getting-started{overflow:auto;margin-top:0}.focus:has(#advice-tabs[hidden]){grid-template-rows:minmax(0,1fr)}
+}
