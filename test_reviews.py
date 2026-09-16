@@ -33,6 +33,21 @@ class ReviewTests(unittest.TestCase):
    self.assertEqual(db.execute('SELECT name FROM characters WHERE id=?',(cards[0]['id'],)).fetchone()[0],'Test export')
   db.close()
   self.assertEqual(json.loads((self.data/'characters.json').read_text(encoding='utf-8'))[0]['name'],'Test export')
+ def test_partner_curation_survives_reviews_and_exports(self):
+  from suggested_partners import bundle_hash
+  with patch.object(store,'source_hash',bundle_hash):
+   regenerated=copy.deepcopy(self.cards);regenerated[1]['id']='reviewed-eric-id'
+   result=store.apply_reviews(regenerated)
+   self.assertEqual(result[0]['suggested_partners']['by_faction']['Commonwealth']['partners'][0]['character_id'],'reviewed-eric-id')
+   store.export(result)
+   import sqlite3
+   with sqlite3.connect(self.data/'moonstone.sqlite') as db:
+    self.assertEqual(db.execute('SELECT COUNT(*) FROM suggested_partners').fetchone()[0],504)
+   db.close()
+   reloaded=json.loads((self.data/'characters.json').read_text(encoding='utf-8'))
+   self.assertEqual(reloaded[0]['suggested_partners'],result[0]['suggested_partners'])
+  # A changed source must not retain tactical inferences from the old bundle.
+  self.assertNotIn('suggested_partners',store.apply_reviews(copy.deepcopy(self.cards))[0])
  def test_validation(self):
   with self.assertRaises(ValueError):store.validate_group('factions',{'factions':['Invented']})
   with self.assertRaises(ValueError):store.validate_group('identity',{'source':{}})

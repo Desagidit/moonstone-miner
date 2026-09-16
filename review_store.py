@@ -39,17 +39,20 @@ def apply_reviews(cards,store=None):
   if c['stats']['health']!=len(c['health_track']) or c['stats']['energy']!=sum(d['energy'] for d in c['health_track']):
    issues.append({'field':'health_track','code':'track_mismatch','message':'Health and energy stats do not match the ordered dots. Check both fields.'})
   c['review']={'status':'verified' if all(s=='verified' for s in checks.values()) else ('in_progress' if overlay else 'unverified'),'fields':checks,'notes':{g:overlay.get('groups',{}).get(g,{}).get('note','') for g in GROUPS},'issues':issues,'flags':[i['code'] for i in issues],'updated_at':overlay.get('updated_at')}
- return cards
+ from suggested_partners import attach_suggestions
+ return attach_suggestions(cards,source_hash())
 def export(cards):
  atomic_json(DATA/'characters.json',cards)
  path=DATA/'moonstone.sqlite';temp=DATA/'moonstone.next.sqlite'
  if temp.exists():temp.unlink()
  db=sqlite3.connect(temp)
- db.executescript('CREATE TABLE characters(id TEXT PRIMARY KEY,name TEXT,base_size_mm INTEGER,melee INTEGER,arcane INTEGER,evade INTEGER,health INTEGER,energy INTEGER,factions TEXT,card_url TEXT,record_json TEXT); CREATE TABLE abilities(character_id TEXT,name TEXT,category TEXT,energy_cost INTEGER,range_inches INTEGER,text TEXT); CREATE TABLE keywords(character_id TEXT,keyword TEXT); CREATE TABLE custom_tags(character_id TEXT,tag TEXT); CREATE INDEX tag_name ON custom_tags(tag); CREATE INDEX ability_category ON abilities(category); CREATE INDEX keyword_name ON keywords(keyword);')
+ db.executescript('CREATE TABLE characters(id TEXT PRIMARY KEY,name TEXT,base_size_mm INTEGER,melee INTEGER,arcane INTEGER,evade INTEGER,health INTEGER,energy INTEGER,factions TEXT,card_url TEXT,record_json TEXT); CREATE TABLE abilities(character_id TEXT,name TEXT,category TEXT,energy_cost INTEGER,range_inches INTEGER,text TEXT); CREATE TABLE keywords(character_id TEXT,keyword TEXT); CREATE TABLE custom_tags(character_id TEXT,tag TEXT); CREATE TABLE suggested_partners(character_id TEXT,faction TEXT,partner_id TEXT,position INTEGER,reason TEXT,plan TEXT,PRIMARY KEY(character_id,faction,position)); CREATE INDEX partner_id ON suggested_partners(partner_id); CREATE INDEX tag_name ON custom_tags(tag); CREATE INDEX ability_category ON abilities(category); CREATE INDEX keyword_name ON keywords(keyword);')
  for c in cards:
   s=c['stats'];db.execute('INSERT INTO characters VALUES (?,?,?,?,?,?,?,?,?,?,?)',(c['id'],c['name'],c['base_size_mm'],s['melee'],s['arcane'],s['evade'],s['health'],s['energy'],json.dumps(c['factions']),c['source']['card_url'],json.dumps(c,ensure_ascii=False)))
   db.executemany('INSERT INTO abilities VALUES (?,?,?,?,?,?)',[(c['id'],a['name'],a['category'],a.get('energy_cost'),a.get('range_inches'),a['text']) for a in c['abilities']]);db.executemany('INSERT INTO keywords VALUES (?,?)',[(c['id'],k) for k in c['keywords']])
   db.executemany('INSERT INTO custom_tags VALUES (?,?)',[(c['id'],tag) for tag in c['custom_tags']])
+  for faction,entry in c.get('suggested_partners',{}).get('by_faction',{}).items():
+   db.executemany('INSERT INTO suggested_partners VALUES (?,?,?,?,?,?)',[(c['id'],faction,p['character_id'],i+1,p['reason'],entry['plan']) for i,p in enumerate(entry['partners'])])
  db.execute('PRAGMA optimize');db.commit();db.close();os.replace(temp,path)
  atomic_json(DATA/'review-progress.json',{'total':len(cards),'verified':sum(c['review']['status']=='verified' for c in cards),'fields_verified':sum(s=='verified' for c in cards for s in c['review']['fields'].values()),'fields_total':len(cards)*len(GROUPS)})
 def validate_group(group,values):

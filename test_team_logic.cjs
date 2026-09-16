@@ -13,3 +13,19 @@ assert.equal(L.tally([c,{...c,keywords:['human','Human']}],'keywords').find(v=>v
 console.log('Grouped AND/OR, numeric filters, mixed factions, summons, duplicates, size and summaries passed.');
 
 assert.equal(L.reason(c,[],'Undecided',6),'');assert.ok(L.compatible(c,'Undecided'));assert.match(L.reason({...c,eligibility:{selectable:false}},[],'Undecided',6),/Summon/);
+
+const cards=JSON.parse(require('node:fs').readFileSync('data/characters.json','utf8'));
+let cores=0;
+for(const anchor of cards){
+ const rec=anchor.suggested_partners;assert.ok(rec,'Missing partners: '+anchor.name);
+ for(const [faction,set] of Object.entries(rec.by_faction)){
+  assert.equal(set.partners.length,3);const core=anchor.eligibility.selectable?[anchor]:[];
+  for(const p of set.partners){const partner=cards.find(c=>c.id===p.character_id);assert.ok(partner);assert.equal(L.reason(partner,core,faction,4),'',anchor.name+' / '+faction+' / '+partner.name);core.push(partner)}cores++;
+ }
+}
+const grub=cards[20],herbert=cards[49];assert.match(L.reason(grub,[herbert],'Dominion',6),/Evolution/);assert.match(L.reason(herbert,[grub],'Dominion',6),/Evolution/);
+assert.match(L.reason(cards[13],[cards[0]],'Undecided',6),/No shared faction/);
+assert.equal(L.partnerSet(cards[27],'Commonwealth').faction,'Commonwealth');assert.equal(L.partnerSet(cards[27],'Dominion').faction,'Dominion');assert.equal(L.partnerSet(cards[27],'Leshavult'),null);
+assert.equal(L.partnerSet(cards[27],'Undecided',[cards[0]]).faction,'Commonwealth');
+assert.equal(L.partnerSet(cards[63],'Commonwealth').partners[0].character_id,cards[62].id);
+console.log('All '+cores+' partner cores pass builder legality; Evolution exclusions and faction routes passed.');

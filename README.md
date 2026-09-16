@@ -24,7 +24,7 @@ Search characters, scroll through the fields, compare against the original image
 
 Reviews are stored separately in `data/reviews.json`, keyed by the source PDF SHA-256 and page number. Only fields edited or explicitly reviewed are overridden; untouched fields remain available for improved extraction. Saves refresh both JSON and SQLite. Back up `reviews.json` with the source bundle; changing the source hash cannot accidentally apply old corrections to a different card.
 
-The screen separates identity, factions, stats, ordered health dots, abilities, signature moves, character links and troupe eligibility. Eligibility is a binary Selectable/Summon decision, populated and verified from the full card text. No explanation or evidence entry is required. Summoned-only wording and Striga Anya’s Summoned Being restriction identify summons. Health and energy totals must match the track before both can be verified. The progress counter means all eight groups were verified, not simply that a card was opened.
+The screen separates identity, factions, stats, ordered health dots, abilities, signature moves, character links and troupe eligibility. Eligibility is a binary Selectable/Summon decision, populated and verified from the full card text. No explanation or evidence entry is required. Summoned-only wording and Striga Anyaâ€™s Summoned Being restriction identify summons. Health and energy totals must match the track before both can be verified. The progress counter means all eight groups were verified, not simply that a card was opened.
 
 Stop the review server before rebuilding the database. Run `python test_reviews.py` for isolated persistence and stale-save checks. `data/review-progress.json` contains verification totals.
 
@@ -59,3 +59,9 @@ The builder is published from main by .github/workflows/pages.yml. Deployment re
 To generate a static copy locally: python render_card_images.py, then python export_site.py.
 
 Moonstone artwork and rules belong to Goblin King Games. This is an unofficial troupe builder with links to official cards and rules.
+
+Suggested partners are authored tactical inferences from every complete August 2026 character card and signature move. They are starting cores, rather than official ratings or playtested rankings. Each of the 141 source records has three suggested selectable partners for each supported faction (168 cores). Cross-faction characters get separate faction routes. Summons recommend a three-character starting core including their initial summoner or transformation provider; the summon itself is never selected. The three Murder Bunny source records retain identical suggestions.
+
+`data/partner-curation.tsv` contains the authored plans and per-partner reasons, bound to the PDF SHA-256. `python suggested_partners.py` compiles `data/suggested-partners.json`; `python suggested_partners.py --check` verifies full coverage, faction compatibility, unique names, Evolution exclusions and summon providers. Recommendations are attached to the portable character JSON, retained in SQLite `record_json`, and indexed in the `suggested_partners` table. Reimports and review saves reattach the source-bound curation. When changing the card bundle, review the curation and provider relationships before updating its source hash.
+
+The builder shows three partners in the troupe panel for the focused character, adapts to the selected faction, and uses normal legality and size checks when adding one. Adding a suggested partner preserves the original focused character. Evolution [Grub] is enforced in both directions; Undecided troupes cannot add characters with no possible shared faction.

@@ -1,0 +1,3571 @@
+{
+  "schema_version": 1,
+  "source_sha256": "5d789ae2d414bc6bd2676ff7df29955c308b4b8834b9d0192e6e60d8b270f71b",
+  "basis": "Tactical suggestions inferred from complete character cards, including signature moves; not official ratings or playtested rankings.",
+  "rules_url": "https://www.moonstonethegame.com/troupe-building",
+  "character_count": 141,
+  "faction_core_count": 168,
+  "characters": {
+    "1": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "A Human combat core with renewable energy, healing and long-range pressure.",
+          "partners": [
+            {
+              "page": 2,
+              "reason": "Squire and My Hero directly boost a Noble's melee and energy."
+            },
+            {
+              "page": 34,
+              "reason": "Field Medic heals the Baron; Sage Advice protects nearby pistol users."
+            },
+            {
+              "page": 3,
+              "reason": "Shoot Musket supplies ranged pressure and benefits from Rallying Cry."
+            }
+          ]
+        }
+      }
+    },
+    "2": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Support two hard hitters while a Soldier covers the approach.",
+          "partners": [
+            {
+              "page": 1,
+              "reason": "A Noble receives Eric's larger Squire and My Hero bonuses; Rallying Cry refuels Eric."
+            },
+            {
+              "page": 36,
+              "reason": "A Soldier striker benefits from Squire, My Hero and Field Medic."
+            },
+            {
+              "page": 3,
+              "reason": "A Soldier gunner adds range and can receive Eric's healing and energy."
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Build a supported Human firing line with an armoured counterattacker.",
+          "partners": [
+            {
+              "page": 4,
+              "reason": "Foresight raises Flintlock's Arcane for Shoot Musket and Healing repairs wounds."
+            },
+            {
+              "page": 1,
+              "reason": "Rallying Cry restores Flintlock's energy and the Baron supplies armoured melee."
+            },
+            {
+              "page": 34,
+              "reason": "Sage Advice covers the musket catastrophe; Field Medic heals Soldiers."
+            }
+          ]
+        }
+      }
+    },
+    "4": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Spend Quack's turns improving shooters and healing a durable front line.",
+          "partners": [
+            {
+              "page": 3,
+              "reason": "Foresight strengthens Shoot Musket; Flintlock can harvest without Quack's Weakling tax."
+            },
+            {
+              "page": 133,
+              "reason": "Foresight boosts Blunderbuss and Matilda converts support into mobile attacks."
+            },
+            {
+              "page": 1,
+              "reason": "Rallying Cry refuels Quack while the Baron provides armour and melee threat."
+            }
+          ]
+        }
+      }
+    },
+    "5": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Feed a heavy melee attacker while another character secures stones.",
+          "partners": [
+            {
+              "page": 6,
+              "reason": "Deutsche Courage rewards this Mercenary's attacks; Drink Your Fill can add melee or energy."
+            },
+            {
+              "page": 4,
+              "reason": "Healing sustains Fritz and Blinding Powder weakens opponents before he attacks."
+            },
+            {
+              "page": 12,
+              "reason": "Miner handles deep stones while Fritz fights; Shove helps clear the approach."
+            }
+          ]
+        }
+      }
+    },
+    "6": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use energy and melee support on two attackers, with reliable healing nearby.",
+          "partners": [
+            {
+              "page": 5,
+              "reason": "A Mercenary benefits from Deutsche Courage and Drink Your Fill's melee bonus."
+            },
+            {
+              "page": 36,
+              "reason": "A Soldier charge attacker can use Agatha's attack-triggered energy."
+            },
+            {
+              "page": 7,
+              "reason": "Healing keeps the attackers healthy; Rub It Better can also heal friendly Humans."
+            }
+          ]
+        }
+      }
+    },
+    "7": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Anchor a durable Human group with energy, ranged damage and arcane support.",
+          "partners": [
+            {
+              "page": 1,
+              "reason": "Rallying Cry restores the Friar's energy; the Baron adds armoured slicing damage."
+            },
+            {
+              "page": 4,
+              "reason": "Foresight boosts the Friar's Healing and Quack's Cleric keyword benefits from Rub It Better."
+            },
+            {
+              "page": 3,
+              "reason": "Shoot Musket adds reach while the Friar sustains the Human gunner."
+            }
+          ]
+        }
+      }
+    },
+    "8": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Keep a compact Gnome group around Mama, with shooting, harvesting and melee.",
+          "partners": [
+            {
+              "page": 9,
+              "reason": "Luck Charms improves both crossbow Arcane and melee; Quarrel helps defend Mama."
+            },
+            {
+              "page": 12,
+              "reason": "Miner secures stones while Mama's buffs and Mother's Love support Morris."
+            },
+            {
+              "page": 11,
+              "reason": "Ancestral Sword adds melee threat and a nearby Gnome contributes to My Boys."
+            }
+          ]
+        }
+      }
+    },
+    "9": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Exploit Militia buffs without losing healing or a dedicated harvester.",
+          "partners": [
+            {
+              "page": 8,
+              "reason": "Luck Charms raises crossbow Arcane; Mother's Love heals and repositions Quarrel."
+            },
+            {
+              "page": 11,
+              "reason": "Brothers in Arms boosts this Militia swordsman; Lucky can support deck planning."
+            },
+            {
+              "page": 12,
+              "reason": "Brothers in Arms also targets Morris, whose Miner handles deep stones."
+            }
+          ]
+        }
+      }
+    },
+    "10": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Combine Billy's mobility with Gnome support and a slower objective anchor.",
+          "partners": [
+            {
+              "page": 8,
+              "reason": "Luck Charms and Mother's Love strengthen and sustain Billy."
+            },
+            {
+              "page": 9,
+              "reason": "Brothers in Arms boosts Billy's Militia stats while crossbow fire covers his advance."
+            },
+            {
+              "page": 12,
+              "reason": "Miner secures deep stones while Billy charges or reaches scattered objectives."
+            }
+          ]
+        }
+      }
+    },
+    "11": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use a supported Gnome fighter alongside a shooter and a specialist harvester.",
+          "partners": [
+            {
+              "page": 8,
+              "reason": "Luck Charms improves Young Jack; Mother's Love repairs his wounds."
+            },
+            {
+              "page": 9,
+              "reason": "Brothers in Arms boosts Young Jack's Militia stats and adds long-range shooting."
+            },
+            {
+              "page": 12,
+              "reason": "Miner handles stones efficiently so Young Jack can spend energy fighting."
+            }
+          ]
+        }
+      }
+    },
+    "12": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Support Morris's harvesting with shooting, healing and a mobile defender.",
+          "partners": [
+            {
+              "page": 8,
+              "reason": "Luck Charms improves Morris and Mother's Love heals or repositions him."
+            },
+            {
+              "page": 9,
+              "reason": "Brothers in Arms raises Morris's Militia stats; crossbow fire covers the harvester."
+            },
+            {
+              "page": 10,
+              "reason": "Billy supplies a mobile melee threat while Morris handles deep stones."
+            }
+          ]
+        }
+      }
+    },
+    "13": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use Sage Advice to support risky Gnome actions and keep harvesting covered.",
+          "partners": [
+            {
+              "page": 9,
+              "reason": "Sage Advice prevents Shoot Crossbow's catastrophe from disabling Reload nearby."
+            },
+            {
+              "page": 11,
+              "reason": "Sage Advice protects Magic Brew; Young Jack supplies stronger melee."
+            },
+            {
+              "page": 8,
+              "reason": "Luck Charms raises Gradock's stats and Mama provides healing."
+            }
+          ]
+        }
+      }
+    },
+    "14": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Keep Firespitter behind a Goblin fighter and a capable harvester, with arcane support.",
+          "partners": [
+            {
+              "page": 18,
+              "reason": "Transconbobulate restores Firespitter's wounds and energy; Goblin Mischief refuels Goblins."
+            },
+            {
+              "page": 16,
+              "reason": "Vicious Syd threatens enemies trying to engage and disable Fireblast."
+            },
+            {
+              "page": 15,
+              "reason": "Digger handles stones and Doug can fight while Firespitter stays at range."
+            }
+          ]
+        }
+      }
+    },
+    "15": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Support Doug's harvesting and charges with Goblin energy and healing.",
+          "partners": [
+            {
+              "page": 18,
+              "reason": "Transconbobulate restores and relocates Doug; Goblin Mischief supports his energy."
+            },
+            {
+              "page": 20,
+              "reason": "Suckerpunch boosts Doug's next melee hit and the lure brings enemies into reach."
+            },
+            {
+              "page": 17,
+              "reason": "Healing repairs Doug; keep allies clear of his Foul Gases pulse."
+            }
+          ]
+        }
+      }
+    },
+    "16": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Keep Syd near a Giant and support his armour-piercing melee with healing and harvesting.",
+          "partners": [
+            {
+              "page": 28,
+              "reason": "Gotchgut enables Lard Lover; Giant Whisperer can reposition the Giant."
+            },
+            {
+              "page": 18,
+              "reason": "Transconbobulate restores Syd and puts him back into the fight."
+            },
+            {
+              "page": 15,
+              "reason": "Digger handles objectives while Syd spends energy on melee."
+            }
+          ]
+        }
+      }
+    },
+    "17": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use Bobby as the healer behind a Giant-supported Goblin attack group.",
+          "partners": [
+            {
+              "page": 16,
+              "reason": "Healing sustains Syd's small health track while his armour protects the front line."
+            },
+            {
+              "page": 28,
+              "reason": "Gotchgut activates Syd's Lard Lover and supplies a durable melee presence."
+            },
+            {
+              "page": 15,
+              "reason": "Digger adds efficient harvesting; Bobby can heal Doug without entering the gas pulse."
+            }
+          ]
+        }
+      }
+    },
+    "18": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Choose Goblins that convert restoration and extra energy into damage and stones.",
+          "partners": [
+            {
+              "page": 14,
+              "reason": "Goblin Mischief funds Fireblast; Transconbobulate restores and repositions the gunner."
+            },
+            {
+              "page": 16,
+              "reason": "Transconbobulate resets Syd's wounds and energy for continued melee pressure."
+            },
+            {
+              "page": 15,
+              "reason": "Doug benefits from Goblin support and Digger secures deeper stones."
+            }
+          ]
+        }
+      }
+    },
+    "19": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Group Goblin Pirates for energy, then use displacement to create theft opportunities.",
+          "partners": [
+            {
+              "page": 51,
+              "reason": "Ye Scurvy Dogs refuels Stu's Goblin Pirate keyword and Run frees engaged allies."
+            },
+            {
+              "page": 53,
+              "reason": "Pinch steals stones after Stu displaces or drains their carriers."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot improves the Pirate front line and Swig o' Rum supplies healing."
+            }
+          ]
+        }
+      }
+    },
+    "20": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Turn lures and Suckerpunch into Goblin melee pressure with a supported harvester.",
+          "partners": [
+            {
+              "page": 16,
+              "reason": "Suckerpunch strengthens Syd's piercing attacks and the lure brings victims closer."
+            },
+            {
+              "page": 18,
+              "reason": "Goblin Mischief and Transconbobulate sustain Boom Boom's costly actions."
+            },
+            {
+              "page": 15,
+              "reason": "Suckerpunch also benefits Doug, whose Digger covers harvesting."
+            }
+          ]
+        }
+      }
+    },
+    "21": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Balance Grub's magical melee and terrain travel with energy, healing and objectives.",
+          "partners": [
+            {
+              "page": 18,
+              "reason": "Transconbobulate restores Grub's wounds and energy; Goblin Mischief funds his actions."
+            },
+            {
+              "page": 17,
+              "reason": "Healing sustains Grub and Bobby adds defensive displacement."
+            },
+            {
+              "page": 15,
+              "reason": "Digger handles stones while Grub uses Wyrm Hole for repositioning without carrying stones."
+            }
+          ]
+        }
+      }
+    },
+    "22": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use Teetoe's energy and displacement behind a healer, fighter and ordinary harvester.",
+          "partners": [
+            {
+              "page": 23,
+              "reason": "Healing sustains the Faerie group and Dizzly Spell shuts down dangerous actions."
+            },
+            {
+              "page": 26,
+              "reason": "Rage removes Teetoe's Weakling and Wasp adds stronger piercing melee."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert creates cover and harvests without the Faeries' Weakling tax."
+            }
+          ]
+        }
+      }
+    },
+    "23": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Support a Faerie combat group with a harvester that does not have Weakling.",
+          "partners": [
+            {
+              "page": 55,
+              "reason": "Healing repairs wounds paid to For the Good of the Glade; Feed on Fear refuels Faeries."
+            },
+            {
+              "page": 26,
+              "reason": "Wasp supplies melee and Rage can remove Fraya's Weakling for harvesting."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert supplies wooded cover and ordinary harvesting without Weakling."
+            }
+          ]
+        }
+      }
+    },
+    "24": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Back a Faerie duellist with energy, healing and a dependable objective model.",
+          "partners": [
+            {
+              "page": 27,
+              "reason": "Whispered Secrets refuels the Fencer and restores a wound."
+            },
+            {
+              "page": 23,
+              "reason": "Healing sustains the duellist; Dizzly Spell removes dangerous enemy actions."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert handles harvesting without Weakling while adding magical ranged pressure."
+            }
+          ]
+        }
+      }
+    },
+    "25": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Force dropped stones, then collect them behind a supported Faerie front line.",
+          "partners": [
+            {
+              "page": 129,
+              "reason": "Clumsy Cluts triggers Sedatives; Sleepy Time can exploit the applied Weakling."
+            },
+            {
+              "page": 23,
+              "reason": "Healing sustains both fragile Faeries and adds ranged disruption."
+            },
+            {
+              "page": 29,
+              "reason": "Stone Song assists harvesting and Boulder supplies a durable melee anchor without Weakling."
+            }
+          ]
+        }
+      }
+    },
+    "26": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use Wasp to enable Faerie attacks and harvesting while healing the group.",
+          "partners": [
+            {
+              "page": 24,
+              "reason": "Rage removes the Fencer's Weakling for stronger melee and cheaper harvesting."
+            },
+            {
+              "page": 23,
+              "reason": "Healing repairs the front line and Fraya can also benefit from Rage."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert adds ordinary harvesting and wooded cover with ranged magical damage."
+            }
+          ]
+        }
+      }
+    },
+    "27": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Feed a Faerie fighter while benefiting from a Trickster and a regular harvester.",
+          "partners": [
+            {
+              "page": 23,
+              "reason": "Trickster bluffs can trigger Faerie Mischief; Fraya provides Healing."
+            },
+            {
+              "page": 24,
+              "reason": "Whispered Secrets funds the Fencer's attacks and evasive movement."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert handles harvesting without Weakling and contributes magical ranged damage."
+            }
+          ]
+        }
+      }
+    },
+    "28": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Protect a Noble and enable a Giant-loving Goblin fighter, with healing support.",
+          "partners": [
+            {
+              "page": 55,
+              "reason": "Bodyguard protects Diana, who adds magical attacks and Faerie energy theft."
+            },
+            {
+              "page": 16,
+              "reason": "Gotchgut enables Lard Lover; Syd can move the Giant with Giant Whisperer."
+            },
+            {
+              "page": 17,
+              "reason": "Healing repairs both Gotchgut and Syd while Bobby supplies displacement."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Protect a supported Noble while Giant energy sustains a double front line.",
+          "partners": [
+            {
+              "page": 1,
+              "reason": "Bodyguard protects the Baron, who supplies armoured melee and Human energy restoration."
+            },
+            {
+              "page": 45,
+              "reason": "Epic Ballads grants Gotchgut energy and the Giants share melee duties."
+            },
+            {
+              "page": 2,
+              "reason": "My Hero and Field Medic support the Baron; Eric receives Rallying Cry energy."
+            }
+          ]
+        }
+      }
+    },
+    "29": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Combine objective depth reduction with Troll sustain and ranged magical pressure.",
+          "partners": [
+            {
+              "page": 87,
+              "reason": "Trollish Remedies can grant Boulder permanent Tough as Old Boots."
+            },
+            {
+              "page": 14,
+              "reason": "Fireblast adds ranged magical damage that Boulder's low melee stat cannot provide."
+            },
+            {
+              "page": 15,
+              "reason": "Digger and Stone Song give two ways to access deep stones; Doug adds a mobile threat."
+            }
+          ]
+        }
+      }
+    },
+    "30": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use gold-based movement control to deliver a melee threat and expose stones to theft.",
+          "partners": [
+            {
+              "page": 2,
+              "reason": "My Hero gives a Noble two energy; Field Medic sustains Kaufman."
+            },
+            {
+              "page": 5,
+              "reason": "Shower of Gold can position victims for Fritz's heavy melee attacks."
+            },
+            {
+              "page": 12,
+              "reason": "Miner secures uncontested stones while Kaufman contests enemy carriers."
+            }
+          ]
+        }
+      }
+    },
+    "31": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Create a supported Rogue thief with a durable anchor and an ordinary harvester.",
+          "partners": [
+            {
+              "page": 41,
+              "reason": "Honour Amongst Thieves improves Natty's Slingshot; Squeaking positions carriers for theft."
+            },
+            {
+              "page": 130,
+              "reason": "Prognostication reveals enemy melee hands to Natty; Wily Old Weasel discounts Rogue Arcane actions."
+            },
+            {
+              "page": 12,
+              "reason": "Miner handles deep stones while the Rogues hunt enemy carriers."
+            }
+          ]
+        }
+      }
+    },
+    "32": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Mark a target with Hunting Party and follow with Human attacks from outside the pulse.",
+          "partners": [
+            {
+              "page": 1,
+              "reason": "Hunting Party boosts the Baron's melee against the marked enemy; Rallying Cry refuels Gertrude."
+            },
+            {
+              "page": 3,
+              "reason": "Hunting Party improves Shoot Musket against the marked target."
+            },
+            {
+              "page": 4,
+              "reason": "Foresight improves Blunderbuss; Healing sustains the Human group. Keep high-energy allies clear of Natural Order."
+            }
+          ]
+        }
+      }
+    },
+    "33": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Build a Soldier attack group around commands, melee bonuses and healing.",
+          "partners": [
+            {
+              "page": 2,
+              "reason": "Squire boosts a Noble and Soldiers; My Hero refuels Poppycock."
+            },
+            {
+              "page": 36,
+              "reason": "The Governor improves Hogswash's melee and Yell Out Commands moves this Soldier 2 inches."
+            },
+            {
+              "page": 34,
+              "reason": "Field Medic heals the Noble and Soldiers; Sage Advice covers nearby Arcane risks."
+            }
+          ]
+        }
+      }
+    },
+    "34": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use Soldier healing and catastrophe protection to support a Human attack group.",
+          "partners": [
+            {
+              "page": 3,
+              "reason": "Sage Advice prevents the musket catastrophe nearby; Field Medic repairs Flintlock."
+            },
+            {
+              "page": 1,
+              "reason": "Field Medic heals the Noble; Rallying Cry restores Old Calders's energy."
+            },
+            {
+              "page": 2,
+              "reason": "Squire improves Old Calders's Soldier melee and Eric also boosts the Baron."
+            }
+          ]
+        }
+      }
+    },
+    "35": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Redistribute energy into a durable attacker while preserving reliable harvesting.",
+          "partners": [
+            {
+              "page": 73,
+              "reason": "Jackalope supplies efficient deep-stone collection and benefits from redistributed energy."
+            },
+            {
+              "page": 36,
+              "reason": "Energy Syphon funds Hogswash's charge and melee; Tabby's protection can shield him."
+            },
+            {
+              "page": 34,
+              "reason": "Sage Advice covers Tabby's catastrophes and Field Medic heals Hogswash."
+            }
+          ]
+        }
+      }
+    },
+    "36": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Stack Soldier melee support and energy around a charge attacker.",
+          "partners": [
+            {
+              "page": 33,
+              "reason": "The Governor improves Hogswash and Yell Out Commands positions him before the charge."
+            },
+            {
+              "page": 2,
+              "reason": "Squire, My Hero and Field Medic all support this Soldier."
+            },
+            {
+              "page": 6,
+              "reason": "Deutsche Courage refunds an attack's energy; Drink Your Fill can boost melee or energy."
+            }
+          ]
+        }
+      }
+    },
+    "37": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use Hoff's Faun aura and horn on a fighter and shooter, with healing nearby.",
+          "partners": [
+            {
+              "page": 71,
+              "reason": "Guerilla Tactician boosts Wendigo's magical melee and grants Swift."
+            },
+            {
+              "page": 38,
+              "reason": "Hunting Horn repositions Jayda; Guerilla Tactician improves her finishing melee."
+            },
+            {
+              "page": 39,
+              "reason": "Toodles is a Faun eligible for the horn and aura, and supplies Healing."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Use a Faun fighter-and-shooter group with healing and Human-targeted support.",
+          "partners": [
+            {
+              "page": 38,
+              "reason": "Guerilla Tactician improves Jayda's melee and Hunting Horn positions her."
+            },
+            {
+              "page": 39,
+              "reason": "A Faun healer benefits from Hoff's aura and horn and sustains the group."
+            },
+            {
+              "page": 32,
+              "reason": "Hunting Party improves Human and Faun attacks against its marked enemy, including Hoff and Jayda."
+            }
+          ]
+        }
+      }
+    },
+    "38": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use Faun support to reach and finish targets while another model collects deep stones.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Guerilla Tactician boosts Jayda's melee and Hunting Horn moves her into position."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse restores a wound and gives Jayda two energy; Chubs also heals."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws handles deep stones while Jayda shoots and finishes wounded targets."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Strengthen Jayda's Faun attacks and use Hunting Party to improve bow and finishing pressure.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Guerilla Tactician improves melee and Hunting Horn repositions Jayda."
+            },
+            {
+              "page": 39,
+              "reason": "Healing sustains Jayda and Blighted Elixir can supply energy."
+            },
+            {
+              "page": 32,
+              "reason": "Hunting Party improves Jayda's Arcane and melee against the marked enemy."
+            }
+          ]
+        }
+      }
+    },
+    "39": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Heal a supported Faun attack group while an Animal takes objective duties.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Guerilla Tactician and Hunting Horn support Toodles's Faun keyword."
+            },
+            {
+              "page": 71,
+              "reason": "Hoff strengthens Wendigo's magical melee and Toodles keeps the fighter healthy."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws secures deep stones and Toodles can heal the Animal harvester."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Heal a Faun pair while a specialist Animal collects deep stones.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Guerilla Tactician and Hunting Horn support the Faun group."
+            },
+            {
+              "page": 38,
+              "reason": "Jayda adds bow pressure and Mercy Kill finishes wounded targets."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws handles deep stones while Toodles spends energy on Healing."
+            }
+          ]
+        }
+      }
+    },
+    "40": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use Gnome support and created woods around a Norse fighter.",
+          "partners": [
+            {
+              "page": 42,
+              "reason": "Verdant Growth supplies terrain for Revenge of the Forest Friends; One with the Wind moves Joanna."
+            },
+            {
+              "page": 89,
+              "reason": "Reading the Runes can protect a Norse model and Liv supplies healing."
+            },
+            {
+              "page": 90,
+              "reason": "Valhalla extends Joanna's attacking Jog; Buttermilk Elixir gives a Gnome energy."
+            }
+          ]
+        }
+      }
+    },
+    "41": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Support Rogue theft with hand information, ranged pressure and a dedicated harvester.",
+          "partners": [
+            {
+              "page": 31,
+              "reason": "Honour Amongst Thieves boosts Natty's Arcane; the pair offer direct stone theft."
+            },
+            {
+              "page": 130,
+              "reason": "Prognostication and Wily Old Weasel improve Muridae's Rogue combat and Arcane economy."
+            },
+            {
+              "page": 12,
+              "reason": "Miner secures deep stones while the Rogues pursue carriers."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Strengthen Rogue casting and combine displacement, drains and direct objective theft.",
+          "partners": [
+            {
+              "page": 83,
+              "reason": "Honour Amongst Thieves improves Claudia's pistol and both Rogues offer Robbery."
+            },
+            {
+              "page": 82,
+              "reason": "Honour Amongst Thieves improves Creep's drains, which heal and refuel the thieves."
+            },
+            {
+              "page": 140,
+              "reason": "Streetwise Swindler supports Rogue energy while Muridae raises Nancy's Arcane."
+            }
+          ]
+        }
+      }
+    },
+    "42": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Create woods for a Norse attacker and use Gnome buffs to improve movement magic.",
+          "partners": [
+            {
+              "page": 40,
+              "reason": "Created woods enable Revenge of the Forest Friends; One with the Wind positions Joanna."
+            },
+            {
+              "page": 8,
+              "reason": "Luck Charms improves Loci's Melee and Arcane and Mama supplies Healing."
+            },
+            {
+              "page": 12,
+              "reason": "Miner handles objectives while Loci spends energy creating terrain and moving allies."
+            }
+          ]
+        }
+      }
+    },
+    "43": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Support aerial shooting while ground models handle melee and harvesting.",
+          "partners": [
+            {
+              "page": 8,
+              "reason": "Luck Charms boosts Bolt Thrower Arcane and Mama supplies Healing."
+            },
+            {
+              "page": 9,
+              "reason": "Brothers in Arms can boost this Militia airship's Arcane and adds crossbow pressure."
+            },
+            {
+              "page": 12,
+              "reason": "Miner collects stones because the airship cannot Harvest."
+            }
+          ]
+        }
+      }
+    },
+    "44": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Control the Giant's risky energy flips and supply movement, sustain and objectives.",
+          "partners": [
+            {
+              "page": 13,
+              "reason": "Sage Advice covers Constant Bickering's catastrophe within its aura."
+            },
+            {
+              "page": 45,
+              "reason": "Epic Ballads gives another Giant energy and Brunhilde adds a second melee threat."
+            },
+            {
+              "page": 12,
+              "reason": "Miner secures stones while the Giants hold contested ground."
+            }
+          ]
+        },
+        "Leshavult": {
+          "plan": "Protect the Giant's wound-and-energy engine while adding a Faun escort and objectives.",
+          "partners": [
+            {
+              "page": 61,
+              "reason": "Leshavit's Caress repairs Constant Bickering wounds and supplies Protection."
+            },
+            {
+              "page": 37,
+              "reason": "Hoff provides a mobile melee escort while the Giant occupies contested ground."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws supplies efficient deep-stone collection."
+            }
+          ]
+        }
+      }
+    },
+    "45": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use Giant energy and Bodyguard around a supported Noble fighter.",
+          "partners": [
+            {
+              "page": 1,
+              "reason": "Bodyguard and Loyalty protect and follow this Noble; Rallying Cry supports the Human ally."
+            },
+            {
+              "page": 28,
+              "reason": "Epic Ballads grants Gotchgut energy and the second Giant shares front-line work."
+            },
+            {
+              "page": 2,
+              "reason": "Squire and My Hero strongly support the Baron; Field Medic keeps the Noble healthy."
+            }
+          ]
+        }
+      }
+    },
+    "46": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Enable water-based energy and strengthen a durable Troll while collecting stones.",
+          "partners": [
+            {
+              "page": 137,
+              "reason": "Wetland Wallower lets Bristlenose use Syril's melee range as water for Amphibious."
+            },
+            {
+              "page": 87,
+              "reason": "Trollish Remedies can grant Bristlenose permanent regeneration."
+            },
+            {
+              "page": 15,
+              "reason": "Digger covers harvesting while Bristlenose holds the front line."
+            }
+          ]
+        }
+      }
+    },
+    "47": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Refuel a slow Goblin Troll gunner while supporting ordinary harvesting.",
+          "partners": [
+            {
+              "page": 18,
+              "reason": "Goblin Mischief and Transconbobulate restore Ribald's energy, wounds and position."
+            },
+            {
+              "page": 87,
+              "reason": "Trollish Remedies supports Ribald's Troll keyword and grants regeneration."
+            },
+            {
+              "page": 15,
+              "reason": "Digger secures deeper stones while Ribald spends turns on cannon fire."
+            }
+          ]
+        }
+      }
+    },
+    "48": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Turn bonus Goblin activations into efficient harvesting and protected stone carrying.",
+          "partners": [
+            {
+              "page": 15,
+              "reason": "Rule the Roost gives Doug an extra activation and energy for Digger or attacks."
+            },
+            {
+              "page": 98,
+              "reason": "Goblin City Guard protects Goblin carriers; Stand to Attention supports Soldier movement."
+            },
+            {
+              "page": 17,
+              "reason": "Healing repairs wounds paid to Rule the Roost and Royal Privilege."
+            }
+          ]
+        }
+      }
+    },
+    "49": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Build around repeatable Goblin objective play and resurrection positioning.",
+          "partners": [
+            {
+              "page": 96,
+              "reason": "Reanimate Jobie makes Jobie's self-sacrificing stone collection repeatable."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern chooses resurrection placement and Keep 'em Fresh improves returned health."
+            },
+            {
+              "page": 98,
+              "reason": "Portly Pete protects Goblin stone carriers and holds recovered objectives."
+            }
+          ]
+        }
+      }
+    },
+    "50": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use created cover around Faerie damage and healing while Herbert harvests.",
+          "partners": [
+            {
+              "page": 55,
+              "reason": "Herbert's Faerie keyword can support For the Good of the Glade and receive Feed on Fear energy."
+            },
+            {
+              "page": 23,
+              "reason": "Healing sustains the Faeries and Dizzly Spell removes enemy threats."
+            },
+            {
+              "page": 26,
+              "reason": "Rage enables other Faeries' harvesting and Wasp adds piercing melee."
+            }
+          ]
+        }
+      }
+    },
+    "51": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Build a Goblin Pirate core around replenishment energy and close-range objective theft.",
+          "partners": [
+            {
+              "page": 19,
+              "reason": "Ye Scurvy Dogs boosts Stu's energy; Bawdy Jokes helps the Goblin Pirates cluster."
+            },
+            {
+              "page": 53,
+              "reason": "Crusty receives Goblin Pirate energy and Pinch steals contested stones."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot improves Pirate attacks or Evade and Swig o' Rum supplies healing."
+            }
+          ]
+        }
+      }
+    },
+    "52": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Feed Pirate attackers from carried stones while receiving Goblin Pirate energy.",
+          "partners": [
+            {
+              "page": 51,
+              "reason": "Ye Scurvy Dogs refuels Swooty and Run frees an engaged Pirate."
+            },
+            {
+              "page": 53,
+              "reason": "Pinch secures stones and Crusty's sturdy shell gives the Pirates a front line."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot boosts attacks that can earn Luv'a da booty energy and Swig o' Rum adds healing."
+            }
+          ]
+        }
+      }
+    },
+    "53": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Support a durable Pirate thief with energy, displacement and stronger melee.",
+          "partners": [
+            {
+              "page": 51,
+              "reason": "Ye Scurvy Dogs refuels this Goblin Pirate and Run repositions engaged allies."
+            },
+            {
+              "page": 19,
+              "reason": "Rough Tides and Seasick help Crusty approach and rob enemy carriers."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot improves Crusty's melee or Evade and Swig o' Rum supplies healing."
+            }
+          ]
+        }
+      }
+    },
+    "54": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use aerial displacement to expose stones while ground Goblins fight and harvest.",
+          "partners": [
+            {
+              "page": 98,
+              "reason": "Stand to Attention gives the Goblin airship energy; Pete guards Goblin carriers."
+            },
+            {
+              "page": 15,
+              "reason": "Digger handles stones because the airship cannot Harvest."
+            },
+            {
+              "page": 17,
+              "reason": "Healing repairs the airship and Bobby helps deter close approaches to the ground group."
+            }
+          ]
+        }
+      }
+    },
+    "55": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Pay Faerie wounds for better Arcane hands, then heal and add a regular harvester.",
+          "partners": [
+            {
+              "page": 23,
+              "reason": "Healing repairs For the Good of the Glade's wound costs."
+            },
+            {
+              "page": 26,
+              "reason": "Rage removes Diana's Weakling and Wasp supplies stronger piercing melee."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert is a Faerie without Weakling, adds wooded cover and ordinary harvesting."
+            }
+          ]
+        }
+      }
+    },
+    "56": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use Rogue swaps to deliver threats while retaining healing and efficient harvesting.",
+          "partners": [
+            {
+              "page": 24,
+              "reason": "Faerie Tricks swaps with this Rogue duellist to change engagements."
+            },
+            {
+              "page": 27,
+              "reason": "Whispered Secrets refuels Belladonna; Silvertongue is also a valid Rogue swap target."
+            },
+            {
+              "page": 29,
+              "reason": "Boulder provides durable harvesting and Stone Song; the Faeries otherwise pay Weakling costs."
+            }
+          ]
+        }
+      }
+    },
+    "57": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use a strong copied signature and Faerie support beside a regular harvester.",
+          "partners": [
+            {
+              "page": 24,
+              "reason": "Mirror of Mischief can copy Needlepoint for armour-ignoring damage."
+            },
+            {
+              "page": 23,
+              "reason": "Healing sustains Foxglove and Trickster supplies a second bluffing engine."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert handles harvesting without Weakling and adds wooded cover."
+            }
+          ]
+        }
+      }
+    },
+    "58": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Add Faerie melee and healing while an ordinary harvester handles deep stones.",
+          "partners": [
+            {
+              "page": 26,
+              "reason": "Rage supports the other Faerie fighter and Wasp adds a second piercing threat."
+            },
+            {
+              "page": 23,
+              "reason": "Healing sustains Vespa and Dizzly Spell removes dangerous actions."
+            },
+            {
+              "page": 29,
+              "reason": "Stone Song assists deep harvesting while Boulder supplies durable ground control."
+            }
+          ]
+        }
+      }
+    },
+    "59": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use movement and group healing around a Cultist fighter and objective collector.",
+          "partners": [
+            {
+              "page": 78,
+              "reason": "Plant the Placard positions Klaus while Bell Ringer repairs his self-inflicted wounds."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor boosts Daniel's Cultist Arcane and Leshavit's Caress protects the group."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws supplies deep-stone collection while Daniel supports the combat line."
+            }
+          ]
+        }
+      }
+    },
+    "60": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Bank useful Arcane cards, refuel a fighter and contest enemy stones.",
+          "partners": [
+            {
+              "page": 141,
+              "reason": "Juggling Fate supplies set-aside cards for repeated Trick Knives; Midnight Miscreants discounts a turn-one 4-energy action."
+            },
+            {
+              "page": 138,
+              "reason": "Streatham supports Kavanagh's Rogue movement, healing and stolen-stone recovery."
+            },
+            {
+              "page": 62,
+              "reason": "Black Comedy helps fund Loubard's Righteous Fury and the Giant adds melee reach."
+            }
+          ]
+        }
+      }
+    },
+    "61": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Support a Cultist melee core and a woodland energy engine.",
+          "partners": [
+            {
+              "page": 78,
+              "reason": "Conductor improves Klaus's Arcane; each nearby Cultist also increases Egged-On melee."
+            },
+            {
+              "page": 79,
+              "reason": "Conductor boosts Raegan and Leshavit's Caress sustains Klaus."
+            },
+            {
+              "page": 91,
+              "reason": "Conductor boosts this Cultist and Raegan's woods enable Woodland Animal energy."
+            }
+          ]
+        }
+      }
+    },
+    "62": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Keep a nearby support group to enable the Giant's movement and sustain his attacks.",
+          "partners": [
+            {
+              "page": 59,
+              "reason": "Plant the Placard repositions Loubard and Bell Ringer heals; staying nearby enables Blind Faith."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor improves Loubard's Cultist Arcane and Leshavit's Caress heals and protects him."
+            },
+            {
+              "page": 141,
+              "reason": "Midnight Miscreants discounts the first turn-one Righteous Fury from four to three energy."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Keep support nearby to enable Blind Faith, feed Righteous Fury and collect deep stones.",
+          "partners": [
+            {
+              "page": 6,
+              "reason": "Drink Your Fill can grant energy for Righteous Fury; Agatha stays nearby to enable Blind Faith."
+            },
+            {
+              "page": 35,
+              "reason": "Energy Syphon helps fund Righteous Fury and Caustic Contract can protect the Giant."
+            },
+            {
+              "page": 12,
+              "reason": "Miner covers objectives while staying nearby to enable Blind Faith."
+            }
+          ]
+        }
+      }
+    },
+    "63": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Build a Faun summoning engine with protection, energy support and a melee escort.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Hunting Horn moves Boris; Guerilla Tactician improves his Faun melee."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse refuels this Faun and Healing repairs summoning wound costs."
+            },
+            {
+              "page": 61,
+              "reason": "Leshavit's Caress heals and protects Boris while Conductor improves nearby supporting Cultists."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Support Boris's shared Bunny energy pool and repair summoning wound costs.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Hunting Horn repositions Boris and Guerilla Tactician supports Faun melee."
+            },
+            {
+              "page": 39,
+              "reason": "Healing repairs Boris's summon costs and Blighted Elixir can grant energy."
+            },
+            {
+              "page": 35,
+              "reason": "Energy Syphon reallocates energy to Boris for summoning and Bunny actions."
+            }
+          ]
+        }
+      }
+    },
+    "64": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Start with Boris and support his shared energy pool; the Bunny enters through summoning.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Required named summoner; Herd Master gains energy for friendly Murder Bunnies."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse gives Boris energy that he can spend on Bunny actions, and supplies Healing."
+            },
+            {
+              "page": 37,
+              "reason": "Hunting Horn moves Boris and Hoff supplies a melee escort."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Choose Boris as the starting summoner and support his shared Bunny energy pool.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Required named summoner, selectable in Commonwealth; summoned Bunnies do not use roster slots."
+            },
+            {
+              "page": 39,
+              "reason": "Healing sustains Boris and Blighted Elixir can supply energy for Bunny actions."
+            },
+            {
+              "page": 35,
+              "reason": "Energy Syphon gives Boris energy that he can spend on Thrall actions."
+            }
+          ]
+        }
+      }
+    },
+    "65": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Start with Boris and support his shared energy pool; the Bunny enters through summoning.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Required named summoner; Herd Master gains energy for friendly Murder Bunnies."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse gives Boris energy that he can spend on Bunny actions, and supplies Healing."
+            },
+            {
+              "page": 37,
+              "reason": "Hunting Horn moves Boris and Hoff supplies a melee escort."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Choose Boris as the starting summoner and support his shared Bunny energy pool.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Required named summoner, selectable in Commonwealth; summoned Bunnies do not use roster slots."
+            },
+            {
+              "page": 39,
+              "reason": "Healing sustains Boris and Blighted Elixir can supply energy for Bunny actions."
+            },
+            {
+              "page": 35,
+              "reason": "Energy Syphon gives Boris energy that he can spend on Thrall actions."
+            }
+          ]
+        }
+      }
+    },
+    "66": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Start with Boris and support his shared energy pool; the Bunny enters through summoning.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Required named summoner; Herd Master gains energy for friendly Murder Bunnies."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse gives Boris energy that he can spend on Bunny actions, and supplies Healing."
+            },
+            {
+              "page": 37,
+              "reason": "Hunting Horn moves Boris and Hoff supplies a melee escort."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Choose Boris as the starting summoner and support his shared Bunny energy pool.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Required named summoner, selectable in Commonwealth; summoned Bunnies do not use roster slots."
+            },
+            {
+              "page": 39,
+              "reason": "Healing sustains Boris and Blighted Elixir can supply energy for Bunny actions."
+            },
+            {
+              "page": 35,
+              "reason": "Energy Syphon gives Boris energy that he can spend on Thrall actions."
+            }
+          ]
+        }
+      }
+    },
+    "67": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Complete the Witch links and add an efficient collector to the spell-and-melee group.",
+          "partners": [
+            {
+              "page": 68,
+              "reason": "Link to the Present gives Zorya replenishment energy; Antonia heals the front line."
+            },
+            {
+              "page": 69,
+              "reason": "Zorya enables Danica's regeneration and completes the three-Witch link cycle."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws covers deep stones while the Witches invest in combat and spell support."
+            }
+          ]
+        }
+      }
+    },
+    "68": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Complete the Witch links and add a mobile objective collector.",
+          "partners": [
+            {
+              "page": 69,
+              "reason": "Link to the Past raises Antonia's Arcane and discounts her first friendly-Witch Arcane action."
+            },
+            {
+              "page": 67,
+              "reason": "Zorya receives energy from Antonia's presence and supplies the group's melee threat."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws handles deep stones while Candy Apples controls approaching enemies."
+            }
+          ]
+        }
+      }
+    },
+    "69": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Complete the Witch links to sustain Danica's wound-paying Arcane engine.",
+          "partners": [
+            {
+              "page": 67,
+              "reason": "Link to the Future restores Danica's wounds during Replenish."
+            },
+            {
+              "page": 68,
+              "reason": "Danica enables Antonia's Arcane and Witch-cost bonuses; Antonia supplies Healing."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws adds efficient harvesting and durable objective play."
+            }
+          ]
+        }
+      }
+    },
+    "70": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Spend Rouse on Faun melee and use movement support to protect an Animal harvester.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Guerilla Tactician and Hunting Horn support Chubs; Rouse refuels Hoff."
+            },
+            {
+              "page": 71,
+              "reason": "Rouse gives Wendigo energy for magical melee while Healing sustains him."
+            },
+            {
+              "page": 73,
+              "reason": "Rouse targets Jackalope's Animal keyword and funds Burrowing Claws or Hop."
+            }
+          ]
+        }
+      }
+    },
+    "71": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Strengthen magical Faun melee with energy and healing while covering stones.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Guerilla Tactician improves Wendigo's melee and grants Swift; Hunting Horn moves him."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse gives Wendigo two energy and a wound back; Chubs also heals."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws secures deep stones while Wendigo pressures enemy fighters."
+            }
+          ]
+        }
+      }
+    },
+    "72": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use Animal movement to support harvesting and a Faun fighter with healing.",
+          "partners": [
+            {
+              "page": 73,
+              "reason": "Whisper to the Wild Things moves Jackalope before or after objective collection."
+            },
+            {
+              "page": 37,
+              "reason": "Guerilla Tactician improves Gloom's Faun melee and Hunting Horn offsets his Slow."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse refuels Gloom's expensive actions and Healing sustains the Fauns."
+            }
+          ]
+        }
+      }
+    },
+    "73": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Build around a mobile deep-stone collector with Animal movement and Faun protection.",
+          "partners": [
+            {
+              "page": 72,
+              "reason": "Whisper to the Wild Things moves Jackalope without spending its harvesting energy."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse restores a wound and gives this Animal two energy."
+            },
+            {
+              "page": 37,
+              "reason": "Hoff provides a melee escort and supports Chubs and Gloom with Faun bonuses."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Support a mobile Animal harvester with conservation, healing and Human combat pressure.",
+          "partners": [
+            {
+              "page": 131,
+              "reason": "Explorer's Handbook discounts healing the wounded Animal and Conservation protects it."
+            },
+            {
+              "page": 133,
+              "reason": "Matilda adds mobile melee and shooting without relying on Jackalope to fight."
+            },
+            {
+              "page": 4,
+              "reason": "Foresight improves Matilda's Human Blunderbuss and Healing sustains the two Animals."
+            }
+          ]
+        }
+      }
+    },
+    "74": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Exploit friendly catastrophe choices within a supported Witch group.",
+          "partners": [
+            {
+              "page": 69,
+              "reason": "Visions of the Future can choose Danica's catastrophe, which wounds nearby models but grants energy; Undying makes the Revenant a durable recipient."
+            },
+            {
+              "page": 68,
+              "reason": "Antonia heals the group and adds wounded-target finishing with Visions of the Present."
+            },
+            {
+              "page": 67,
+              "reason": "Zorya enables Danica's regeneration and supplies stronger melee."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Use durable melee and friendly-catastrophe choices beside healing and objective collection.",
+          "partners": [
+            {
+              "page": 81,
+              "reason": "Strength from Suffering heals the Duchess when another character suffers catastrophe wounds."
+            },
+            {
+              "page": 18,
+              "reason": "Visions of the Future can deliberately trigger Goblin catastrophes; Shabbaroon sustains Goblin allies through Transconbobulate."
+            },
+            {
+              "page": 15,
+              "reason": "Digger covers deep stones and Doug provides a mobile melee threat."
+            }
+          ]
+        }
+      }
+    },
+    "75": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Feed a hard-hitting Animal with healing and movement, while collecting deep stones.",
+          "partners": [
+            {
+              "page": 70,
+              "reason": "Rouse directly refuels the Beast's Animal keyword and supplies Healing."
+            },
+            {
+              "page": 72,
+              "reason": "Whisper to the Wild Things moves the Beast into position."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws secures deep stones while the Beast fights."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Refuel an Animal heavy hitter and protect a Noble caster while collecting objectives.",
+          "partners": [
+            {
+              "page": 81,
+              "reason": "Succubus heals and refuels the Beast while the Duchess adds magical damage."
+            },
+            {
+              "page": 28,
+              "reason": "Bodyguard protects the Beast's Noble keyword and Gotchgut supplies a second front-line model."
+            },
+            {
+              "page": 83,
+              "reason": "Robbery contests stones while Claudia receives the Duchess's healing and energy."
+            }
+          ]
+        }
+      }
+    },
+    "76": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Support Anya's healing and transformation alongside woodland-enabled Cultist pressure.",
+          "partners": [
+            {
+              "page": 61,
+              "reason": "Conductor improves supporting Cultists and Leshavit's Caress protects Anya before transformation."
+            },
+            {
+              "page": 91,
+              "reason": "Eric adds durable magical or piercing attacks while Anya supplies Healing."
+            },
+            {
+              "page": 79,
+              "reason": "Verdant Growth enables Eric's woodland energy and Raegan supplies healing or energy through Malachite Ritual."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Protect a Noble healer and her transformation beside a drain caster and objective thief.",
+          "partners": [
+            {
+              "page": 28,
+              "reason": "Bodyguard protects Anya's Noble form; the Giant also supplies durable melee."
+            },
+            {
+              "page": 81,
+              "reason": "Succubus restores wounds and energy before or after Anya transforms."
+            },
+            {
+              "page": 83,
+              "reason": "Anya's Healing maintains Claudia's wound advantage for Robbery."
+            }
+          ]
+        }
+      }
+    },
+    "77": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Select Anya as the starting character, then heal and refuel her transformation.",
+          "partners": [
+            {
+              "page": 76,
+              "reason": "Required starting character; Remove Necklace and Lose Control bring Striga Anya into play."
+            },
+            {
+              "page": 69,
+              "reason": "Visions of the Past restores wounds and energy on Anya or her transformed form."
+            },
+            {
+              "page": 61,
+              "reason": "Leshavit's Caress heals and protects the transformation engine; Conductor supports Danica."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Start with Dominion Anya, then support her transformation without selecting Striga directly.",
+          "partners": [
+            {
+              "page": 76,
+              "reason": "Required starting character; Remove Necklace and Lose Control replace her with Striga Anya."
+            },
+            {
+              "page": 81,
+              "reason": "Succubus heals and refuels either form, supporting the transformed melee attacker."
+            },
+            {
+              "page": 28,
+              "reason": "Bodyguard protects Anya's Noble form and Gotchgut supplies durable ordinary harvesting."
+            }
+          ]
+        }
+      }
+    },
+    "78": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Stack Cultist melee bonuses and turn catastrophe triggers into banked cards.",
+          "partners": [
+            {
+              "page": 79,
+              "reason": "Named Kinship partner grants Klaus Protection; Expel banks cards from catastrophes."
+            },
+            {
+              "page": 61,
+              "reason": "Another Cultist raises Egged-On melee; Leshavit's Caress repairs Klaus's wounds."
+            },
+            {
+              "page": 141,
+              "reason": "Another Cultist raises Egged-On; Midnight Miscreants discounts turn-one Hold my Beer."
+            }
+          ]
+        }
+      }
+    },
+    "79": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Support Klaus and a woodland-enabled Cultist while improving Arcane reliability.",
+          "partners": [
+            {
+              "page": 78,
+              "reason": "Kinship protects Klaus and his catastrophe pulse can feed Expel; keep harmful pulse targets in mind."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor raises Raegan's Cultist Arcane and adds healing and Protection."
+            },
+            {
+              "page": 91,
+              "reason": "Verdant Growth enables Woodland Animal energy and Malachite Ritual supports Eric."
+            }
+          ]
+        }
+      }
+    },
+    "80": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Heal and reposition a Faun fighter while an Animal handles deep stones.",
+          "partners": [
+            {
+              "page": 37,
+              "reason": "Hunting Horn moves Gwendoline's Faun allies; Hoff supplies a front-line fighter."
+            },
+            {
+              "page": 71,
+              "reason": "Rejuvenate sustains and moves Wendigo, whose melee is improved by Hoff."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws covers efficient harvesting while Gwendoline spends energy on support."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Use Faerie support, healing and movement beside a fighter and ordinary harvester.",
+          "partners": [
+            {
+              "page": 24,
+              "reason": "Rejuvenate heals and repositions the Fencer; he supplies strong melee."
+            },
+            {
+              "page": 27,
+              "reason": "Whispered Secrets directly refuels Gwendoline's Faerie keyword and restores a wound."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert harvests without Weakling and creates cover for the fragile Faeries."
+            }
+          ]
+        }
+      }
+    },
+    "81": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Turn Succubus into energy and healing for a durable Noble core and a thief.",
+          "partners": [
+            {
+              "page": 28,
+              "reason": "Bodyguard protects the Duchess; Succubus can fund the Giant's low-energy attacks."
+            },
+            {
+              "page": 83,
+              "reason": "Succubus keeps Claudia healthy enough to satisfy Robbery's wound comparison."
+            },
+            {
+              "page": 110,
+              "reason": "Eternal Servitude directly supports the Duchess's Human and Noble keywords."
+            }
+          ]
+        }
+      }
+    },
+    "82": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use drains and Evade debuffs to help a Rogue thief and anti-large fighter.",
+          "partners": [
+            {
+              "page": 41,
+              "reason": "Honour Amongst Thieves improves Creep's Arcane and adds direct theft."
+            },
+            {
+              "page": 83,
+              "reason": "Incubus restores Claudia's wounds for Robbery; Vitality Draw funds her actions."
+            },
+            {
+              "page": 129,
+              "reason": "Victimise increases enemy Evade, strengthening Dentia's The Bigger They Are bonuses."
+            }
+          ]
+        }
+      }
+    },
+    "83": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Improve pistol accuracy and keep Claudia healthy for Robbery.",
+          "partners": [
+            {
+              "page": 41,
+              "reason": "Honour Amongst Thieves boosts Claudia's Arcane and Squeaking positions carriers."
+            },
+            {
+              "page": 81,
+              "reason": "Succubus restores Claudia's wounds and energy to support repeated theft and shooting."
+            },
+            {
+              "page": 82,
+              "reason": "Incubus heals Claudia while Victimise makes enemy Arcane targets easier to hit."
+            }
+          ]
+        }
+      }
+    },
+    "84": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use Pirate movement bonuses to deliver a fighter and a supported objective thief.",
+          "partners": [
+            {
+              "page": 85,
+              "reason": "Treasure Map and X Marks the Spot position Swash for melee."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot improves Pirate melee or Evade and provides nearby healing."
+            },
+            {
+              "page": 53,
+              "reason": "Pinch steals contested stones and X Marks the Spot moves Crusty towards carriers."
+            }
+          ]
+        }
+      }
+    },
+    "85": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Deliver a Pirate swordsman with movement and melee support, then refuel him.",
+          "partners": [
+            {
+              "page": 84,
+              "reason": "Treasure Map and X Marks the Spot move Swash towards the fight."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot raises Swash's melee for an attack and Swig o' Rum repairs wounds."
+            },
+            {
+              "page": 52,
+              "reason": "Luv'a da booty gives a Pirate attacker energy when Swooty carries stones."
+            }
+          ]
+        }
+      }
+    },
+    "86": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use Pirate Mascot on a melee striker while movement and theft cover objectives.",
+          "partners": [
+            {
+              "page": 85,
+              "reason": "Pirate Mascot improves Swash's melee and Swig o' Rum sustains him."
+            },
+            {
+              "page": 84,
+              "reason": "Treasure Map and X Marks the Spot reposition the Pirate group."
+            },
+            {
+              "page": 53,
+              "reason": "Pirate Mascot supports Crusty, whose Pinch supplies direct objective theft."
+            }
+          ]
+        }
+      }
+    },
+    "87": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Grant Troll regeneration while maintaining space for Knoll's Recluse energy.",
+          "partners": [
+            {
+              "page": 46,
+              "reason": "Trollish Remedies grants Bristlenose regeneration and repairs his large health track."
+            },
+            {
+              "page": 29,
+              "reason": "Trollish Remedies sustains Boulder, whose Stone Song assists deep stones."
+            },
+            {
+              "page": 137,
+              "reason": "Wetland Wallower enables Bristlenose's water energy and Syril supplies movement denial."
+            }
+          ]
+        }
+      }
+    },
+    "88": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use Norse charge support and deck planning to manage a wounded Berserker.",
+          "partners": [
+            {
+              "page": 90,
+              "reason": "Valhalla extends Bjorn's attacking Jog and Fortunate prepares Arcane flips."
+            },
+            {
+              "page": 89,
+              "reason": "Reading the Runes can protect a Norse fighter; heal Bjorn when survival outweighs Berserk Fury damage."
+            },
+            {
+              "page": 11,
+              "reason": "Lucky prepares the deck for Skål and Young Jack adds a durable swordsman."
+            }
+          ]
+        }
+      }
+    },
+    "89": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Coordinate Norse deck planning, protection and charges around a melee pair.",
+          "partners": [
+            {
+              "page": 90,
+              "reason": "Fortunate can prepare Reading the Runes and Valhalla delivers the Norse fighters."
+            },
+            {
+              "page": 88,
+              "reason": "Reading the Runes can protect Bjorn while Runes of Power manages his wounds."
+            },
+            {
+              "page": 40,
+              "reason": "Joanna benefits from Norse protection and adds longer-range terrain-dependent attacks."
+            }
+          ]
+        }
+      }
+    },
+    "90": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Use deck planning and Norse Jog bonuses on a fighter and runic support.",
+          "partners": [
+            {
+              "page": 88,
+              "reason": "Valhalla extends Bjorn's attacking Jog and Buttermilk Elixir sustains him."
+            },
+            {
+              "page": 89,
+              "reason": "Fortunate can prepare Reading the Runes; Liv protects Norse allies."
+            },
+            {
+              "page": 11,
+              "reason": "Young Jack is explicitly eligible for Valhalla and Fetch, and Lucky adds deck planning."
+            }
+          ]
+        }
+      }
+    },
+    "91": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Create woods to refuel a Cultist attacker, then strengthen and heal the group.",
+          "partners": [
+            {
+              "page": 79,
+              "reason": "Verdant Growth enables Woodland Animal; Malachite Ritual provides further energy or healing."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor boosts Eric's Cultist Arcane and Leshavit's Caress adds Protection."
+            },
+            {
+              "page": 78,
+              "reason": "Eric adds a Cultist for Egged-On; Klaus supplies a second melee threat."
+            }
+          ]
+        }
+      }
+    },
+    "92": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use shared Spirit keywords for movement, healing and swaps within a woodland group.",
+          "partners": [
+            {
+              "page": 61,
+              "reason": "Conductor boosts Dranyer's Spirit Arcane and Leshavit's Caress protects him."
+            },
+            {
+              "page": 93,
+              "reason": "A shared Spirit enables Cunning movement and Duplicity; Ruwt supplies woods."
+            },
+            {
+              "page": 95,
+              "reason": "A shared Spirit enables Cunning and Duplicity; Gump adds durable melee and uses Ruwt's woods."
+            }
+          ]
+        }
+      }
+    },
+    "93": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Create woods that sustain the Treefolk core and improve its firing lanes.",
+          "partners": [
+            {
+              "page": 95,
+              "reason": "Forest heals Gump near wooded patches and Call of the Woods adds terrain-scaled damage."
+            },
+            {
+              "page": 94,
+              "reason": "Woodspirit lets this Treefolk ignore friendly Treefolk and woods for Arcane cover."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor improves Spirit Arcane and Leshavit's Caress repairs New Growth wounds."
+            }
+          ]
+        }
+      }
+    },
+    "94": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use Treefolk terrain support and Spirit buffs to sustain curse pressure.",
+          "partners": [
+            {
+              "page": 93,
+              "reason": "Woodspirit improves Snag's Arcane cover handling and creates traversable woods."
+            },
+            {
+              "page": 95,
+              "reason": "Call of the Woods pulls enemies towards Treefolk, creating pressure around Snag."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor boosts Snag's Spirit Arcane and Leshavit's Caress sustains him."
+            }
+          ]
+        }
+      }
+    },
+    "95": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Supply woods and Spirit support to amplify Gump's sustain and control.",
+          "partners": [
+            {
+              "page": 93,
+              "reason": "Verdant Growth enables Forest healing and woodland-scaled Call of the Woods wounds."
+            },
+            {
+              "page": 79,
+              "reason": "A second wood creator expands Forest options; Malachite Ritual heals or refuels Gump."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor improves Gump's Spirit Arcane and Leshavit's Caress adds healing and Protection."
+            }
+          ]
+        }
+      }
+    },
+    "96": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Build repeatable self-sacrificing harvesting around resurrection and safe stone holding.",
+          "partners": [
+            {
+              "page": 49,
+              "reason": "Jobie grants this Reanimate user the free Reanimate Jobie ability."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern redirects Jobie's return and Keep 'em Fresh restores returned health."
+            },
+            {
+              "page": 98,
+              "reason": "Goblin City Guard protects Jobie while carrying a stone; Pete supplies durable ordinary harvesting."
+            }
+          ]
+        }
+      }
+    },
+    "97": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Exploit Goblin objective turnover and carrier control while retaining healing.",
+          "partners": [
+            {
+              "page": 96,
+              "reason": "A Cunning Plan can trigger Inheritance Tax for one recovered stone within range."
+            },
+            {
+              "page": 49,
+              "reason": "Reanimate Jobie sustains Jobie's objective cycle and Healing repairs the Goblins."
+            },
+            {
+              "page": 98,
+              "reason": "Goblin City Guard protects Goblin carriers and Secret Stash holds stones safely."
+            }
+          ]
+        }
+      }
+    },
+    "98": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Protect Goblin carriers while refuelling a Soldier fighter and resurrection harvester.",
+          "partners": [
+            {
+              "page": 15,
+              "reason": "Stand to Attention gives Doug energy and Soldier movement; Digger collects stones."
+            },
+            {
+              "page": 48,
+              "reason": "Goblin City Guard protects a stone-carrying King; Rule the Roost gives Pete bonus activations."
+            },
+            {
+              "page": 49,
+              "reason": "Healing sustains Pete's bodyguard wounds and Reanimate returns slain Goblins."
+            }
+          ]
+        }
+      }
+    },
+    "99": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Summon the armoured Soldier and use support that rewards wounded enemies and deaths.",
+          "partners": [
+            {
+              "page": 108,
+              "reason": "Summon Reinforcements can bring this Soldier Psychopomp into play; A Bone to Pick improves it against wounded enemies."
+            },
+            {
+              "page": 118,
+              "reason": "Conductor grants a boosted Psychopomp action and Summon an Encore returns it after death."
+            },
+            {
+              "page": 107,
+              "reason": "Necrotic Salve heals it; Reanimate sustains the starting Soldier core."
+            }
+          ]
+        }
+      }
+    },
+    "100": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use the Musician's debuffs through a Psychopomp action engine and ranged follow-up.",
+          "partners": [
+            {
+              "page": 118,
+              "reason": "Summon the Choir brings this Musician into play; Conductor improves its Arcane action."
+            },
+            {
+              "page": 108,
+              "reason": "Summon Reinforcements can also summon a Soldier Psychopomp and rewards wounded targets."
+            },
+            {
+              "page": 106,
+              "reason": "Ranged crossbow pressure capitalises on debuffed opponents; a friendly death can trigger a free shot."
+            }
+          ]
+        }
+      }
+    },
+    "101": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use a Familiar to improve a supported resurrection-and-combat engine.",
+          "partners": [
+            {
+              "page": 107,
+              "reason": "Summon a Helping Hand brings this Familiar into play; Forbidden Tome improves the summoner's Arcane."
+            },
+            {
+              "page": 108,
+              "reason": "Share the Knowledge improves Negroli's Arcane and the Noble supplies melee pressure."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern and Keep 'em Fresh improve the resurrection engine's position and returned wounds."
+            }
+          ]
+        }
+      }
+    },
+    "102": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Light up enemy targets for a supported Soldier firing-and-melee core.",
+          "partners": [
+            {
+              "page": 107,
+              "reason": "Summon a Helping Hand brings this Familiar into play and Necrotic Salve sustains it."
+            },
+            {
+              "page": 106,
+              "reason": "Lampy's Light increases enemy Evade for Ancient Crossbow attacks."
+            },
+            {
+              "page": 108,
+              "reason": "Lampy's Light also helps ranged attacks while Negroli supplies strong melee and Soldier buffs."
+            }
+          ]
+        }
+      }
+    },
+    "103": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Create water for the Aquatic summon and build a resilient water-based core.",
+          "partners": [
+            {
+              "page": 114,
+              "reason": "Summon from the Depths brings Jeremy into play and Torrential Surge enables Splashy Fury."
+            },
+            {
+              "page": 123,
+              "reason": "Rise From the Deep and Bedeviled Seas benefit from Sen'Ara's water; Barnakelle adds durable melee."
+            },
+            {
+              "page": 125,
+              "reason": "Gone Fishin' improves near water and Cheepaky supplies healing and displacement."
+            }
+          ]
+        }
+      }
+    },
+    "104": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use a Food summon to sustain a wound-paying heavy hitter in a resurrection core.",
+          "partners": [
+            {
+              "page": 117,
+              "reason": "Summon Intermission Snacks brings Teacake into play on deployment."
+            },
+            {
+              "page": 105,
+              "reason": "Eat Me restores wounds paid to Fleeting Presence, preserving the King's action engine."
+            },
+            {
+              "page": 107,
+              "reason": "Necrotic Salve adds sustain and Greymair can resurrect Jerry; the King cannot enter via Reanimate."
+            }
+          ]
+        }
+      }
+    },
+    "105": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Keep the wound-paying King healthy while providing ranged cover and resurrection for allies.",
+          "partners": [
+            {
+              "page": 110,
+              "reason": "Eternal Servitude restores Elrich wounds or gives energy; Igor can summon the King only in Shades when it is absent."
+            },
+            {
+              "page": 119,
+              "reason": "Milkies heals and gives energy while Nanny supplies a durable supporting model."
+            },
+            {
+              "page": 106,
+              "reason": "Ancient Crossbow adds reach and friendly deaths can trigger a free follow-up shot."
+            }
+          ]
+        }
+      }
+    },
+    "106": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Pair ranged attrition with Soldier buffs, resurrection and a summon-action engine.",
+          "partners": [
+            {
+              "page": 108,
+              "reason": "A Bone to Pick improves Serif against wounded enemies and Negroli summons Soldiers."
+            },
+            {
+              "page": 107,
+              "reason": "Reanimate returns Serif; Necrotic Salve supports a Risen Soldier after friendly deaths."
+            },
+            {
+              "page": 118,
+              "reason": "Psychopomp deaths and replacements can enable A Skele-tonne of Bolts's free shot."
+            }
+          ]
+        }
+      }
+    },
+    "107": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Strengthen resurrection with placement, returned health and a Soldier attacker.",
+          "partners": [
+            {
+              "page": 111,
+              "reason": "Guiding Lantern redirects resurrection placement and Keep 'em Fresh improves returned wounds."
+            },
+            {
+              "page": 108,
+              "reason": "Necrotic Salve gives a Noble or Risen energy after a friendly death; Negroli supplies melee."
+            },
+            {
+              "page": 106,
+              "reason": "Drain Life can sacrifice this Risen and trigger its free-shot passive before a boosted resurrection."
+            }
+          ]
+        }
+      }
+    },
+    "108": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use ranged chip damage to enable Soldier bonuses and sustain a melee leader.",
+          "partners": [
+            {
+              "page": 106,
+              "reason": "Ancient Crossbow wounds enemies to enable A Bone to Pick with You."
+            },
+            {
+              "page": 107,
+              "reason": "Reanimate returns Negroli and Necrotic Salve refuels this Noble Risen after a friendly death."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern and Keep 'em Fresh improve Negroli's resurrection placement and health."
+            }
+          ]
+        }
+      }
+    },
+    "109": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use friendly deaths to enable armour-ignoring Giant melee, with resurrection and shooting.",
+          "partners": [
+            {
+              "page": 107,
+              "reason": "Drain Life enables Frostbite's death condition and Reanimate can restore Angerboda."
+            },
+            {
+              "page": 108,
+              "reason": "A Bone to Pick improves Angerboda's Risen and Soldier attacks against wounded targets."
+            },
+            {
+              "page": 106,
+              "reason": "Ancient Crossbow wounds enemies before the melee group engages."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Refuel and support a Norse Giant while another model collects objectives.",
+          "partners": [
+            {
+              "page": 45,
+              "reason": "Epic Ballads grants another Giant energy and Brunhilde adds a second front-line attacker."
+            },
+            {
+              "page": 89,
+              "reason": "Reading the Runes can protect a Norse model and supplies healing."
+            },
+            {
+              "page": 12,
+              "reason": "Miner covers deep stones while the Giants spend energy on combat."
+            }
+          ]
+        }
+      }
+    },
+    "110": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Support a Noble fighter while strengthening resurrection placement and returned health.",
+          "partners": [
+            {
+              "page": 108,
+              "reason": "Eternal Servitude heals or refuels this Noble and Negroli supplies melee."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern and Keep 'em Fresh improve Igor's Reanimate results."
+            },
+            {
+              "page": 113,
+              "reason": "Another Reanimate user supplies Spirit support through Resonance and Blink."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Support Noble energy and wounds within a protected resurrection-and-harvesting core.",
+          "partners": [
+            {
+              "page": 81,
+              "reason": "Eternal Servitude supports the Duchess's Human and Noble keywords."
+            },
+            {
+              "page": 28,
+              "reason": "Bodyguard protects the Duchess and the Giant adds durable melee."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern and Keep 'em Fresh improve Igor's Reanimate results; Gravedigger covers deep stones."
+            }
+          ]
+        }
+      }
+    },
+    "111": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use improved resurrection placement around a Soldier fighter and shooter.",
+          "partners": [
+            {
+              "page": 107,
+              "reason": "Reanimate benefits from Guiding Lantern and Keep 'em Fresh."
+            },
+            {
+              "page": 108,
+              "reason": "A Risen front-line fighter receives extra returned wounds and supplies Soldier buffs."
+            },
+            {
+              "page": 106,
+              "reason": "A Risen shooter receives extra returned wounds and covers Viktor's harvesting."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Improve a repeatable Jobie resurrection engine beside protected Goblin carriers.",
+          "partners": [
+            {
+              "page": 49,
+              "reason": "Reanimate and Reanimate Jobie benefit from Guiding Lantern and Keep 'em Fresh."
+            },
+            {
+              "page": 96,
+              "reason": "Jobie's self-sacrificing stone collection benefits from alternative resurrection placement."
+            },
+            {
+              "page": 98,
+              "reason": "Goblin City Guard protects Goblin carriers and Secret Stash holds stones safely."
+            }
+          ]
+        }
+      }
+    },
+    "112": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Anchor a resurrection-supported Soldier core with melee suppression and energy theft.",
+          "partners": [
+            {
+              "page": 107,
+              "reason": "Reanimate returns the Viscount and Necrotic Salve supports a Noble Risen."
+            },
+            {
+              "page": 108,
+              "reason": "A Bone to Pick improves the Viscount's Risen attacks against wounded enemies."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern and Keep 'em Fresh improve this large Risen's return; Gravedigger covers stones."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Use a Noble Risen anchor beside keyword support, resurrection and harvesting.",
+          "partners": [
+            {
+              "page": 110,
+              "reason": "Eternal Servitude heals or refuels the Noble and Reanimate returns the Viscount."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern and Keep 'em Fresh improve this Risen's return; Gravedigger handles stones."
+            },
+            {
+              "page": 81,
+              "reason": "Succubus restores the Viscount's wounds and energy while adding magical pressure."
+            }
+          ]
+        }
+      }
+    },
+    "113": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Support a Spirit combat-and-water core while a harvester covers objectives.",
+          "partners": [
+            {
+              "page": 116,
+              "reason": "Resonance and Blink support Abra's Spirit keyword; Abra adds melee and resurrection."
+            },
+            {
+              "page": 114,
+              "reason": "Resonance protects Sen'Ara's casting and Blink helps reposition the slow Merfolk."
+            },
+            {
+              "page": 111,
+              "reason": "Gravedigger covers deep stones and improves both Spirit reanimators' returns."
+            }
+          ]
+        }
+      }
+    },
+    "114": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Create water for durable resurrection and supported Pirate shooting.",
+          "partners": [
+            {
+              "page": 123,
+              "reason": "Bedeviled Seas gains energy near created water and Rise From the Deep improves returns in it."
+            },
+            {
+              "page": 125,
+              "reason": "Gone Fishin' gains Arcane near water and Cheepaky adds healing."
+            },
+            {
+              "page": 124,
+              "reason": "Pirate curses improve the group's Pirate Arcane targeting and Commodore adds pistol fire."
+            }
+          ]
+        }
+      }
+    },
+    "115": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Halve a target's remaining wounds, then finish it with Spirit-supported attacks.",
+          "partners": [
+            {
+              "page": 61,
+              "reason": "Conductor improves Morag's Spirit Arcane and Leshavit's Caress protects her."
+            },
+            {
+              "page": 38,
+              "reason": "Hunting Ritual lowers targets into Mercy Kill's low-health damage bonus."
+            },
+            {
+              "page": 73,
+              "reason": "Burrowing Claws supplies efficient objectives while Morag and Jayda pressure fighters."
+            }
+          ]
+        },
+        "Shades": {
+          "plan": "Combine wound-halving with wounded-target bonuses and Spirit protection.",
+          "partners": [
+            {
+              "page": 108,
+              "reason": "Hunting Ritual wounds enemies to enable A Bone to Pick for Negroli's attacks."
+            },
+            {
+              "page": 113,
+              "reason": "Resonance and Blink protect and reposition Morag's Spirit form."
+            },
+            {
+              "page": 111,
+              "reason": "Gravedigger handles objectives while Morag and Negroli target enemy fighters."
+            }
+          ]
+        }
+      }
+    },
+    "116": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Strengthen melee-driven summoning with Spirit protection, sustain and resurrection placement.",
+          "partners": [
+            {
+              "page": 113,
+              "reason": "Resonance and Blink support Abra's Spirit attacks and defensive movement."
+            },
+            {
+              "page": 119,
+              "reason": "Milkies heals or refuels Abra and Nanny adds a second Psychopomp source."
+            },
+            {
+              "page": 111,
+              "reason": "Guiding Lantern and Keep 'em Fresh improve Abra's resurrection engine and Gravedigger covers stones."
+            }
+          ]
+        }
+      }
+    },
+    "117": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use forced end-turn movement beside Spirit protection, a damage engine and objective collection.",
+          "partners": [
+            {
+              "page": 113,
+              "reason": "Resonance and Blink improve Jerry's Spirit defence and movement."
+            },
+            {
+              "page": 116,
+              "reason": "Abra adds melee and resurrection; Jerry's Food summon can heal wound-paying allies."
+            },
+            {
+              "page": 111,
+              "reason": "Gravedigger collects stones while Jerry controls carriers with Stage Fright."
+            }
+          ]
+        }
+      }
+    },
+    "118": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Bring several Psychopomp sources to improve Conductor and recycling options.",
+          "partners": [
+            {
+              "page": 108,
+              "reason": "Summon Reinforcements adds Soldier Psychopomps to Conductor's count."
+            },
+            {
+              "page": 119,
+              "reason": "Summon the Nursery adds Babelings and Milkies sustains Roary."
+            },
+            {
+              "page": 116,
+              "reason": "Fashion from Flesh can add any Psychopomp and Abra provides melee and resurrection."
+            }
+          ]
+        }
+      }
+    },
+    "119": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Build a durable nursery core with Risen bonuses, resurrection and objective support.",
+          "partners": [
+            {
+              "page": 107,
+              "reason": "Reanimate returns Nanny and Necrotic Salve supports her Risen keyword."
+            },
+            {
+              "page": 108,
+              "reason": "A Bone to Pick improves Nanny's Risen attacks and adds Soldier summons."
+            },
+            {
+              "page": 111,
+              "reason": "Keep 'em Fresh adds returned Risen wounds and Gravedigger covers deep stones."
+            }
+          ]
+        }
+      }
+    },
+    "120": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Summon the Babeling into a nursery core and exploit its wound action with Risen follow-up.",
+          "partners": [
+            {
+              "page": 119,
+              "reason": "Summon the Nursery brings Urchin into play; Urchin also contributes to Nanny's damage reduction."
+            },
+            {
+              "page": 118,
+              "reason": "Conductor gives Urchin a boosted action and Encore can replace a slain Psychopomp."
+            },
+            {
+              "page": 108,
+              "reason": "He Hit Me wounds an enemy to enable A Bone to Pick for the Soldier and Risen core."
+            }
+          ]
+        }
+      }
+    },
+    "121": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Summon the Babeling and turn displacement into safe nursery and objective play.",
+          "partners": [
+            {
+              "page": 119,
+              "reason": "Summon the Nursery brings Sprog into play; Sprog reduces damage suffered by nearby Nanny."
+            },
+            {
+              "page": 118,
+              "reason": "Conductor grants Sprog an action and Psychopomp Parade repositions it."
+            },
+            {
+              "page": 111,
+              "reason": "Gravedigger collects stones exposed by He Pushed Me and supports resurrected allies."
+            }
+          ]
+        }
+      }
+    },
+    "122": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Summon the Babeling into a protected nursery and use debuffs ahead of Spirit melee.",
+          "partners": [
+            {
+              "page": 119,
+              "reason": "Summon the Nursery brings Pookie into play; Pookie reduces Nanny's incoming damage."
+            },
+            {
+              "page": 118,
+              "reason": "Conductor grants Pookie an action and improves the Psychopomp's stats."
+            },
+            {
+              "page": 116,
+              "reason": "Abra supplies melee and resurrection while benefiting from debuffed opponents."
+            }
+          ]
+        }
+      }
+    },
+    "123": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Enable water-based energy and improve resurrection with Pirate shooting support.",
+          "partners": [
+            {
+              "page": 114,
+              "reason": "Torrential Surge supplies water for Bedeviled Seas and Rise From the Deep."
+            },
+            {
+              "page": 125,
+              "reason": "Gone Fishin' gains Arcane near water and Cheepaky adds healing."
+            },
+            {
+              "page": 124,
+              "reason": "The Black Spot improves Pirate Arcane targeting while Commodore adds pistol pressure."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Use water interactions to refuel a durable Troll resurrection and Pirate support core.",
+          "partners": [
+            {
+              "page": 137,
+              "reason": "Wetland Wallower enables nearby water interactions, including Bedeviled Seas and Rise From the Deep."
+            },
+            {
+              "page": 125,
+              "reason": "Gone Fishin' improves near water and Cheepaky adds healing."
+            },
+            {
+              "page": 85,
+              "reason": "Dead Troll's Finger refuels Swash's Pirate attacks; Reanimate can return him after death."
+            }
+          ]
+        }
+      }
+    },
+    "124": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use Pirate curses and pistol coordination within a water-based resurrection group.",
+          "partners": [
+            {
+              "page": 123,
+              "reason": "Reanimate and Dead Troll's Finger sustain Pirate allies; water benefits the Troll."
+            },
+            {
+              "page": 125,
+              "reason": "Stocked to the Gills reloads Commodore without energy and Gone Fishin' provides healing."
+            },
+            {
+              "page": 114,
+              "reason": "Torrential Surge supplies water and Siren Song controls carriers around the Pirate group."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Support a Pirate pistol group with free reloads, movement and melee bonuses.",
+          "partners": [
+            {
+              "page": 125,
+              "reason": "Stocked to the Gills reloads Commodore without energy and another Reload Pirate strengthens 21 Ghoul Salute."
+            },
+            {
+              "page": 85,
+              "reason": "The Black Spot improves Swash's pistol targeting and Commodore supports Pirate movement."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot improves the group's melee or Evade and Swig o' Rum supplies healing."
+            }
+          ]
+        }
+      }
+    },
+    "125": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Support Pirate reloads while water improves healing and resurrection.",
+          "partners": [
+            {
+              "page": 124,
+              "reason": "Stocked to the Gills reloads the pistol; another Reload Pirate also strengthens 21 Ghoul Salute."
+            },
+            {
+              "page": 126,
+              "reason": "Stocked to the Gills reloads Faerie Fire Pistol and Brigid adds magical shooting."
+            },
+            {
+              "page": 123,
+              "reason": "Dead Troll's Finger refuels Cheepaky's Pirate keyword and Reanimate sustains the group."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Reload Pirate pistols without energy while sustaining an attacker and curse caster.",
+          "partners": [
+            {
+              "page": 124,
+              "reason": "Stocked to the Gills reloads Commodore without spending his energy, leaving more for curses and shooting."
+            },
+            {
+              "page": 85,
+              "reason": "Stocked to the Gills reloads Swash's pistol so he can spend energy attacking."
+            },
+            {
+              "page": 86,
+              "reason": "Pirate Mascot supports Cheepaky and Swash; Swig o' Rum adds healing."
+            }
+          ]
+        }
+      }
+    },
+    "126": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Use cheap Pirate reloads and fallen allies' spells beside water-based resurrection.",
+          "partners": [
+            {
+              "page": 125,
+              "reason": "Stocked to the Gills reloads Brigid's pistol without energy and supplies healing."
+            },
+            {
+              "page": 123,
+              "reason": "Dead Troll's Finger refuels a Pirate and Barnakelle's spells remain options for Spirits of the Fallen when slain."
+            },
+            {
+              "page": 124,
+              "reason": "The Black Spot improves Pirate Arcane targeting and Commodore adds pistol pressure."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Support Faerie Pirate shooting with free reloads, corpse spells and ordinary harvesting.",
+          "partners": [
+            {
+              "page": 125,
+              "reason": "Stocked to the Gills reloads Faerie Fire Pistol without energy and Gone Fishin' supplies Healing."
+            },
+            {
+              "page": 123,
+              "reason": "Dead Troll's Finger refuels Brigid's Pirate keyword and Reanimate returns slain allies."
+            },
+            {
+              "page": 83,
+              "reason": "Claudia supplies direct Robbery without a Harvest tax; her pistol is an option for Spirits of the Fallen when slain."
+            }
+          ]
+        }
+      }
+    },
+    "127": {
+      "default_faction": "Shades",
+      "by_faction": {
+        "Shades": {
+          "plan": "Layer Discard-Step wounds and Spirit support around an objective collector.",
+          "partners": [
+            {
+              "page": 113,
+              "reason": "Horror's Discard-Step wounds can feed Leech and Resonance protects Banshee's Spirit casting."
+            },
+            {
+              "page": 124,
+              "reason": "The Black Spot's Discard-Step wound can feed Leech and Commodore adds ranged pressure."
+            },
+            {
+              "page": 111,
+              "reason": "Gravedigger secures stones dropped by Ghastly Scream while Banshee spends energy on control."
+            }
+          ]
+        },
+        "Dominion": {
+          "plan": "Use Bleed to improve Faerie targeting and combine energy theft with objective collection.",
+          "partners": [
+            {
+              "page": 55,
+              "reason": "Weeping Miasma improves Faerie Arcane targeting against bleeding enemies; Feed on Fear supplies Faerie energy."
+            },
+            {
+              "page": 23,
+              "reason": "Healing sustains Banshee and ranged attacks benefit from Weeping Miasma's Evade effect."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert is a Faerie without Weakling, providing ordinary harvesting and cover."
+            }
+          ]
+        }
+      }
+    },
+    "128": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Use Perfect Form and reaction energy support on Faerie melee, with healing and ordinary harvesting.",
+          "partners": [
+            {
+              "page": 24,
+              "reason": "Perfect Form helps the Fencer choose a better melee card and Dance in Concert pays an engaged reaction."
+            },
+            {
+              "page": 23,
+              "reason": "Healing sustains the Faeries and Fraya supplies ranged disruption."
+            },
+            {
+              "page": 50,
+              "reason": "Herbert harvests without Weakling and creates wooded cover for the group."
+            }
+          ]
+        }
+      }
+    },
+    "129": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Apply Weakling, empty enemy energy and exploit increased enemy Evade in melee.",
+          "partners": [
+            {
+              "page": 25,
+              "reason": "Clumsy Cluts applies Weakling to trigger Sedatives and enable Sleepy Time's follow-up."
+            },
+            {
+              "page": 82,
+              "reason": "Victimise raises enemy Evade to improve The Bigger They Are; Incubus sustains Dentia."
+            },
+            {
+              "page": 29,
+              "reason": "Stone Song assists deep stones and Boulder provides durable harvesting without Weakling."
+            }
+          ]
+        }
+      }
+    },
+    "130": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Complete the Faculty and add a Rogue objective thief to exploit shared support.",
+          "partners": [
+            {
+              "page": 131,
+              "reason": "Completes the Faculty alongside Flinders and supplies discounted Animal healing and protection."
+            },
+            {
+              "page": 132,
+              "reason": "Completes the Faculty, enabling shared Machine redraws and Overclock actions."
+            },
+            {
+              "page": 41,
+              "reason": "Prognostication and Wily Old Weasel support this Rogue; Honour Amongst Thieves raises Faculty Rogue Arcane when all three are present."
+            }
+          ]
+        }
+      }
+    },
+    "131": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Complete the Faculty and add an Animal harvester to receive conservation and healing.",
+          "partners": [
+            {
+              "page": 130,
+              "reason": "Completes the Faculty and supplies hand information and Rogue Arcane discounts."
+            },
+            {
+              "page": 132,
+              "reason": "Completes the Faculty, enabling Machine redraws and Overclock support."
+            },
+            {
+              "page": 73,
+              "reason": "Explorer's Handbook discounts healing a wounded Animal and Conservation protects this deep-stone collector."
+            }
+          ]
+        }
+      }
+    },
+    "132": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Complete the Faculty and add a Reload shooter to exploit Augments and redraws.",
+          "partners": [
+            {
+              "page": 130,
+              "reason": "Completes the Faculty and discounts Rogue Arcane actions once the Faculty keywords are gained."
+            },
+            {
+              "page": 131,
+              "reason": "Completes the Faculty and repairs wounds paid for Machine redraws and Overclock."
+            },
+            {
+              "page": 3,
+              "reason": "Augments makes Flintlock a Machine, enabling redraws and free 2-energy Reload through Overclock."
+            }
+          ]
+        }
+      }
+    },
+    "133": {
+      "default_faction": "Commonwealth",
+      "by_faction": {
+        "Commonwealth": {
+          "plan": "Boost mobile Human attacks while preserving healing and efficient harvesting.",
+          "partners": [
+            {
+              "page": 4,
+              "reason": "Foresight improves Blunderbuss and Healing sustains Matilda."
+            },
+            {
+              "page": 6,
+              "reason": "Deutsche Courage rewards a Mercenary melee attack and Drink Your Fill adds energy or melee."
+            },
+            {
+              "page": 12,
+              "reason": "Miner secures deep stones while Matilda uses Boingy and Astrazan Tactics for combat."
+            }
+          ]
+        }
+      }
+    },
+    "134": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Exploit movement flips and Goblin sustain around a mobile melee Animal.",
+          "partners": [
+            {
+              "page": 135,
+              "reason": "Clutter Chaos converts qualifying catastrophe wounds into energy; Priceless Treasures moves, heals or refuels this Goblin Animal."
+            },
+            {
+              "page": 136,
+              "reason": "Gribblebog Grub supports Animals and Stilts Kim supplies movement support."
+            },
+            {
+              "page": 137,
+              "reason": "Goblin Mayhem can turn qualifying Goblin flips into catastrophes for Clutter Chaos; Syril supplies Healing."
+            }
+          ]
+        }
+      }
+    },
+    "135": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Build a Goblin Animal flip engine with energy from qualifying catastrophe wounds.",
+          "partners": [
+            {
+              "page": 136,
+              "reason": "Stilt Walker's flip can interact with Clutter Chaos and Goblin Mayhem; Gribblebog Grub supports Animals."
+            },
+            {
+              "page": 134,
+              "reason": "Branch Hopper's flip can interact with Clutter Chaos and Goblin Mayhem; Bejiminy adds melee."
+            },
+            {
+              "page": 137,
+              "reason": "Goblin Mayhem chooses a catastrophe on a qualifying Goblin flip once per turn; Healing repairs the wounds."
+            }
+          ]
+        }
+      }
+    },
+    "136": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Combine outside-action flips with catastrophe-to-energy support and Animal melee.",
+          "partners": [
+            {
+              "page": 135,
+              "reason": "Clutter Chaos converts qualifying Stilt Walker catastrophe wounds to energy; Priceless Treasures heals or moves Kim."
+            },
+            {
+              "page": 137,
+              "reason": "Goblin Mayhem can choose a qualifying Stilt Walker catastrophe and Wetland Wallower supports water interactions."
+            },
+            {
+              "page": 134,
+              "reason": "Gribblebog Grub supports this Animal's movement, healing and energy; Bejiminy adds melee."
+            }
+          ]
+        }
+      }
+    },
+    "137": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Combine Goblin flip interactions with water-enabled Troll energy and healing.",
+          "partners": [
+            {
+              "page": 135,
+              "reason": "Clutter Chaos can convert qualifying catastrophe wounds from Goblin Mayhem into energy."
+            },
+            {
+              "page": 136,
+              "reason": "Stilt Walker and Gribblebog Grub provide outside-action flips for the Goblin engine."
+            },
+            {
+              "page": 46,
+              "reason": "Wetland Wallower enables Amphibious energy and Bristlenose adds durable melee without a Harvest tax."
+            }
+          ]
+        }
+      }
+    },
+    "138": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use Rogue movement and stolen-stone healing with Cultist support and a nearby Giant.",
+          "partners": [
+            {
+              "page": 141,
+              "reason": "Lesh Misérables rewards Skuggi's theft; Fiddler on the Roof moves this Rogue 2 inches."
+            },
+            {
+              "page": 60,
+              "reason": "Lesh Misérables and Rogue movement support Kavanagh; Juggling Fate helps the group's Arcane plans."
+            },
+            {
+              "page": 62,
+              "reason": "Summoned Pickles can give a nearby Giant energy; Loubard adds melee reach and stays near allies for Blind Faith."
+            }
+          ]
+        }
+      }
+    },
+    "139": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Select Streatham to summon Pickles, then support theft and feed a nearby Giant.",
+          "partners": [
+            {
+              "page": 138,
+              "reason": "Required named summoner; Purrloin transfers a stone collected by Pickles."
+            },
+            {
+              "page": 62,
+              "reason": "Giant Hugs for Pickles gives Loubard energy when positioned within 2 inches."
+            },
+            {
+              "page": 141,
+              "reason": "Streatham supports this Rogue's stolen-stone healing and movement; Skuggi adds a melee thief."
+            }
+          ]
+        }
+      }
+    },
+    "140": {
+      "default_faction": "Dominion",
+      "by_faction": {
+        "Dominion": {
+          "plan": "Refuel a Rogue group while improving Arcane stats and enemy-carrier theft.",
+          "partners": [
+            {
+              "page": 41,
+              "reason": "Honour Amongst Thieves improves Nancy's Arcane and Robbery contests enemy stones."
+            },
+            {
+              "page": 56,
+              "reason": "Streetwise Swindler refuels this Rogue and Faerie Tricks swaps Rogue positions."
+            },
+            {
+              "page": 83,
+              "reason": "Streetwise Swindler heals Claudia for Robbery or refuels her pistol and theft actions."
+            }
+          ]
+        }
+      }
+    },
+    "141": {
+      "default_faction": "Leshavult",
+      "by_faction": {
+        "Leshavult": {
+          "plan": "Use set-aside cards to repeat Trick Knives while supporting Rogue theft and movement.",
+          "partners": [
+            {
+              "page": 60,
+              "reason": "Juggling Fate provides a banked card for Trick Knives; Midnight Miscreants discounts its first turn-one use."
+            },
+            {
+              "page": 138,
+              "reason": "Lesh Misérables heals Skuggi after theft and Fiddler on the Roof moves a Rogue further."
+            },
+            {
+              "page": 61,
+              "reason": "Conductor boosts Skuggi's Cultist Arcane and Leshavit's Caress heals and protects him."
+            }
+          ]
+        }
+      }
+    }
+  }
+}
