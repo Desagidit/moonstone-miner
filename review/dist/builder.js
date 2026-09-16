@@ -1,4 +1,8 @@
 const L=TeamLogic,$=id=>document.getElementById(id),clone=v=>JSON.parse(JSON.stringify(v));
+const displayKey='moonstone-display-v1';
+function applyDisplay(){const choice=$('display-size').value,width=window.innerWidth,scale=choice==='compact'?.85:choice==='large'?1.4:choice==='comfortable'?1:width>=3200?1.6:width>=2200?1.25:1,effective=width/scale;document.body.style.setProperty('--display-scale',scale);document.body.setAttribute('data-layout',effective<=720?'mobile':effective<=1100?'tablet':'desktop');document.body.setAttribute('data-wide',String(effective>1800))}
+try{const saved=localStorage.getItem(displayKey);$('display-size').value=['auto','compact','comfortable','large'].includes(saved)?saved:'auto'}catch{$('display-size').value='auto'}
+$('display-size').onchange=()=>{applyDisplay();try{localStorage.setItem(displayKey,$('display-size').value)}catch{}};window.addEventListener('resize',applyDisplay);applyDisplay();
 let cards=[],focus=null,teamIds=[],filterSettings={},visits=[],visitIndex=-1,savedTroupes=[],activeTroupeId=null,troupeName='New troupe',favouriteIds=new Set(),draggedMemberId=null,factionQuickFilter=false;
 const fields={favourite:'Favourite',keyword:'Keyword',keyword2:'Keyword 2',tag:'Tags',faction:'Faction',eligibility:'Summon',melee:'Melee',arcane:'Arcane',evade:'Evade',range:'Melee range',hp:'Health',energy:'Energy',base:'Base size'};
 const tagDescriptions={Healer:'Can heal or restore wounds.',Tank:'Has at least 8 health.',Energetic:'Has at least 4 energy.',Blue:'Has a blue arcane action.',Green:'Has a green arcane action.',Red:'Has a red arcane action.',Shover:'Has an action, arcane action or passive that moves another character.',Woodland:'Creates or interacts with wood tiles.',Wet:'Creates or interacts with water tiles.'};
