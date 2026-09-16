@@ -13,6 +13,14 @@ class GuideTests(unittest.TestCase):
   self.assertEqual(result,json.loads((DATA/'character-guides.json').read_text(encoding='utf-8')))
   self.assertEqual(result['character_count'],141)
   self.assertTrue(all(c.get('strategy_guide') for c in self.cards))
+ def test_ratings_coverage_and_duplicate_cards(self):
+  for c in self.cards:
+   self.assertEqual(set(c['troupe_metrics']),{'Tank','Damage','Support','Moonstone','Complexity','Range'})
+   self.assertTrue(all(isinstance(v,int) and 0<=v<=5 for v in c['troupe_metrics'].values()))
+  self.assertEqual(self.by_page[64]['troupe_metrics'],self.by_page[65]['troupe_metrics'])
+  self.assertEqual(self.by_page[65]['troupe_metrics'],self.by_page[66]['troupe_metrics'])
+  changed=attach_guides(copy.deepcopy(self.cards),'new-source')
+  self.assertTrue(all('troupe_metrics' not in c for c in changed))
  def test_named_summons_and_transformations(self):
   self.assertEqual(self.by_page[138]['summons'][0]['character_ids'],[self.by_page[139]['id']])
   self.assertEqual(self.by_page[139]['summoned_by'][0]['character_ids'],[self.by_page[138]['id']])

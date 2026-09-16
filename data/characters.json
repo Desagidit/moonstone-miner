@@ -205,6 +205,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 1,
+      "Range": 4
     }
   },
   {
@@ -444,6 +452,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 2
     }
   },
   {
@@ -689,6 +705,14 @@
       "needs": "Movement control keeps targets visible; Calders or Quack can support reliability and sustain.",
       "caution": "Engagement disrupts the shooting cycle. Spending everything on a shot leaves little for repositioning.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 5
     }
   },
   {
@@ -933,6 +957,14 @@
       "needs": "A frontline screen buys casting space; ranged allies benefit from his arcane support.",
       "caution": "Weakling makes prolonged melee a poor job for him. Healing cannot rescue a model already slain.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -1170,6 +1202,14 @@
       "needs": "Friendly movement and healing help him reach meaningful fights without burning his action budget.",
       "caution": "His sweeping effects can threaten friendly models. Plan spacing before committing to a crowded fight.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 2
     }
   },
   {
@@ -1424,6 +1464,14 @@
       "needs": "Soldiers or Mercenaries make her support relevant; a dedicated collector frees the group to contest.",
       "caution": "Drink-related stat changes can compromise a caster. Do not hand out a buff without checking its tradeoff.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 4
     }
   },
   {
@@ -1673,6 +1721,14 @@
       "needs": "Human allies exploit his support; a faster collector and a major damage dealer cover his slower utility role.",
       "caution": "His damage resistance is selective. Preserve enough energy for healing rather than chasing every melee opportunity.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 4
     }
   },
   {
@@ -1927,6 +1983,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 4
     }
   },
   {
@@ -2182,6 +2246,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 5
     }
   },
   {
@@ -2428,6 +2500,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 3,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -2672,6 +2752,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 1
     }
   },
   {
@@ -2926,6 +3014,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 2,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 2,
+      "Range": 4
     }
   },
   {
@@ -3188,6 +3284,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 5
     }
   },
   {
@@ -3447,6 +3551,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 5,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -3704,6 +3816,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 4,
+      "Complexity": 2,
+      "Range": 3
     }
   },
   {
@@ -3955,6 +4075,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 4
     }
   },
   {
@@ -4206,6 +4334,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -4477,6 +4613,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -4721,6 +4865,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 3
     }
   },
   {
@@ -4965,6 +5117,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -5190,6 +5350,14 @@
       "needs": "Energy support extends his activation and a healer repairs failed engagements.",
       "caution": "Wyrm Hole drops carried stones. Herbert's Evolution rule prevents taking both in the same starting troupe.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 2,
+      "Moonstone": 5,
+      "Complexity": 2,
+      "Range": 1
     }
   },
   {
@@ -5434,6 +5602,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -5684,6 +5860,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -5939,6 +6123,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 2
     }
   },
   {
@@ -6182,6 +6374,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -6437,6 +6637,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -6692,6 +6900,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -6978,6 +7194,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 1,
+      "Complexity": 2,
+      "Range": 2
     }
   },
   {
@@ -7233,6 +7457,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 3
     }
   },
   {
@@ -7479,6 +7711,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -7729,6 +7969,14 @@
       "needs": "Rogue support improves his arcane; a frontliner and healer let him keep distance.",
       "caution": "His Evade depends on the surrounding situation. Weakling and a small wound pool punish unsupported combat.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 2,
+      "Moonstone": 5,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -7973,6 +8221,14 @@
       "needs": "Human or Faun allies exploit her hunting support; healing keeps her operating near the fight.",
       "caution": "Natural Order can hurt friendly high-energy models too. Check the area before pairing her with energetic allies.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 3
     }
   },
   {
@@ -8226,6 +8482,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 3
     }
   },
   {
@@ -8479,6 +8743,14 @@
       "needs": "Soldiers and Nobles use his healing, while ranged allies appreciate catastrophe protection.",
       "caution": "Field Medic is useful recovery, but does not replace a full healer in a damage-heavy game.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -8725,6 +8997,14 @@
       "needs": "A threatening attacker makes the energy meaningful; a collector prevents utility activations from neglecting scoring.",
       "caution": "She starts with little energy herself. Maintain safe reach instead of letting the support role become a melee obligation.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -8965,6 +9245,14 @@
       "needs": "Soldier support improves his pressure and healing replenishes the wounds spent supporting allies.",
       "caution": "Utter Swine costs friendly wounds. Spend them only when removing the enemy action changes the turn.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 3
     }
   },
   {
@@ -9245,6 +9533,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -9512,6 +9808,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -9786,6 +10090,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -10023,6 +10335,14 @@
       "needs": "Mama and Norse allies sustain a compact group; wood access makes her terrain tricks practical.",
       "caution": "Her protection has a cap. Do not plan a terrain-dependent cast without checking the necessary wood position.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 5
     }
   },
   {
@@ -10305,6 +10625,14 @@
       "needs": "Compatible Rogues convert his aura into reliable casts; a healer supports close-range theft attempts.",
       "caution": "Robbery depends on its wound comparison. Soften the intended victim rather than assuming every carrier is stealable.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -10555,6 +10883,14 @@
       "needs": "Gnome healing and Norse support preserve his resources; terrain-aware allies avoid obstructing his route.",
       "caution": "Deck-flip defence is uncertain. Keep a safe destination instead of treating a possible escape as guaranteed.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -10800,6 +11136,14 @@
       "needs": "Mama supports arcane reliability and a specialist harvester compensates for the airship's inability to score directly.",
       "caution": "It cannot harvest or use cover normally. Its good mobility does not protect it from accurate ranged attacks.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -11083,6 +11427,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 4,
+      "Range": 1
     }
   },
   {
@@ -11337,6 +11689,14 @@
       "needs": "A compatible Noble triggers protection, while another Giant makes the energy support more efficient.",
       "caution": "Epic Ballads also grants energy to enemy Giants in the pulse. Check nearby enemies before funding the whole Giant crowd.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 5,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -11593,6 +11953,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 2
     }
   },
   {
@@ -11847,6 +12215,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -12091,6 +12467,14 @@
       "needs": "Several Goblins make his protection practical; healing and mobile collectors support the scoring plan.",
       "caution": "Rule the Roost wounds the target Goblin, rather than the King. Choose an ally that survives the cost and gains from another activation.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -12348,6 +12732,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -12592,6 +12984,14 @@
       "needs": "Goblin energy support or Faerie tools both suit him; healing repairs an exposed caster.",
       "caution": "Evolution excludes Grub from the starting troupe. Wood placement must preserve useful routes and line of sight.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -12850,6 +13250,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -13094,6 +13502,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -13372,6 +13788,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -13615,6 +14039,14 @@
       "needs": "Goblin energy and healing support improve uptime; real harvesters cover his inability to collect stones.",
       "caution": "The tongue has an Evade restriction. He also cannot rely on ordinary cover to survive enemy shooting.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -13865,6 +14297,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -14110,6 +14550,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -14344,6 +14792,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -14589,6 +15045,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -14842,6 +15306,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -15103,6 +15575,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -15356,6 +15836,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -15656,6 +16144,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 4,
+      "Range": 2
     }
   },
   {
@@ -15945,6 +16441,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 1
+    },
     "summons": [
       {
         "ability": "Summon a Murder Bunny",
@@ -16213,6 +16717,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 2,
+      "Support": 1,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Summon a Murder Bunny",
@@ -16471,6 +16983,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 2,
+      "Support": 1,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Summon a Murder Bunny",
@@ -16728,6 +17248,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 2,
+      "Support": 1,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
     },
     "summoned_by": [
       {
@@ -16988,6 +17516,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -17240,6 +17776,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -17484,6 +18028,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -17734,6 +18286,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -17980,6 +18540,14 @@
       "needs": "Hoff improves Faun efficiency, and Spirit support or healing helps maintain pressure.",
       "caution": "Do not chase just to inflict damage. His job is to threaten the enemy's scoring route while preserving your own.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -18240,6 +18808,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -18519,6 +19095,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Summon the Jackalope",
@@ -18795,6 +19379,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -19066,6 +19658,14 @@
       "needs": "Healing and movement support help deliver him; Animal or Noble support depends on the chosen faction.",
       "caution": "An opponent can avoid triggering his best bonuses. Do not build the whole turn around being attacked.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 2
     }
   },
   {
@@ -19341,6 +19941,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 4
+    },
     "summons": [
       {
         "ability": "Remove Necklace / Lose Control!",
@@ -19615,6 +20223,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Remove Necklace / Lose Control!",
@@ -19886,6 +20502,14 @@
       "needs": "Raegan and other Cultists exploit his support; a healer repairs risky close-range exchanges.",
       "caution": "His defensive protection has conditions. Count nearby keywords and affected models before assuming the combo works.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 2
     }
   },
   {
@@ -20117,6 +20741,14 @@
       "needs": "Klaus provides linked protection; wood creators and Cultist support make her terrain plan consistent.",
       "caution": "Expel banks newly drawn cards rather than removing every catastrophe. Its storage limit depends on the current turn number.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 4
     }
   },
   {
@@ -20373,6 +21005,14 @@
       "needs": "An efficient harvester covers Feeble, while compatible casters profit from a deliberately prepared card.",
       "caution": "A banked card is valuable certainty, but spending too long preparing can concede the objective race.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -20614,6 +21254,14 @@
       "needs": "Human allies exploit her support; a durable frontliner gives her time to shape the exchange.",
       "caution": "Her healing and energy tools have conditions. Do not rely on an opponent supplying a helpful catastrophe.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -20850,6 +21498,14 @@
       "needs": "Compatible Rogue support improves reliability, while a healer and genuine frontline fighter protect him.",
       "caution": "His own melee output is limited. Draining a harmless model matters less than denying the enemy's next decisive action.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -21096,6 +21752,14 @@
       "needs": "Rogue arcane support and healing help her operate near objectives; a fighter prepares theft opportunities.",
       "caution": "Robbery's comparison must be satisfied. An easy pistol shot should not distract from a reachable scoring play.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -21349,6 +22013,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -21598,6 +22270,14 @@
       "needs": "Pirate energy and movement support improve his attack economy, while healing keeps him contesting carriers.",
       "caution": "Avoid a prolonged chase after collecting stones. Do not spend the whole activation shooting when a safer objective play exists.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -21836,6 +22516,14 @@
       "needs": "Pirates exploit his versatile support; a durable fighter lets the monkey work behind the engagement.",
       "caution": "Rum changes arcane and bombs threaten nearby friends. Decide whether the stat penalty matters before healing a caster.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 2
     }
   },
   {
@@ -22108,6 +22796,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -22364,6 +23060,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
     }
   },
   {
@@ -22634,6 +23338,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 4
     }
   },
   {
@@ -22876,6 +23588,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -23123,6 +23843,14 @@
       "needs": "Wood creators enable his energy plan; Cultist support and healing sustain pressure.",
       "caution": "Bladestorm trades away the javelin's benefits. Use it for an important fight rather than as an automatic opening buff.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -23376,6 +24104,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -23617,6 +24353,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 1
     }
   },
   {
@@ -23879,6 +24623,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -24156,6 +24908,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 4
     }
   },
   {
@@ -24398,6 +25158,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -24636,6 +25404,14 @@
       "needs": "Friendly carriers make Rebate more useful; Goblin allies offer a limited inheritance recovery route.",
       "caution": "Inheritance places a depth-one stone nearby instead of handing it directly to him. The enemy can pay to cancel his tax or signature theft.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -24886,6 +25662,14 @@
       "needs": "Goblin carriers and Soldiers exploit his support; a healer preserves his role through repeated contests.",
       "caution": "He cannot be your first activation. Your opening plan needs another character with useful work to do.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 2
     }
   },
   {
@@ -25104,6 +25888,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 1,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
     },
     "summoned_by": [
       {
@@ -25352,6 +26144,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 3
     },
     "summoned_by": [
       {
@@ -25616,6 +26416,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 4,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Summon a Helping Hand",
@@ -25871,6 +26679,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Summon a Helping Hand",
@@ -26120,6 +26936,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Summon from the Depths",
@@ -26367,6 +27191,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 4,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
     },
     "summoned_by": [
       {
@@ -26664,6 +27496,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 4
+    },
     "summoned_by": [
       {
         "ability": "Summon the Forgotten King",
@@ -26913,6 +27753,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 5
     }
   },
   {
@@ -27180,6 +28028,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
+    },
     "summons": [
       {
         "ability": "Summon a Helping Hand",
@@ -27435,6 +28291,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 1
     },
     "summons": [
       {
@@ -27724,6 +28588,14 @@
       "needs": "In Shades, resurrection support extends her presence; in Commonwealth, Norse or Giant support funds useful attacks.",
       "caution": "Her anti-healing signature needs a meaningful victim. Low energy makes unsupported pursuits poor value.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 3
     }
   },
   {
@@ -27991,6 +28863,14 @@
       "needs": "Compatible Nobles use the donation well; in Shades, Echo can turn those resources into major pressure.",
       "caution": "The King summon is Shades-only, slays Igor on success and cannot duplicate an Echo already in play.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 2
     },
     "summons": [
       {
@@ -28271,6 +29151,14 @@
       "needs": "Compatible reanimators exploit his placement and healing support; a defender protects the collecting route.",
       "caution": "Resurrection support does little without a legal reanimator. Positioning around returning models should not cost a safe stone.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -28547,6 +29435,14 @@
       "needs": "Noble support improves resource exchanges; in Shades, Echo turns donated energy into powerful attacks.",
       "caution": "An initiative trick is not a substitute for board position. Avoid draining a model that has already finished all meaningful work.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 2
     }
   },
   {
@@ -28809,6 +29705,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -29060,6 +29964,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 5
     },
     "summons": [
       {
@@ -29358,6 +30270,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -29620,6 +30540,14 @@
       "needs": "Spirit mobility and resource support compensate for low base energy; healing sustains his big wound pool.",
       "caution": "Fashion from Flesh needs actual enemy wounds in melee. A kill offers an alternative benefit rather than every possible payoff at once.",
       "sources": []
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 2
     },
     "summons": [
       {
@@ -29912,6 +30840,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 4
+    },
     "summons": [
       {
         "ability": "Summon Intermission Snacks",
@@ -30162,6 +31098,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 3
     },
     "summons": [
       {
@@ -30446,6 +31390,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 3
+    },
     "summons": [
       {
         "ability": "Summon the Nursery",
@@ -30677,6 +31629,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 1,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
     },
     "summoned_by": [
       {
@@ -30926,6 +31886,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Fashion from Flesh",
@@ -31171,6 +32139,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
     },
     "summoned_by": [
       {
@@ -31493,6 +32469,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 2
     }
   },
   {
@@ -31775,6 +32759,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -32054,6 +33046,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
     }
   },
   {
@@ -32330,6 +33330,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 4
     }
   },
   {
@@ -32612,6 +33620,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -32856,6 +33872,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -33105,6 +34129,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -33363,6 +34395,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
     }
   },
   {
@@ -33616,6 +34656,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
     }
   },
   {
@@ -33874,6 +34922,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 5
     }
   },
   {
@@ -34138,6 +35194,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
     }
   },
   {
@@ -34390,6 +35454,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 1
     }
   },
   {
@@ -34667,6 +35739,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 3
     }
   },
   {
@@ -34923,6 +36003,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 3
     }
   },
   {
@@ -35200,6 +36288,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 4
     }
   },
   {
@@ -35454,6 +36550,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
+    },
     "summons": [
       {
         "ability": "Partner in Crime",
@@ -35706,6 +36810,14 @@
         }
       ]
     },
+    "troupe_metrics": {
+      "Tank": 1,
+      "Damage": 1,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 1
+    },
     "summoned_by": [
       {
         "ability": "Partner in Crime",
@@ -35952,6 +37064,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 1
     }
   },
   {
@@ -36203,6 +37323,14 @@
           "checked_on": "2026-09-16"
         }
       ]
+    },
+    "troupe_metrics": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
     }
   }
 ]

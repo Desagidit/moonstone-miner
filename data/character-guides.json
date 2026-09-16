@@ -1853,6 +1853,1136 @@
       ]
     }
   },
+  "ratings": {
+    "1": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 1,
+      "Range": 4
+    },
+    "2": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 2
+    },
+    "3": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 5
+    },
+    "4": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "5": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 2
+    },
+    "6": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 4
+    },
+    "7": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 4
+    },
+    "8": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 4
+    },
+    "9": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 5
+    },
+    "10": {
+      "Tank": 4,
+      "Damage": 3,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "11": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "12": {
+      "Tank": 4,
+      "Damage": 2,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 2,
+      "Range": 4
+    },
+    "13": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 5
+    },
+    "14": {
+      "Tank": 4,
+      "Damage": 5,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "15": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 4,
+      "Complexity": 2,
+      "Range": 3
+    },
+    "16": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 4
+    },
+    "17": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "18": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "19": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 3
+    },
+    "20": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "21": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 2,
+      "Moonstone": 5,
+      "Complexity": 2,
+      "Range": 1
+    },
+    "22": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "23": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "24": {
+      "Tank": 2,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 2
+    },
+    "25": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "26": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "27": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "28": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 1,
+      "Complexity": 2,
+      "Range": 2
+    },
+    "29": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 3
+    },
+    "30": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "31": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 2,
+      "Moonstone": 5,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "32": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 3
+    },
+    "33": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 2,
+      "Range": 3
+    },
+    "34": {
+      "Tank": 4,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "35": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "36": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 3
+    },
+    "37": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "38": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "39": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "40": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 5
+    },
+    "41": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "42": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "43": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "44": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 4,
+      "Range": 1
+    },
+    "45": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 5,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "46": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 2,
+      "Complexity": 2,
+      "Range": 2
+    },
+    "47": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "48": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "49": {
+      "Tank": 2,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "50": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "51": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "52": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "53": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "54": {
+      "Tank": 5,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "55": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "56": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "57": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "58": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "59": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "60": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "61": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "62": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 4,
+      "Range": 2
+    },
+    "63": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 1
+    },
+    "64": {
+      "Tank": 1,
+      "Damage": 2,
+      "Support": 1,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "65": {
+      "Tank": 1,
+      "Damage": 2,
+      "Support": 1,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "66": {
+      "Tank": 1,
+      "Damage": 2,
+      "Support": 1,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "67": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "68": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "69": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "70": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "71": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "72": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "73": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "74": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "75": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 1,
+      "Moonstone": 2,
+      "Complexity": 3,
+      "Range": 2
+    },
+    "76": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 4
+    },
+    "77": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 1
+    },
+    "78": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 2
+    },
+    "79": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 4
+    },
+    "80": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "81": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "82": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "83": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "84": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "85": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "86": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 2
+    },
+    "87": {
+      "Tank": 5,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "88": {
+      "Tank": 4,
+      "Damage": 5,
+      "Support": 1,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
+    },
+    "89": {
+      "Tank": 3,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 4
+    },
+    "90": {
+      "Tank": 3,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "91": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "92": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "93": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 1
+    },
+    "94": {
+      "Tank": 5,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "95": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 4
+    },
+    "96": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "97": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "98": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 3,
+      "Range": 2
+    },
+    "99": {
+      "Tank": 1,
+      "Damage": 1,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "100": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "101": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 4,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "102": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "103": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "104": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 4,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "105": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "106": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 5
+    },
+    "107": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
+    },
+    "108": {
+      "Tank": 4,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 1
+    },
+    "109": {
+      "Tank": 5,
+      "Damage": 5,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 3
+    },
+    "110": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 2
+    },
+    "111": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "112": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 2
+    },
+    "113": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "114": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 5
+    },
+    "115": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "116": {
+      "Tank": 3,
+      "Damage": 4,
+      "Support": 3,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 2
+    },
+    "117": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 4
+    },
+    "118": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 3
+    },
+    "119": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 3
+    },
+    "120": {
+      "Tank": 1,
+      "Damage": 1,
+      "Support": 2,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "121": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "122": {
+      "Tank": 1,
+      "Damage": 0,
+      "Support": 3,
+      "Moonstone": 1,
+      "Complexity": 3,
+      "Range": 1
+    },
+    "123": {
+      "Tank": 5,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 5,
+      "Range": 2
+    },
+    "124": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "125": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
+    },
+    "126": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 4
+    },
+    "127": {
+      "Tank": 2,
+      "Damage": 4,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "128": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "129": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "130": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
+    },
+    "131": {
+      "Tank": 3,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "132": {
+      "Tank": 3,
+      "Damage": 1,
+      "Support": 5,
+      "Moonstone": 3,
+      "Complexity": 5,
+      "Range": 5
+    },
+    "133": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 3,
+      "Complexity": 4,
+      "Range": 2
+    },
+    "134": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 1
+    },
+    "135": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 3
+    },
+    "136": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 4,
+      "Moonstone": 5,
+      "Complexity": 4,
+      "Range": 3
+    },
+    "137": {
+      "Tank": 2,
+      "Damage": 2,
+      "Support": 5,
+      "Moonstone": 4,
+      "Complexity": 5,
+      "Range": 4
+    },
+    "138": {
+      "Tank": 3,
+      "Damage": 3,
+      "Support": 3,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 4
+    },
+    "139": {
+      "Tank": 1,
+      "Damage": 1,
+      "Support": 4,
+      "Moonstone": 2,
+      "Complexity": 4,
+      "Range": 1
+    },
+    "140": {
+      "Tank": 2,
+      "Damage": 3,
+      "Support": 4,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 1
+    },
+    "141": {
+      "Tank": 3,
+      "Damage": 5,
+      "Support": 2,
+      "Moonstone": 4,
+      "Complexity": 4,
+      "Range": 3
+    }
+  },
   "relations": [
     {
       "page": 63,
