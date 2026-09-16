@@ -89,3 +89,5 @@ Combine filters starts collapsed. Troupe controls now consist of Troupes and New
 Selecting a troupe loads it automatically. Switching from a changed loaded troupe opens an in-page “Save current troupe?” dialog: Save commits the current snapshot and switches, Discard switches without updating that snapshot, and Cancel keeps the current draft. Failed storage writes retain the current troupe.
 
 Troupes now autosave after every member addition, removal, reorder and rename. The dropdown switches directly, with New and Rename icons alongside it. The Save button and unsaved-switch dialog have been removed. Legacy drafts are folded into their active troupe on restoration. Dotted strips on the left of slots indicate dragging; empty slots remain drop targets.
+
+Troupe selection and New/Rename icons live in the header. The roster heading displays the active troupe name. The faction funnel beside the derived faction toggles compatible cards, follows the current shared faction options and disables/resets for an empty troupe; Clear filters resets it too. The header no longer shows the card count or official-card link.
