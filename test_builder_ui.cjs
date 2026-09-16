@@ -13,6 +13,17 @@ vm.runInContext(fs.readFileSync(process.argv.includes('--static')?'site/builder.
  vm.runInContext('add(cards[0]);add(cards[1]);add(cards[0])',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),2);
  assert.ok(nodes.get('keyword-summary').children.some(c=>c.textContent==='Human ×2'));
  vm.runInContext('add(cards[63])',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),2);
+ // Independent stars, membership ticks, persistence and combined filters.
+ const tileFor=c=>nodes.get('catalogue').children.find(n=>n.children[0]?.children[0]?.children[0]?.textContent===c.name);
+ const baronTile=tileFor(cards[0]);assert.ok(baronTile.children[0].children[0].children.some(n=>n.className==='troupe-tick'));assert.ok(!baronTile.children.some(n=>n.textContent==='In your troupe'));
+ const beforeFavouriteFocus=vm.runInContext('focus.id',ctx),beforeFavouriteVisits=vm.runInContext('visits.length',ctx);let propagationStopped=false;
+ baronTile.children[1].children[1].onclick({stopPropagation(){propagationStopped=true}});assert.ok(propagationStopped);assert.equal(vm.runInContext('focus.id',ctx),beforeFavouriteFocus);assert.equal(vm.runInContext('visits.length',ctx),beforeFavouriteVisits);assert.equal(tileFor(cards[0]).children[1].children[1].attributes['aria-pressed'],'true');assert.ok(JSON.parse(storage.get('moonstone-favourites-v1')).includes(cards[0].id));
+ vm.runInContext("query={mode:'and',groups:[{mode:'and',rules:[{field:'favourite',op:'eq',value:'yes'},{field:'hp',op:'gte',value:'0'}]}]};renderCards()",ctx);assert.equal(nodes.get('catalogue').children.length,1);
+ vm.runInContext("query.groups[0]={mode:'or',rules:[{field:'favourite',op:'eq',value:'yes'},{field:'keyword',op:'eq',value:'Goblin'}]};renderCards()",ctx);assert.ok(nodes.get('catalogue').children.length>1);assert.ok(tileFor(cards[0]));
+ vm.runInContext("query.groups[0]={mode:'and',rules:[{field:'favourite',op:'eq',value:'no'}]};renderCards()",ctx);assert.equal(nodes.get('catalogue').children.length,140);assert.ok(!tileFor(cards[0]));
+ vm.runInContext("query.groups[0].rules[0].value='yes';renderCards()",ctx);tileFor(cards[0]).children[1].children[1].onclick({stopPropagation(){}});assert.match(nodes.get('result-count').textContent,/^0 \/ 141/);
+ storage.set('moonstone-favourites-v1',JSON.stringify([cards[0].id,cards[0].id,'unknown',null]));vm.runInContext('favouriteIds=new Set();restoreFavourites()',ctx);assert.equal(vm.runInContext('favouriteIds.size',ctx),1);
+ vm.runInContext("query={mode:'and',groups:[]};renderCards()",ctx);assert.equal(tileFor(cards[0]).children[1].children[1].textContent,'★');vm.runInContext('toggleFavourite(cards[0])',ctx);
  nodes.get('faction').value='Dominion';nodes.get('faction').onchange();assert.match(nodes.get('team-status').textContent,/2 incompatible/);
  assert.ok(nodes.get('catalogue').children[0].className.includes('incompatible'));
  nodes.get('faction-filter').onclick();assert.equal(vm.runInContext('factionFilter',ctx),true);assert.ok(nodes.get('catalogue').children.every(n=>!n.className.includes('incompatible')));
@@ -52,5 +63,5 @@ vm.runInContext(fs.readFileSync(process.argv.includes('--static')?'site/builder.
  storage.delete('moonstone-troupes-v2');storage.set('moonstone-troupe-v1',JSON.stringify({ids:[cards[0].id,cards[0].id,cards[63].id,'gone'],faction:'Commonwealth',size:5}));vm.runInContext('savedTroupes=[];activeTroupeId=null;restoreTroupes()',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),1);assert.equal(nodes.get('faction').value,'Commonwealth');assert.equal(nodes.get('size').value,'5');
  storage.set('moonstone-troupes-v2','{bad json');vm.runInContext('restoreTroupes()',ctx);assert.match(nodes.get('storage-status').textContent,/could not be read/);
  ctx.localStorage.setItem=()=>{throw Error('Quota exceeded')};const savedCount=vm.runInContext('savedTroupes.length',ctx);nodes.get('save-troupe').onclick();assert.equal(vm.runInContext('savedTroupes.length',ctx),savedCount);assert.match(nodes.get('storage-status').textContent,/unavailable/);
- console.log('Builder state checks passed: add/remove, duplicate/summon rejection, summaries, faction changes, saved troupes, migration, radar averages and filters.');
+ console.log('Builder state checks passed: add/remove, duplicate/summon rejection, summaries, faction changes, saved troupes, migration, radar averages, favourites and filters.');
 })().catch(e=>{console.error(e);process.exitCode=1});

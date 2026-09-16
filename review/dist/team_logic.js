@@ -1,12 +1,12 @@
 (function(root){
  const numeric={melee:c=>c.stats.melee,arcane:c=>c.stats.arcane,evade:c=>c.stats.evade,range:c=>c.stats.melee_range_inches,hp:c=>c.stats.health,energy:c=>c.stats.energy,base:c=>c.base_size_mm,version:c=>c.card_version};
- function match(c,r){
+ function match(c,r,context={}){
   if(numeric[r.field]){const v=numeric[r.field](c),n=Number(r.value);if(v===null||v===undefined||r.value===''||!Number.isFinite(n))return false;return ({eq:()=>v===n,ne:()=>v!==n,gte:()=>v>=n,lte:()=>v<=n,gt:()=>v>n,lt:()=>v<n})[r.op]?.()??false}
-  const values=r.field==='keyword'?c.keywords:r.field==='tag'?c.custom_tags:r.field==='faction'?c.factions:r.field==='eligibility'?[c.eligibility.summoned_only?'summon':'selectable']:r.field==='review'?[c.review.status]:[c.name];
+  const values=r.field==='favourite'?[context.favourites?.has(c.id)?'yes':'no']:r.field==='keyword'?c.keywords:r.field==='tag'?c.custom_tags:r.field==='faction'?c.factions:r.field==='eligibility'?[c.eligibility.summoned_only?'summon':'selectable']:r.field==='review'?[c.review.status]:[c.name];
   const found=values.some(v=>r.op==='contains'?v.toLowerCase().includes(String(r.value).toLowerCase()):v.toLowerCase()===String(r.value).toLowerCase());return r.op==='ne'?!found:found;
  }
  function combine(values,mode){return mode==='or'?values.some(Boolean):values.every(Boolean)}
- function matches(c,query){const groups=query.groups.filter(g=>g.rules.length);return !groups.length||combine(groups.map(g=>combine(g.rules.map(r=>match(c,r)),g.mode)),query.mode)}
+ function matches(c,query,context={}){const groups=query.groups.filter(g=>g.rules.length);return !groups.length||combine(groups.map(g=>combine(g.rules.map(r=>match(c,r,context)),g.mode)),query.mode)}
  function compatible(c,faction){return faction==='Undecided'||c.factions.includes(faction)}
  function exclusionNames(c){return [...((c.raw_front_text||'')+' '+(c.abilities||[]).map(a=>a.text).join(' ')).matchAll(/Evolution\s*\[([^\]]+)\]/gi)].map(m=>m[1].replace(/\s+/g,' ').trim().toLowerCase())}
  function conflict(a,b){return exclusionNames(a).includes(b.name.toLowerCase())||exclusionNames(b).includes(a.name.toLowerCase())}
