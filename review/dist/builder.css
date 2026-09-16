@@ -42,3 +42,5 @@
 
 
 @media(min-width:1101px) and (min-aspect-ratio:8/5) and (max-aspect-ratio:21/10){.builder{grid-template-columns:minmax(330px,27fr) minmax(380px,46fr) minmax(330px,27fr)}}
+
+#delete-dialog{width:min(420px,calc(100vw - 32px));padding:0;border:1px solid var(--line);border-radius:12px;background:#162237;color:#e5edf7}#delete-dialog::backdrop{background:rgba(3,8,16,.82)}#delete-confirm{color:#ffb8bc;border-color:#e9777b}#delete-error:empty{display:none}

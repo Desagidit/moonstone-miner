@@ -22,7 +22,7 @@ function updateStorageControls(){
  for(const troupe of savedTroupes)select.append(option(troupe.id,troupe.name));
  select.value=savedTroupes.some(t=>t.id===previous)?previous:savedTroupes.some(t=>t.id===activeTroupeId)?activeTroupeId:savedTroupes[0]?.id||'';
  const chosen=savedTroupes.some(t=>t.id===select.value),active=savedTroupes.find(t=>t.id===activeTroupeId);
- $('rename-troupe').disabled=!chosen;
+ $('rename-troupe').disabled=!chosen;$('delete-troupe').disabled=!chosen;
  $('storage-status').textContent=!savedTroupes.length?'Click + to create a troupe.':!active?'Select a troupe.':'';
 }
 function persist(){const before=clone(savedTroupes),index=savedTroupes.findIndex(t=>t.id===activeTroupeId);if(index>=0)savedTroupes[index]={id:activeTroupeId,...troupeSnapshot()};try{localStorage.setItem(storageKey,JSON.stringify({version:2,activeId:activeTroupeId,draft:troupeSnapshot(),troupes:savedTroupes}));try{localStorage.setItem('moonstone-troupe-v1',JSON.stringify(troupeSnapshot()))}catch{}updateStorageControls();return true}catch{savedTroupes=before;$('storage-status').textContent='Changes could not be saved. Browser storage is unavailable.';return false}}
@@ -39,6 +39,11 @@ function openTroupeNameDialog(id=null){const saved=id?savedTroupes.find(t=>t.id=
 function closeTroupeNameDialog(){nameDialogAction=null;$('troupe-name-dialog').close()}
 $('new-troupe').onclick=()=>openTroupeNameDialog();
 $('rename-troupe').onclick=()=>{const id=$('saved-troupes').value;if(savedTroupes.some(t=>t.id===id))openTroupeNameDialog(id)};
+let deletingTroupeId=null;
+$('delete-troupe').onclick=()=>{const troupe=savedTroupes.find(t=>t.id===$('saved-troupes').value);if(!troupe)return;deletingTroupeId=troupe.id;$('delete-description').textContent='Delete “'+troupe.name+'” from this browser? This cannot be undone.';$('delete-error').textContent='';$('delete-dialog').showModal()};
+function closeDeleteDialog(){deletingTroupeId=null;$('delete-dialog').close()}
+$('delete-cancel').onclick=closeDeleteDialog;$('delete-dialog').oncancel=()=>{deletingTroupeId=null};$('delete-dialog').onclick=e=>{if(e.target===$('delete-dialog'))closeDeleteDialog()};
+$('delete-confirm').onclick=()=>{const index=savedTroupes.findIndex(t=>t.id===deletingTroupeId);if(index<0){closeDeleteDialog();return}if(!persist()){$('delete-error').textContent='Browser storage is unavailable. Nothing was deleted.';return}const before=troupeCheckpoint();savedTroupes.splice(index,1);if(activeTroupeId===deletingTroupeId){const next=savedTroupes[Math.min(index,savedTroupes.length-1)];activeTroupeId=next?.id||null;applyTroupe(next||{name:'New troupe',ids:[]});$('saved-troupes').value=activeTroupeId||''}if(!persist()){rollbackTroupe(before,'The troupe could not be deleted.');$('delete-error').textContent='Browser storage is unavailable. Nothing was deleted.';return}closeDeleteDialog();repaintTroupe()};
 $('troupe-name-cancel').onclick=closeTroupeNameDialog;
 $('troupe-name-dialog').oncancel=()=>{nameDialogAction=null};
 $('troupe-name-dialog').onclick=e=>{if(e.target===$('troupe-name-dialog'))closeTroupeNameDialog()};
