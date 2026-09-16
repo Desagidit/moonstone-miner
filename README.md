@@ -87,3 +87,5 @@ The troupe builder now uses six fixed slots and derives faction from slot 1, wit
 Combine filters starts collapsed. Troupe controls now consist of Troupes and New / Save / Load / Rename. New prompts for a name, creates an empty saved troupe and selects it; Rename immediately persists the selected troupe name. Save updates the loaded troupe snapshot. Without any troupes, Save, Load and Rename are disabled and New is required. Existing saved troupes and drafts remain compatible.
 
 Selecting a troupe loads it automatically. Switching from a changed loaded troupe opens an in-page “Save current troupe?” dialog: Save commits the current snapshot and switches, Discard switches without updating that snapshot, and Cancel keeps the current draft. Failed storage writes retain the current troupe.
+
+Troupes now autosave after every member addition, removal, reorder and rename. The dropdown switches directly, with New and Rename icons alongside it. The Save button and unsaved-switch dialog have been removed. Legacy drafts are folded into their active troupe on restoration. Dotted strips on the left of slots indicate dragging; empty slots remain drop targets.

@@ -20,26 +20,18 @@ function updateStorageControls(){
  for(const troupe of savedTroupes)select.append(option(troupe.id,troupe.name));
  select.value=savedTroupes.some(t=>t.id===previous)?previous:savedTroupes.some(t=>t.id===activeTroupeId)?activeTroupeId:savedTroupes[0]?.id||'';
  const chosen=savedTroupes.some(t=>t.id===select.value),active=savedTroupes.find(t=>t.id===activeTroupeId);
- $('rename-troupe').disabled=!chosen;$('save-troupe').disabled=!active||select.value!==activeTroupeId;
- $('storage-status').textContent=!savedTroupes.length?'Click New to create a troupe.':!active?'Select a troupe.':JSON.stringify(troupeSnapshot())===JSON.stringify(cleanTroupe(active))?'Saved locally':'Unsaved changes · click Save to keep this troupe';
+ $('rename-troupe').disabled=!chosen;
+ $('storage-status').textContent=!savedTroupes.length?'Click + to create a troupe.':!active?'Select a troupe.':'';
 }
-function persist(){try{localStorage.setItem(storageKey,JSON.stringify({version:2,activeId:activeTroupeId,draft:troupeSnapshot(),troupes:savedTroupes}));try{localStorage.setItem('moonstone-troupe-v1',JSON.stringify(troupeSnapshot()))}catch{}updateStorageControls();return true}catch{$('storage-status').textContent='Browser storage is unavailable. Troupes cannot be saved.';return false}}
-function restoreTroupes(){try{const saved=JSON.parse(localStorage.getItem(storageKey)||'null');let draft;if(saved?.version===2&&Array.isArray(saved.troupes)){const used=new Set();savedTroupes=saved.troupes.flatMap(t=>{const clean=cleanTroupe(t);if(!clean||typeof t.id!=='string'||used.has(t.id))return [];used.add(t.id);return [{id:t.id,...clean}]});activeTroupeId=savedTroupes.some(t=>t.id===saved.activeId)?saved.activeId:null;draft=cleanTroupe(saved.draft)}else draft=cleanTroupe(JSON.parse(localStorage.getItem('moonstone-troupe-v1')||'null'));if(draft)applyTroupe(draft);updateStorageControls()}catch{$('storage-status').textContent='Saved troupe data could not be read. You can create a new troupe.'}}
+function persist(){const before=clone(savedTroupes),index=savedTroupes.findIndex(t=>t.id===activeTroupeId);if(index>=0)savedTroupes[index]={id:activeTroupeId,...troupeSnapshot()};try{localStorage.setItem(storageKey,JSON.stringify({version:2,activeId:activeTroupeId,draft:troupeSnapshot(),troupes:savedTroupes}));try{localStorage.setItem('moonstone-troupe-v1',JSON.stringify(troupeSnapshot()))}catch{}updateStorageControls();return true}catch{savedTroupes=before;$('storage-status').textContent='Changes could not be saved. Browser storage is unavailable.';return false}}
+function restoreTroupes(){try{const saved=JSON.parse(localStorage.getItem(storageKey)||'null');let draft;if(saved?.version===2&&Array.isArray(saved.troupes)){const used=new Set();savedTroupes=saved.troupes.flatMap(t=>{const clean=cleanTroupe(t);if(!clean||typeof t.id!=='string'||used.has(t.id))return [];used.add(t.id);return [{id:t.id,...clean}]});activeTroupeId=savedTroupes.some(t=>t.id===saved.activeId)?saved.activeId:null;draft=cleanTroupe(saved.draft)}else draft=cleanTroupe(JSON.parse(localStorage.getItem('moonstone-troupe-v1')||'null'));if(draft)applyTroupe(draft);if(activeTroupeId)persist();else updateStorageControls()}catch{$('storage-status').textContent='Saved troupe data could not be read. You can create a new troupe.'}}
 function applyTroupe(troupe){teamIds=[...troupe.ids];troupeName=troupe.name}
 function repaintTroupe(){renderCards();refreshTeam();if(focus)show(focus,false)}
-let pendingTroupeId=null;
-function closeTroupeSwitchDialog(){pendingTroupeId=null;$('troupe-switch-dialog').close()}
-function switchTroupe(id,saveCurrent=false){const target=savedTroupes.find(t=>t.id===id);if(!target)return false;const before=troupeCheckpoint();if(saveCurrent){const index=savedTroupes.findIndex(t=>t.id===activeTroupeId);if(index<0)return false;savedTroupes[index]={id:activeTroupeId,...troupeSnapshot()}}activeTroupeId=id;applyTroupe(cleanTroupe(target));$('saved-troupes').value=id;if(!persist()){rollbackTroupe(before,'Browser storage is unavailable. The troupe was not switched.');$('troupe-switch-error').textContent='Changes could not be saved. Try again or Cancel.';return false}repaintTroupe();return true}
-$('saved-troupes').onchange=()=>{const id=$('saved-troupes').value;if(id===activeTroupeId||!savedTroupes.some(t=>t.id===id))return;$('saved-troupes').value=activeTroupeId||'';const active=savedTroupes.find(t=>t.id===activeTroupeId);if(active&&JSON.stringify(troupeSnapshot())!==JSON.stringify(cleanTroupe(active))){pendingTroupeId=id;$('troupe-switch-message').textContent=troupeName+' has unsaved changes.';$('troupe-switch-error').textContent='';$('troupe-switch-dialog').showModal();$('troupe-switch-save').focus()}else switchTroupe(id)};
-$('troupe-switch-cancel').onclick=closeTroupeSwitchDialog;
-$('troupe-switch-dialog').oncancel=()=>{pendingTroupeId=null};
-$('troupe-switch-dialog').onclick=e=>{if(e.target===$('troupe-switch-dialog'))closeTroupeSwitchDialog()};
-$('troupe-switch-discard').onclick=()=>{if(pendingTroupeId&&switchTroupe(pendingTroupeId))closeTroupeSwitchDialog()};
-$('troupe-switch-save').onclick=()=>{if(pendingTroupeId&&switchTroupe(pendingTroupeId,true))closeTroupeSwitchDialog()};
+function switchTroupe(id){if(id===activeTroupeId||!savedTroupes.some(t=>t.id===id))return false;$('saved-troupes').value=activeTroupeId||'';if(!persist())return false;const before=troupeCheckpoint(),target=savedTroupes.find(t=>t.id===id);activeTroupeId=id;applyTroupe(cleanTroupe(target));$('saved-troupes').value=id;if(!persist()){rollbackTroupe(before,'The troupe was not switched. Browser storage is unavailable.');return false}repaintTroupe();return true}
+$('saved-troupes').onchange=()=>switchTroupe($('saved-troupes').value);
 function troupeId(){return globalThis.crypto?.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2)}
 function rollbackTroupe(before,message){savedTroupes=before.troupes;activeTroupeId=before.id;applyTroupe(before.draft);$('saved-troupes').value=before.selected;updateStorageControls();$('storage-status').textContent=message}
 function troupeCheckpoint(){return {troupes:clone(savedTroupes),id:activeTroupeId,draft:troupeSnapshot(),selected:$('saved-troupes').value}}
-$('save-troupe').onclick=()=>{const index=savedTroupes.findIndex(t=>t.id===activeTroupeId);if(index<0||$('saved-troupes').value!==activeTroupeId)return;const before=troupeCheckpoint();savedTroupes[index]={id:activeTroupeId,...troupeSnapshot()};if(!persist())rollbackTroupe(before,'Browser storage is unavailable. Troupes cannot be saved.')};
 let nameDialogAction=null;
 function openTroupeNameDialog(id=null){const saved=id?savedTroupes.find(t=>t.id===id):null;if(id&&!saved)return;nameDialogAction={id};$('troupe-name-title').textContent=id?'Rename troupe':'New troupe';$('troupe-name-confirm').textContent=id?'Rename':'Create troupe';$('troupe-name-input').value=saved?.name||'';$('troupe-name-error').textContent='';$('troupe-name-dialog').showModal();$('troupe-name-input').focus();if(id)$('troupe-name-input').select()}
 function closeTroupeNameDialog(){nameDialogAction=null;$('troupe-name-dialog').close()}
@@ -60,7 +52,7 @@ function refreshTeam(){
   row.append(node('span',String(index+1),'slot-number'));wireMemberDrop(row,index);
   if(c){
    row.draggable=true;row.setAttribute('data-member-id',c.id);
-   const handle=node('button','⠿','drag-handle');handle.type='button';handle.title='Drag to reorder, or use arrow keys';handle.setAttribute('aria-label','Reorder '+c.name+'. Use up and down arrow keys.');handle.onkeydown=e=>{if(e.key!=='ArrowUp'&&e.key!=='ArrowDown')return;e.preventDefault();const target=index+(e.key==='ArrowUp'?-1:1);reorderMember(c.id,target);const replacement=[...$('team').children].find(n=>n.getAttribute('data-member-id')===c.id);replacement?.children[1]?.focus()};
+   const handle=node('button','','drag-handle');handle.type='button';handle.title='Drag to reorder, or use arrow keys';handle.setAttribute('aria-label','Reorder '+c.name+'. Use up and down arrow keys.');handle.onkeydown=e=>{if(e.key!=='ArrowUp'&&e.key!=='ArrowDown')return;e.preventDefault();const target=index+(e.key==='ArrowUp'?-1:1);reorderMember(c.id,target);const replacement=[...$('team').children].find(n=>n.getAttribute('data-member-id')===c.id);replacement?.children[1]?.focus()};
    const open=node('button',c.name,'member-name');open.type='button';open.onclick=()=>{show(c);renderCards()};
    const removeButton=node('button','×','member-remove');removeButton.type='button';removeButton.setAttribute('aria-label','Remove '+c.name);removeButton.onclick=()=>remove(c);
    row.append(handle,open,removeButton);
@@ -71,7 +63,7 @@ function refreshTeam(){
  }
  const factions=troupeFactions(),bad=current.filter(c=>!compatibleWithTroupe(c)||!c.eligibility.selectable||current.some(t=>t.id!==c.id&&L.conflict(c,t))),noShared=current.length>0&&!L.commonFactions(current).length;
  $('troupe-faction').textContent=current.length?'Faction · '+factions.join(' / '):'Faction · add a character to slot 1';
- $('team-status').textContent=`${current.length} / 6 characters`+(bad.length?` · ${bad.length} incompatible`:'')+(noShared?' · no shared faction':'')+(current.length===6&&!bad.length&&!noShared?' · ready':'');$('team-status').className=bad.length||noShared?'invalid':'';
+ $('team-status').textContent=[bad.length?`${bad.length} incompatible`:'',noShared?'No shared faction':''].filter(Boolean).join(' · ');$('team-status').className=bad.length||noShared?'invalid':'';
  summary('tag-summary','custom_tags');summary('keyword-summary','keywords');renderTroupeChart();if(focus)renderPartners(focus);
 }
 function remove(c){teamIds=teamIds.filter(id=>id!==c.id);persist();refreshTeam();renderCards();if(focus)show(focus,false)}
