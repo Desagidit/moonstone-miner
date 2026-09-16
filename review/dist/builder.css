@@ -41,4 +41,4 @@
 .focus .strategy-guide>summary,.focus #partner-section>summary{font-size:20px;color:#e9edf4;font-weight:600;padding:14px 0}.partner-heading{display:flex;align-items:center;gap:10px}.partner-heading .partner-add{padding:3px 8px;font-size:20px;line-height:1}.partner-heading .partner-name{min-width:0}
 
 
-@media(min-width:1101px) and (min-aspect-ratio:8/5) and (max-aspect-ratio:21/10){.builder{grid-template-columns:minmax(330px,8fr) minmax(380px,9fr) minmax(330px,8fr)}}
+@media(min-width:1101px) and (min-aspect-ratio:8/5) and (max-aspect-ratio:21/10){.builder{grid-template-columns:minmax(330px,27fr) minmax(380px,46fr) minmax(330px,27fr)}}
