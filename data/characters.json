@@ -190,6 +190,21 @@
       "image_height": 426,
       "photo_scope": "Baron Von Fancyhat",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Armoured melee anchor and Human leader",
+      "play": "Advance before carrying stones; use Rallying Cry to support nearby Humans and threaten favourable sword exchanges.",
+      "needs": "Eric improves Noble melee, while a healer and mobile collector keep the Baron fighting.",
+      "caution": "Armour reduces damage, not every direct wound effect. Low energy makes long chases inefficient.",
+      "sources": [
+        {
+          "title": "Noble Intentions",
+          "url": "https://www.moonstonethegame.com/latest/noble-intentions-commonwealth-noble-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Move armoured fighters before carrying stones; support and energy budget matter more than taking every expensive Noble.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -414,6 +429,21 @@
       "image_height": 426,
       "photo_scope": "Eric, the Squire",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Soldier/Noble support and backup medic",
+      "play": "Position Squire around the models taking the important fights; use My Hero! to concentrate support on your chosen attacker.",
+      "needs": "A threatening Noble or several Soldiers convert his support into pressure; keep healing within reach.",
+      "caution": "Do not expose Eric just to maintain an aura: losing the support model weakens several allies at once.",
+      "sources": [
+        {
+          "title": "Noble Intentions",
+          "url": "https://www.moonstonethegame.com/latest/noble-intentions-commonwealth-noble-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Move armoured fighters before carrying stones; support and energy budget matter more than taking every expensive Noble.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -652,6 +682,13 @@
       "image_height": 426,
       "photo_scope": "Flintlock",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Ranged damage and backfield objective cover",
+      "play": "Choose clear firing lanes, budget aiming and reloads, and punish enemies approaching your collectors.",
+      "needs": "Movement control keeps targets visible; Calders or Quack can support reliability and sustain.",
+      "caution": "Engagement disrupts the shooting cycle. Spending everything on a shot leaves little for repositioning.",
+      "sources": []
     }
   },
   {
@@ -889,6 +926,13 @@
       "image_height": 426,
       "photo_scope": "Quack",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Human arcane support and primary healer",
+      "play": "Keep Foresight supporting friendly Human casters and save healing for allies losing important energy dots.",
+      "needs": "A frontline screen buys casting space; ranged allies benefit from his arcane support.",
+      "caution": "Weakling makes prolonged melee a poor job for him. Healing cannot rescue a model already slain.",
+      "sources": []
     }
   },
   {
@@ -1119,6 +1163,13 @@
       "image_height": 426,
       "photo_scope": "Fritz",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Heavy melee damage and displacement",
+      "play": "Use the greatsword to punish targets that cannot escape; shove or intimidate to open objective lanes.",
+      "needs": "Friendly movement and healing help him reach meaningful fights without burning his action budget.",
+      "caution": "His sweeping effects can threaten friendly models. Plan spacing before committing to a crowded fight.",
+      "sources": []
     }
   },
   {
@@ -1366,6 +1417,13 @@
       "image_height": 426,
       "photo_scope": "Agatha, Tavernfrau",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Soldier/Mercenary combat support",
+      "play": "Use Deutsche Courage on the ally best placed to fight, then choose the drink effect that suits the next activation.",
+      "needs": "Soldiers or Mercenaries make her support relevant; a dedicated collector frees the group to contest.",
+      "caution": "Drink-related stat changes can compromise a caster. Do not hand out a buff without checking its tradeoff.",
+      "sources": []
     }
   },
   {
@@ -1608,6 +1666,13 @@
       "image_height": 426,
       "photo_scope": "Friar Flavious",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Durable Human healer and close support",
+      "play": "Follow the frontline and use Healing to sustain it; opportunistic wounds at reach can trigger Rub It Better on a nearby Human or Cleric.",
+      "needs": "Human allies exploit his support; a faster collector and a major damage dealer cover his slower utility role.",
+      "caution": "His damage resistance is selective. Preserve enough energy for healing rather than chasing every melee opportunity.",
+      "sources": []
     }
   },
   {
@@ -1847,6 +1912,21 @@
       "image_height": 426,
       "photo_scope": "Mama Gimble",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Gnome support centre and healer",
+      "play": "Keep Gnomes around her protective bubble; Mother's Love both repairs and regroups the models doing the work.",
+      "needs": "Several Gnomes make her defensive and offensive support worthwhile; Morris can handle deep objectives.",
+      "caution": "Displacement can separate her from her protection. Use current aura limits, as older Gnome advice describes stronger versions.",
+      "sources": [
+        {
+          "title": "Commonwealth Gnomes (guest tactics)",
+          "url": "https://www.moonstonethegame.com/latest/commonwealth-gnomes",
+          "kind": "Official",
+          "research_note": "Militia combinations and objective play; older aura/ability values differ from current cards.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -2087,6 +2167,21 @@
       "image_height": 426,
       "photo_scope": "Quarrel",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Militia ranged pressure and positional control",
+      "play": "Keep a Militia partner close enough for Brothers in Arms; combine crossbow threat with shoves around contested stones.",
+      "needs": "Young Jack or Billy turns on Militia support; Mama improves reliability and recovery.",
+      "caution": "Reload costs constrain repeated shooting, and engagement makes the crossbow harder to use.",
+      "sources": [
+        {
+          "title": "Commonwealth Gnomes (guest tactics)",
+          "url": "https://www.moonstonethegame.com/latest/commonwealth-gnomes",
+          "kind": "Official",
+          "research_note": "Militia combinations and objective play; older aura/ability values differ from current cards.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -2318,6 +2413,21 @@
       "image_height": 426,
       "photo_scope": "Billy",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Mobile Gnome objective runner and charger",
+      "play": "Use High-ho Silver to reach or escape with stones; reserve Ramming Speed for a valuable displacement or decisive hit.",
+      "needs": "Mama sustains him and Militia allies improve his fighting; deck control can prepare a crucial flip.",
+      "caution": "A full charge consumes his base energy. Avoid trading a safe scoring position for an uncertain attack.",
+      "sources": [
+        {
+          "title": "Commonwealth Gnomes (guest tactics)",
+          "url": "https://www.moonstonethegame.com/latest/commonwealth-gnomes",
+          "kind": "Official",
+          "research_note": "Militia combinations and objective play; older aura/ability values differ from current cards.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -2547,6 +2657,21 @@
       "image_height": 426,
       "photo_scope": "Young Jack",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Supported Gnome duellist and deck planner",
+      "play": "Use Lucky to prepare Magic Brew or a following friendly cast; fight inside your short reach with Noble/Militia support.",
+      "needs": "Eric, Mama and a Militia ally can make his melee far more convincing than his base stat suggests.",
+      "caution": "Short reach invites reaction escapes. Do not assume a good brew colour appears without preparation.",
+      "sources": [
+        {
+          "title": "Commonwealth Gnomes (guest tactics)",
+          "url": "https://www.moonstonethegame.com/latest/commonwealth-gnomes",
+          "kind": "Official",
+          "research_note": "Militia combinations and objective play; older aura/ability values differ from current cards.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -2786,6 +2911,21 @@
       "image_height": 426,
       "photo_scope": "Morris",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Deep-stone specialist and defensive controller",
+      "play": "Harvest high-depth stones efficiently, then use his free shove or Sink Hole to deny pursuit and protect the haul.",
+      "needs": "Mama keeps him healthy; a fighter discourages enemies from simply surrounding the miner.",
+      "caution": "His immunity to carrier Slow applies to exactly one stone. Shooting competes with his limited harvesting energy.",
+      "sources": [
+        {
+          "title": "Commonwealth Gnomes (guest tactics)",
+          "url": "https://www.moonstonethegame.com/latest/commonwealth-gnomes",
+          "kind": "Official",
+          "research_note": "Militia combinations and objective play; older aura/ability values differ from current cards.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -3033,6 +3173,21 @@
       "image_height": 426,
       "photo_scope": "Gradock",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Arcane disruption and safety support",
+      "play": "Remove a crucial enemy action with Forgetfulness; position his advice and lie-detection tools around important casts.",
+      "needs": "Mama improves his weak arcane, and friendly shooters appreciate a safer bluffing position.",
+      "caution": "Do not confuse damage resistance with catastrophe protection. His control tools are often worth more than a speculative shot.",
+      "sources": [
+        {
+          "title": "Commonwealth Gnomes (guest tactics)",
+          "url": "https://www.moonstonethegame.com/latest/commonwealth-gnomes",
+          "kind": "Official",
+          "research_note": "Militia combinations and objective play; older aura/ability values differ from current cards.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -3270,6 +3425,28 @@
       "image_height": 426,
       "photo_scope": "Firespitter",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin fire damage and area threat",
+      "play": "Line up valuable Fireblast targets and feed extra energy for repeated shots; keep allies clear of the dangerous catastrophe pulse.",
+      "needs": "Goblin energy support enables more work; a healer patches damage from risky plays.",
+      "caution": "Engagement prevents Fireblast. Its catastrophe disables the ability for the rest of the game and damages nearby models.",
+      "sources": [
+        {
+          "title": "The Firespitter Revisited",
+          "url": "https://www.moonstonethegame.com/latest/firespitter-revisited",
+          "kind": "Official",
+          "research_note": "Fire damage and catastrophe planning; current card governs repeat casting.",
+          "checked_on": "2026-09-16"
+        },
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -3512,6 +3689,21 @@
       "image_height": 426,
       "photo_scope": "Doug, the Flatulent",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Efficient Goblin harvester and gas brawler",
+      "play": "Use Digger on deep stones and gas clustered enemies when their defensive tricks would hinder targeted attacks.",
+      "needs": "Healing and Goblin energy support keep him productive; displacement helps deliver the gas safely.",
+      "caution": "Gas can affect friends too. A charge should secure space or a stone, rather than start an unsupported fight.",
+      "sources": [
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -3748,6 +3940,21 @@
       "image_height": 426,
       "photo_scope": "Vicious Syd",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin melee finisher",
+      "play": "Exploit armour and Vicious to chain attacks once wounds are being dealt; use a nearby Giant to improve his melee.",
+      "needs": "A compatible Giant supplies his strongest keyword support, while a healer preserves his attack economy.",
+      "caution": "His tiny wound pool is vulnerable to effects that bypass armour. Do not expect energy returns from attacks that fail to wound.",
+      "sources": [
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -3984,6 +4191,21 @@
       "image_height": 426,
       "photo_scope": "Beaky Bobby",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin healer and anti-cluster utility",
+      "play": "Heal damaged frontliners and use shoves or gas when positioning makes them more valuable than a direct attack.",
+      "needs": "Tough allies shield him; Goblin energy support helps balance healing with disruption.",
+      "caution": "Gas hurts friendly models in its area. Weakling means he should not become your primary melee answer.",
+      "sources": [
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -4240,6 +4462,21 @@
       "image_height": 426,
       "photo_scope": "Shabbaroon",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin energy engine and repositioning caster",
+      "play": "Use Goblin Mischief to feed a key activation; Transconbobulate can rescue, repair and relocate a valuable friend.",
+      "needs": "Several Goblins use the extra energy well; healing covers the cost of unfortunate flip outcomes.",
+      "caution": "Energy flips are uncertain. Keep a workable fallback if the planned teleport or energy boost does not arrive.",
+      "sources": [
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -4469,6 +4706,21 @@
       "image_height": 426,
       "photo_scope": "Seasick Stu",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Pirate movement and Goblin energy support",
+      "play": "Use Bawdy Jokes to set up the next Goblin activation; push enemies away from stones and remove energy where it denies a key action.",
+      "needs": "Goblin Pirates exploit both sides of his support; Powder Monkey supplies recovery in a Pirate core.",
+      "caution": "His long reach is useful for interference, but does not make him a specialist heavy fighter.",
+      "sources": [
+        {
+          "title": "Goblin Pirate Strategy",
+          "url": "https://www.moonstonethegame.com/latest/goblin-pirates-subfaction-focus",
+          "kind": "Official",
+          "research_note": "Energy support and safe hit-and-run positioning; current cards supersede older costs.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -4698,6 +4950,21 @@
       "image_height": 426,
       "photo_scope": "Boom Boom McBoom",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin lure and ranged setup",
+      "play": "Pull an enemy into a prepared attack lane or away from a safe objective, then use Sucker Punch support to favour the resulting fight.",
+      "needs": "Goblin melee allies exploit isolated targets; a healer offsets risky close-range positioning.",
+      "caution": "A successful lure can also bring a dangerous attacker closer. Prepare the receiving position first.",
+      "sources": [
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -4916,6 +5183,13 @@
       "image_height": 426,
       "photo_scope": "Grub",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Mobile magical Goblin attacker",
+      "play": "Use Wyrm Hole to reposition and Bug Spray against elusive targets; pick fights where magical melee and a killing blow matter.",
+      "needs": "Energy support extends his activation and a healer repairs failed engagements.",
+      "caution": "Wyrm Hole drops carried stones. Herbert's Evolution rule prevents taking both in the same starting troupe.",
+      "sources": []
     }
   },
   {
@@ -5145,6 +5419,21 @@
       "image_height": 426,
       "photo_scope": "Teetoe",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "High-energy Faerie disruption and objective play",
+      "play": "Use Misdirection and Arcane Reflection to interfere with enemy plans, while spare energy buys harvesting and reaction movement.",
+      "needs": "A healer sustains his small wound pool; harder-hitting allies convert disruption into a scoring advantage.",
+      "caution": "Weakling reduces both fighting and harvesting efficiency. Area damage can bypass his evasive defence.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -5380,6 +5669,21 @@
       "image_height": 426,
       "photo_scope": "Fraya",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie healer and action denial",
+      "play": "Use Healing to sustain fragile Faeries and Dizzly Spell to deny the enemy action that would undo their positioning.",
+      "needs": "An efficient harvester covers Feeble; Faerie energy support enables repeated useful casts.",
+      "caution": "Feeble makes digging particularly costly. Avoid spending all energy before you need a reaction escape.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -5620,6 +5924,21 @@
       "image_height": 426,
       "photo_scope": "The Fencer",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie melee skirmisher and Rogue threat",
+      "play": "Use Swift to choose short, favourable engagements; Spiteful damage and healing reward successful contact.",
+      "needs": "Rogue/Faerie support improves consistency, while a healer and collector let him specialise in pressure.",
+      "caution": "He still has Weakling and short reach. Multi-model engagements and untargeted damage erode his safety.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -5848,6 +6167,21 @@
       "image_height": 426,
       "photo_scope": "Butterfingers",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie disruption and stone denial",
+      "play": "Use his Weakling-related trick to soften an enemy, then exploit Fizzlepop or stone-dropping effects when a collector is vulnerable.",
+      "needs": "A reliable harvester and real damage dealer make his disruption useful rather than merely annoying.",
+      "caution": "Avoid fair melee trades. His low wound pool needs protection from pulses and high-arcane attacks.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -6088,6 +6422,21 @@
       "image_height": 426,
       "photo_scope": "Wasp",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie melee enabler with reach",
+      "play": "Use Rage on the Faerie whose activation benefits most from losing Weakling; use the javelin and longer reach against drained targets.",
+      "needs": "Melee Faeries exploit Rage; healing and energy support keep the short-lived group fighting.",
+      "caution": "Check Rage's duration and positioning before spending it. Your own short-lived protection will not stop untargeted damage.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -6328,6 +6677,21 @@
       "image_height": 426,
       "photo_scope": "Silvertongue",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie energy manipulation and enemy control",
+      "play": "Turn bluff interactions into resources, then use Mind Control to waste an enemy's actions or undo its position.",
+      "needs": "Other Faeries benefit from his recovery tools; a specialist collector offsets Feeble's harvesting tax.",
+      "caution": "Controlled actions spend the relevant energy budget. Do not build a sequence around an enemy that cannot perform the action.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -6599,6 +6963,21 @@
       "image_height": 426,
       "photo_scope": "Gotchgut",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Giant bodyguard and close-range muscle",
+      "play": "Stay near a Noble when protection matters, then use brute damage or Goblin-related displacement to contest space.",
+      "needs": "A compatible Noble activates Bodyguard; healing and movement support cover his low energy.",
+      "caution": "His health is a resource, not immunity. Long chases waste the energy needed for attacks and protection.",
+      "sources": [
+        {
+          "title": "Noble Intentions",
+          "url": "https://www.moonstonethegame.com/latest/noble-intentions-commonwealth-noble-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Move armoured fighters before carrying stones; support and energy budget matter more than taking every expensive Noble.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -6839,6 +7218,21 @@
       "image_height": 426,
       "photo_scope": "Boulder",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Troll objective controller and durable obstruction",
+      "play": "Occupy important lanes, lower stone depths with Stone Song, and use Calcify to frustrate nearby enemy actions.",
+      "needs": "Goblin energy support or Troll healing helps him turn a defensive position into repeated useful actions.",
+      "caution": "Low melee and energy make him poor at chasing agile enemies. Armour does not protect against every wound effect.",
+      "sources": [
+        {
+          "title": "Fantastic Monsters and How to Field Them",
+          "url": "https://www.moonstonethegame.com/latest/fantasticmonsters",
+          "kind": "Official",
+          "research_note": "Large models need energy and objective support; current targeting restrictions take precedence.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -7070,6 +7464,21 @@
       "image_height": 426,
       "photo_scope": "Kaufman",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Noble movement controller and theft support",
+      "play": "Use Shower of Gold to alter crowded positions, then Money Bag or an offer to disrupt an exposed carrier.",
+      "needs": "Armoured allies exploit the spaces he creates; a healer keeps the control engine alive.",
+      "caution": "Movement effects may help enemies as well as friends. Check the whole area before activating the gold trick.",
+      "sources": [
+        {
+          "title": "Noble Intentions",
+          "url": "https://www.moonstonethegame.com/latest/noble-intentions-commonwealth-noble-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Move armoured fighters before carrying stones; support and energy budget matter more than taking every expensive Noble.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -7313,6 +7722,13 @@
       "image_height": 426,
       "photo_scope": "Natty, Slum Thief",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Evasive Rogue collector and thief",
+      "play": "Use Swift and shifting Evade to collect safely, then steal or sling at targets that cannot retaliate effectively.",
+      "needs": "Rogue support improves his arcane; a frontliner and healer let him keep distance.",
+      "caution": "His Evade depends on the surrounding situation. Weakling and a small wound pool punish unsupported combat.",
+      "sources": []
     }
   },
   {
@@ -7550,6 +7966,13 @@
       "image_height": 426,
       "photo_scope": "Gertrude, the Faerie Hunter",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Human/Faun hunter and ranged finisher",
+      "play": "Activate after a prospective victim so Hunting Party improves the attack; use the blunderbuss to finish targets your team has softened.",
+      "needs": "Human or Faun allies exploit her hunting support; healing keeps her operating near the fight.",
+      "caution": "Natural Order can hurt friendly high-energy models too. Check the area before pairing her with energetic allies.",
+      "sources": []
     }
   },
   {
@@ -7788,6 +8211,21 @@
       "image_height": 426,
       "photo_scope": "Sir Guillemot Poppycock",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Armoured Soldier leader and carrier protector",
+      "play": "Support Soldiers with The Governor and move allies into useful engagement or harvesting positions with Yell Out Commands.",
+      "needs": "Several Soldiers turn his support into pressure; Eric and a healer strengthen a disciplined frontline.",
+      "caution": "His low energy and arcane limit independent flexibility. Direct wound effects can bypass his otherwise excellent armour.",
+      "sources": [
+        {
+          "title": "Noble Intentions",
+          "url": "https://www.moonstonethegame.com/latest/noble-intentions-commonwealth-noble-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Move armoured fighters before carrying stones; support and energy budget matter more than taking every expensive Noble.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -8034,6 +8472,13 @@
       "image_height": 426,
       "photo_scope": "Old Calders",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Soldier reliability support and medic",
+      "play": "Keep Sage Advice near important casters, use Field Medic on wounded Soldiers or Nobles, and exploit hand knowledge in his own melee exchanges.",
+      "needs": "Soldiers and Nobles use his healing, while ranged allies appreciate catastrophe protection.",
+      "caution": "Field Medic is useful recovery, but does not replace a full healer in a damage-heavy game.",
+      "sources": []
     }
   },
   {
@@ -8273,6 +8718,13 @@
       "image_height": 426,
       "photo_scope": "Tabby, the Librarian",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Energy redistribution and long-reach cleric",
+      "play": "Transfer energy to the ally with the best immediate action, then use protection or arcane displacement to preserve the frontline.",
+      "needs": "A threatening attacker makes the energy meaningful; a collector prevents utility activations from neglecting scoring.",
+      "caution": "She starts with little energy herself. Maintain safe reach instead of letting the support role become a melee obligation.",
+      "sources": []
     }
   },
   {
@@ -8506,6 +8958,13 @@
       "image_height": 426,
       "photo_scope": "Sir Hogswash",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Durable Soldier charge threat",
+      "play": "Use the charge and spear reach to dislodge an enemy from valuable ground; time Utter Swine against a pivotal enemy Arcane action.",
+      "needs": "Soldier support improves his pressure and healing replenishes the wounds spent supporting allies.",
+      "caution": "Utter Swine costs friendly wounds. Spend them only when removing the enemy action changes the turn.",
+      "sources": []
     }
   },
   {
@@ -8771,6 +9230,21 @@
       "image_height": 426,
       "photo_scope": "Hoff",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faun leader and movement enabler",
+      "play": "Keep Fauns in Hoff's support area so Swift and improved melee make efficient hit-and-run activations.",
+      "needs": "Jayda and Toodles work in either faction; in Leshavult, energy-giving Fauns expand the plan.",
+      "caution": "His support is wasted on a troupe with few Fauns. Do not chase so far that the rest lose their movement benefit.",
+      "sources": [
+        {
+          "title": "The Leader, The Warrior and The Toodles",
+          "url": "https://www.moonstonethegame.com/latest/the-leader-the-warrior-and-the-toodles-hunting-horns-troupe-amp-wendigo-strategy",
+          "kind": "Official",
+          "research_note": "Hoff supports Fauns; Jayda supplies ranged reach, Toodles support.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -9023,6 +9497,21 @@
       "image_height": 426,
       "photo_scope": "Jayda",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faun ranged finisher and mobile scorer",
+      "play": "Use terrain-friendly movement to find a bow lane; prioritise wounded enemies where Mercy Kill improves the finish.",
+      "needs": "Hoff improves her movement and combat; healing and an energy donor preserve her expensive bow activation.",
+      "caution": "A bow shot consumes most of her base energy. Leave a way out rather than standing beside the target.",
+      "sources": [
+        {
+          "title": "The Leader, The Warrior and The Toodles",
+          "url": "https://www.moonstonethegame.com/latest/the-leader-the-warrior-and-the-toodles-hunting-horns-troupe-amp-wendigo-strategy",
+          "kind": "Official",
+          "research_note": "Hoff supports Fauns; Jayda supplies ranged reach, Toodles support.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -9282,6 +9771,21 @@
       "image_height": 426,
       "photo_scope": "Mr Toodles",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faun support healer and energy utility",
+      "play": "Choose Healing, Elixir or Lullaby according to whether the ally needs next-turn energy, immediate resources or wound recovery.",
+      "needs": "Mobile allies keep threats away from the healer; Hoff and Jayda form a compatible core in both factions.",
+      "caution": "Lullaby removes energy as it heals. Use it late or on a target that can afford the exchange.",
+      "sources": [
+        {
+          "title": "The Leader, The Warrior and The Toodles",
+          "url": "https://www.moonstonethegame.com/latest/the-leader-the-warrior-and-the-toodles-hunting-horns-troupe-amp-wendigo-strategy",
+          "kind": "Official",
+          "research_note": "Hoff supports Fauns; Jayda supplies ranged reach, Toodles support.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -9512,6 +10016,13 @@
       "image_height": 426,
       "photo_scope": "Joanna, Nordic Princess",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Norse/Gnome protection and terrain-sensitive caster",
+      "play": "Keep Gnomes or Animals nearby for damage reduction, then exploit wooded-patch interactions for useful arcane reach.",
+      "needs": "Mama and Norse allies sustain a compact group; wood access makes her terrain tricks practical.",
+      "caution": "Her protection has a cap. Do not plan a terrain-dependent cast without checking the necessary wood position.",
+      "sources": []
     }
   },
   {
@@ -9787,6 +10298,13 @@
       "image_height": 426,
       "photo_scope": "Muridae",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Rogue arcane support and stone thief",
+      "play": "Support nearby Rogues with improved arcane and use Squeaking to move an enemy without opening the normal reaction window.",
+      "needs": "Compatible Rogues convert his aura into reliable casts; a healer supports close-range theft attempts.",
+      "caution": "Robbery depends on its wound comparison. Soften the intended victim rather than assuming every carrier is stealable.",
+      "sources": []
     }
   },
   {
@@ -10030,6 +10548,13 @@
       "image_height": 426,
       "photo_scope": "Loci, Nordic Shipwright",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Norse/Gnome mobile control",
+      "play": "Use wooded patches and movement magic to reach awkward stones or dislodge a pursuer; exploit Trickster only when the risk suits the turn.",
+      "needs": "Gnome healing and Norse support preserve his resources; terrain-aware allies avoid obstructing his route.",
+      "caution": "Deck-flip defence is uncertain. Keep a safe destination instead of treating a possible escape as guaranteed.",
+      "sources": []
     }
   },
   {
@@ -10268,6 +10793,13 @@
       "image_height": 426,
       "photo_scope": "Gnomish Airship",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Flying ranged harassment and area denial",
+      "play": "Use flight to find firing lanes and the bolt's displacement to disrupt collectors; bomb only where friendly casualties are acceptable.",
+      "needs": "Mama supports arcane reliability and a specialist harvester compensates for the airship's inability to score directly.",
+      "caution": "It cannot harvest or use cover normally. Its good mobility does not protect it from accurate ranged attacks.",
+      "sources": []
     }
   },
   {
@@ -10536,6 +11068,21 @@
       "image_height": 426,
       "photo_scope": "Dim & Dimmer",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Giant obstruction and situational burst",
+      "play": "Use his large wound pool to contest space, then spend the bickering result on the most valuable nearby attack.",
+      "needs": "A healer and compatible energy support help overcome his unusually low base energy.",
+      "caution": "His resource generation is uncertain. Two Heads offers a powerful card choice, but costs energy needed for attacks or steps.",
+      "sources": [
+        {
+          "title": "Fantastic Monsters and How to Field Them",
+          "url": "https://www.moonstonethegame.com/latest/fantasticmonsters",
+          "kind": "Official",
+          "research_note": "Large models need energy and objective support; current targeting restrictions take precedence.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -10783,6 +11330,13 @@
       "image_height": 426,
       "photo_scope": "Brunhilde",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Noble bodyguard and Giant energy support",
+      "play": "Position between a Noble and enemy pressure; use Epic Ballads to make nearby Giants more active.",
+      "needs": "A compatible Noble triggers protection, while another Giant makes the energy support more efficient.",
+      "caution": "Epic Ballads also grants energy to enemy Giants in the pulse. Check nearby enemies before funding the whole Giant crowd.",
+      "sources": []
     }
   },
   {
@@ -11024,6 +11578,21 @@
       "image_height": 426,
       "photo_scope": "Bristlenose",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Troll melee damage with water utility",
+      "play": "Threaten slicing exchanges and use water to improve his energy economy; vomiting supplies an alternative to straight melee.",
+      "needs": "Knoll supplies lasting Troll recovery, and movement support gets him onto worthwhile targets.",
+      "caution": "His damage reduction excludes Impact. Do not assume musket fire or heavy Impact attacks will bounce off.",
+      "sources": [
+        {
+          "title": "Knoll",
+          "url": "https://www.moonstonethegame.com/latest/knoll",
+          "kind": "Official",
+          "research_note": "Budget energy for Trollish Remedies and support Troll durability; current faction is authoritative.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -11263,6 +11832,21 @@
       "image_height": 426,
       "photo_scope": "Ribald",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin/Troll artillery and board obstruction",
+      "play": "Keep a safe cannon lane and use its push to clear a contested stone; choose shooting over an unproductive chase.",
+      "needs": "Goblin energy support feeds extra work and Troll healing repairs a dangerous catastrophe.",
+      "caution": "Slow and low base energy restrict repositioning. Cannon catastrophes can threaten nearby allies.",
+      "sources": [
+        {
+          "title": "Knoll",
+          "url": "https://www.moonstonethegame.com/latest/knoll",
+          "kind": "Official",
+          "research_note": "Budget energy for Trollish Remedies and support Troll durability; current faction is authoritative.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -11500,6 +12084,13 @@
       "image_height": 426,
       "photo_scope": "The Goblin King",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin leader and protected stone owner",
+      "play": "Keep expendable Goblins available for Royal Privilege, use Gimme! to consolidate stones, and time the extra activation for a key turn.",
+      "needs": "Several Goblins make his protection practical; healing and mobile collectors support the scoring plan.",
+      "caution": "Rule the Roost wounds the target Goblin, rather than the King. Choose an ally that survives the cost and gains from another activation.",
+      "sources": []
     }
   },
   {
@@ -11742,6 +12333,21 @@
       "image_height": 426,
       "photo_scope": "The Mortician",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin resurrection and healing support",
+      "play": "Keep a useful Reanimate target available and exploit slain models for energy; heal when saving an activation is better than recycling it.",
+      "needs": "Jobie strongly benefits from a reanimator, while durable Goblins screen the Mortician.",
+      "caution": "Leaving allies nearly dead can deny death triggers and future energy. Do not assume an opponent will finish your intended target.",
+      "sources": [
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -11979,6 +12585,13 @@
       "image_height": 426,
       "photo_scope": "Herbert Growbottom",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Goblin terrain caster",
+      "play": "Grow wooded patches, use them for relocation, and threaten Wither when an enemy remains within a useful casting lane.",
+      "needs": "Goblin energy support or Faerie tools both suit him; healing repairs an exposed caster.",
+      "caution": "Evolution excludes Grub from the starting troupe. Wood placement must preserve useful routes and line of sight.",
+      "sources": []
     }
   },
   {
@@ -12222,6 +12835,21 @@
       "image_height": 426,
       "photo_scope": "EL Capitano",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin Pirate leader and disengagement support",
+      "play": "Keep Goblin Pirates in his energy area and use Run Away! to free an ally for its next shooting or scoring action.",
+      "needs": "Stu and Swigarty exploit the keyword support; Powder Monkey supplies Pirate healing.",
+      "caution": "Human Pirates do not automatically receive Goblin-specific benefits. Check the exact keyword restriction before planning the activation.",
+      "sources": [
+        {
+          "title": "Goblin Pirate Strategy",
+          "url": "https://www.moonstonethegame.com/latest/goblin-pirates-subfaction-focus",
+          "kind": "Official",
+          "research_note": "Energy support and safe hit-and-run positioning; current cards supersede older costs.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -12451,6 +13079,21 @@
       "image_height": 426,
       "photo_scope": "Swiggarty Swooty",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Pirate energy support and passive borrower",
+      "play": "Harvest stones to improve Luv'a da Booty's payoff, then stay close enough for attacking Pirates to use it.",
+      "needs": "Pirates who actually make melee attacks turn the stone-based energy into pressure; healing protects the carrier.",
+      "caution": "Carrying stones slows him down. Movement support is essential if the frontline leaves his support range.",
+      "sources": [
+        {
+          "title": "Goblin Pirate Strategy",
+          "url": "https://www.moonstonethegame.com/latest/goblin-pirates-subfaction-focus",
+          "kind": "Official",
+          "research_note": "Energy support and safe hit-and-run positioning; current cards supersede older costs.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -12714,6 +13357,21 @@
       "image_height": 426,
       "photo_scope": "Crusty Balboa",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Durable Goblin Pirate melee thief",
+      "play": "Use reach and shell protection to contest carriers; Pinch and Punch create opportunities to steal or force a better position.",
+      "needs": "Pirate energy support extends his close-range work and a healer keeps the tough crab contesting.",
+      "caution": "Check Pinch's conditions before choosing a carrier. Durable does not mean immune to direct wounds or control.",
+      "sources": [
+        {
+          "title": "Goblin Pirate Strategy",
+          "url": "https://www.moonstonethegame.com/latest/goblin-pirates-subfaction-focus",
+          "kind": "Official",
+          "research_note": "Energy support and safe hit-and-run positioning; current cards supersede older costs.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -12950,6 +13608,13 @@
       "image_height": 426,
       "photo_scope": "Goblin Airship",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Flying Goblin ranged controller",
+      "play": "Pull eligible targets with Sticky Tongue, then use flight to keep clear firing lanes and interfere with collectors.",
+      "needs": "Goblin energy and healing support improve uptime; real harvesters cover his inability to collect stones.",
+      "caution": "The tongue has an Evade restriction. He also cannot rely on ordinary cover to survive enemy shooting.",
+      "sources": []
     }
   },
   {
@@ -13185,6 +13850,21 @@
       "image_height": 426,
       "photo_scope": "Diana, Queen of the fae",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie leader and resource converter",
+      "play": "Redistribute energy to the Faerie with the best next action; decide carefully when sacrificing nearby Faerie wounds improves an Arcane action.",
+      "needs": "Several Faeries make her support flexible; healing restores the wounds spent on empowering the group.",
+      "caution": "Resource conversion can leave fragile allies easy to finish. Do not bunch everyone up against pulse damage.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -13415,6 +14095,21 @@
       "image_height": 426,
       "photo_scope": "Belladonna",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Rogue movement control and attrition",
+      "play": "Use Rogue swaps to alter threatened positions, then poison or acid against a target your team can exploit.",
+      "needs": "Rogue support improves arcane and Faerie healing sustains repeated close-range interference.",
+      "caution": "Her dangerous catastrophe can change the whole exchange. Plan around the risk rather than treating the damage as free.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -13634,6 +14329,21 @@
       "image_height": 426,
       "photo_scope": "Foxglove",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Rogue defensive utility and flexible finisher",
+      "play": "Protect the ally that must survive, use Atrophy for pressure, and copy the most useful nearby Faerie Rogue signature.",
+      "needs": "A compatible Faerie Rogue provides a signature worth borrowing; healing and objective support cover his fragility.",
+      "caution": "Copied signatures depend on the available model and positioning. Weakling limits ordinary melee output.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -13864,6 +14574,21 @@
       "image_height": 426,
       "photo_scope": "Vespa",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Animal reach fighter",
+      "play": "Exploit Out of Reach and the javelin to pressure enemies without accepting every melee exchange; use Antagonize to favour a chosen fight.",
+      "needs": "Faerie support or compatible Animal healing improves her staying power.",
+      "caution": "While Out of Reach is active she cannot benefit from cover. Check Out of Reach's actual protection instead of assuming flight prevents all attacks.",
+      "sources": [
+        {
+          "title": "Feeble Faeries and How to Fizzlepop Them",
+          "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+          "kind": "Official",
+          "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -14102,6 +14827,21 @@
       "image_height": 426,
       "photo_scope": "Brother Daniel",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Cultist objective support and group movement",
+      "play": "Claim a safe stone so Look at the Shiny Thing funds another model; reposition allies and heal clustered wounds when useful.",
+      "needs": "High-cost Cultist actions benefit from donated energy; a frontliner protects the stone-holding support model.",
+      "caution": "He cannot give the passive energy to himself. Movement effects need a destination that helps scoring rather than just regrouping.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -14348,6 +15088,21 @@
       "image_height": 426,
       "photo_scope": "Kavanagh, the Jongler",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Cultist/Rogue energy enabler and deck banker",
+      "play": "Use Black Comedy to unlock an expensive friendly action, then bank useful cards with Juggling Fate for a planned cast.",
+      "needs": "A healer repairs the donated wounds; tough allies absorb the cost more comfortably than fragile casters.",
+      "caution": "Juggling Fate needs its full starting energy before returning any. Avoid an opening plan with no way to reach that threshold.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -14586,6 +15341,21 @@
       "image_height": 426,
       "photo_scope": "Kalista, Leshavult Priestess",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Cultist/Spirit arcane leader and protective healer",
+      "play": "Keep relevant casters in her support area, protect a valuable ally with Caress, and reserve Paroxysm for a favourable cluster.",
+      "needs": "Cultists or Spirits use her arcane support; an energy source can enable the expensive pulse before deaths occur.",
+      "caution": "Paroxysm is once per game and also damages nearby allies. Have an energy route ready before relying on deaths to fund it.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -14871,6 +15641,21 @@
       "image_height": 426,
       "photo_scope": "Loubard",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Giant/Cultist reach threat",
+      "play": "Use his exceptional reach to control a lane, then arrange the energy needed for Righteous Fury before committing.",
+      "needs": "Cultist energy donors or Pickles can help enable his premium action; healing replenishes a large wound pool.",
+      "caution": "Blind Faith requires a nearby friend for normal movement and harvesting. Predictable limits bluffing flexibility in melee.",
+      "sources": [
+        {
+          "title": "Fantastic Monsters and How to Field Them",
+          "url": "https://www.moonstonethegame.com/latest/fantasticmonsters",
+          "kind": "Official",
+          "research_note": "Large models need energy and objective support; current targeting restrictions take precedence.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -15144,7 +15929,42 @@
       "image_height": 426,
       "photo_scope": "Boris, The Bunny Summoner",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoning engine and Animal board control",
+      "play": "Build a bunny screen, then use the extra board presence to protect collectors and make fights unfair; summon Jackalope when the budget permits.",
+      "needs": "In Leshavult, Chubs supplies early energy; in either faction, healing and Animals support the broader plan.",
+      "caution": "Bunnies spend Boris's energy rather than creating independent activations. Keep their movement budget separate from the next summon.",
+      "sources": [
+        {
+          "title": "Boris, Bunnies and Beasts",
+          "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+          "kind": "Official",
+          "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Summon a Murder Bunny",
+        "kind": "summon",
+        "condition": "Up to three friendly Murder Bunnies; uses Boris’s energy.",
+        "character_ids": [
+          "murder-bunny-64",
+          "murder-bunny-65",
+          "murder-bunny-66"
+        ]
+      },
+      {
+        "ability": "Summon the Jackalope",
+        "kind": "summon",
+        "condition": "Only if no friendly Jackalope is in play; requires five energy.",
+        "character_ids": [
+          "jackalope-73"
+        ]
+      }
+    ]
   },
   {
     "id": "murder-bunny-64",
@@ -15377,7 +16197,32 @@
       "image_height": 426,
       "photo_scope": "Murder Bunnies",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned screen and supporting attacker",
+      "play": "Use this bunny to obstruct a route or add an engagement penalty before a better attacker commits.",
+      "needs": "Boris must stay supplied with energy; a healer helps keep the summoner operating.",
+      "caution": "It cannot join the starting troupe and has no independent energy. Weakling makes deep harvesting and fair melee poor uses.",
+      "sources": [
+        {
+          "title": "Boris, Bunnies and Beasts",
+          "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+          "kind": "Official",
+          "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon a Murder Bunny",
+        "kind": "summon",
+        "condition": "Up to three friendly Murder Bunnies; uses Boris’s energy.",
+        "character_ids": [
+          "boris-the-bunny-summoner-63"
+        ]
+      }
+    ]
   },
   {
     "id": "murder-bunny-65",
@@ -15610,7 +16455,32 @@
       "image_height": 426,
       "photo_scope": "Murder Bunnies",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned objective interference",
+      "play": "Place this bunny where it restricts enemy movement, then collect a prepared shallow stone only if the shared energy budget allows.",
+      "needs": "Boris and efficient friendly harvesters prepare the scoring opportunity.",
+      "caution": "Its movement and attacks consume Boris's energy. Do not spread the bunny group so far that protecting the summoner becomes difficult.",
+      "sources": [
+        {
+          "title": "Boris, Bunnies and Beasts",
+          "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+          "kind": "Official",
+          "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon a Murder Bunny",
+        "kind": "summon",
+        "condition": "Up to three friendly Murder Bunnies; uses Boris’s energy.",
+        "character_ids": [
+          "boris-the-bunny-summoner-63"
+        ]
+      }
+    ]
   },
   {
     "id": "murder-bunny-66",
@@ -15843,7 +16713,32 @@
       "image_height": 426,
       "photo_scope": "Murder Bunnies",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned melee support and space denial",
+      "play": "Use this bunny to add another engagement around an intended victim, limiting escape routes before Boris or a stronger friend attacks.",
+      "needs": "Boris supplies every action; a compatible hitter turns the engagement penalty into meaningful damage.",
+      "caution": "Its small wound pool is expendable, but its death weakens Boris's next-turn energy generation.",
+      "sources": [
+        {
+          "title": "Boris, Bunnies and Beasts",
+          "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+          "kind": "Official",
+          "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon a Murder Bunny",
+        "kind": "summon",
+        "condition": "Up to three friendly Murder Bunnies; uses Boris’s energy.",
+        "character_ids": [
+          "boris-the-bunny-summoner-63"
+        ]
+      }
+    ]
   },
   {
     "id": "zorya-dawn-witch-67",
@@ -16078,6 +16973,21 @@
       "image_height": 426,
       "photo_scope": "Zorya, Dawn Witch",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Witch melee pressure and catastrophe planner",
+      "play": "Stay linked to Antonia, then use Visions of the Future only when the chosen friendly catastrophe benefits your position.",
+      "needs": "Antonia and Danica complete the Witch engine; healing supports close-range pressure.",
+      "caution": "Violent Impulse can also help enemies in its area. Plan the entire affected group before deliberately triggering it.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -16315,6 +17225,21 @@
       "image_height": 426,
       "photo_scope": "Antonia, Noonday Witch",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Witch healing and arcane amplifier",
+      "play": "Support friendly Witches with casting discounts, heal wounded allies, and use Candy Apples when pulling a target closer is safe.",
+      "needs": "Danica supports her arcane, while Zorya completes the linked support cycle.",
+      "caution": "A lure can deliver an enemy threat into your support group. Do not manufacture a catastrophe without checking nearby casualties.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -16544,6 +17469,21 @@
       "image_height": 426,
       "photo_scope": "Danica, Dusk Witch",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Witch action coordination and deck control",
+      "play": "Use Puppet to access the friendly action most valuable now; bank cards when the extra certainty outweighs the wound cost.",
+      "needs": "Zorya provides recovery and Antonia benefits from her link; a healer makes deck manipulation sustainable.",
+      "caution": "Puppet uses Danica's resources and retains action restrictions. Copying an expensive option does not supply the missing energy.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -16779,6 +17719,21 @@
       "image_height": 426,
       "photo_scope": "Chubs",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faun/Animal energy donor and healer",
+      "play": "Prioritise Rouse to fund a decisive friendly activation, or choose healing and misdirection when protecting the objective is more valuable.",
+      "needs": "Animals and Fauns convert the energy efficiently; Boris or Jackalope gives the support a clear purpose.",
+      "caution": "Weakling and limited wounds make a front-line duel inefficient. Leave room to reach the ally that needs support.",
+      "sources": [
+        {
+          "title": "Boris, Bunnies and Beasts",
+          "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+          "kind": "Official",
+          "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -17018,6 +17973,13 @@
       "image_height": 426,
       "photo_scope": "Wendigo",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Mobile magical Faun/Spirit attacker",
+      "play": "Use terrain-friendly movement and terror pressure to reach exposed targets; Mind Control can undo a key enemy position.",
+      "needs": "Hoff improves Faun efficiency, and Spirit support or healing helps maintain pressure.",
+      "caution": "Do not chase just to inflict damage. His job is to threaten the enemy's scoring route while preserving your own.",
+      "sources": []
     }
   },
   {
@@ -17263,6 +18225,21 @@
       "image_height": 426,
       "photo_scope": "Gloom",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Animal movement support and ranged disruption",
+      "play": "Move Animals with Whisper to the Wild Things, reposition himself safely, and use Smothering Darkness to pressure awkward targets.",
+      "needs": "Animal attackers and collectors exploit the movement; energy support can fund several utility actions.",
+      "caution": "Slow and Weakling limit independent scoring and combat. Keep track of the downside as well as the benefit of a catastrophe.",
+      "sources": [
+        {
+          "title": "Boris, Bunnies and Beasts",
+          "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+          "kind": "Official",
+          "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -17526,7 +18503,32 @@
       "image_height": 426,
       "photo_scope": "Jackalope",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Mobile Animal collector and secondary bruiser",
+      "play": "Use Hop to move despite carrier Slow and Burrow to claim deep stones; fight only when protecting or stealing an objective justifies it.",
+      "needs": "Animal support and healing help in either faction; Leshavult energy donors extend his useful movement.",
+      "caution": "Burrow cannot solve every engaged position. He is selectable at deployment, so a central plan need not gamble on Boris summoning him.",
+      "sources": [
+        {
+          "title": "Boris, Bunnies and Beasts",
+          "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+          "kind": "Official",
+          "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon the Jackalope",
+        "kind": "summon",
+        "condition": "Only if no friendly Jackalope is in play; requires five energy.",
+        "character_ids": [
+          "boris-the-bunny-summoner-63"
+        ]
+      }
+    ]
   },
   {
     "id": "the-revenant-74",
@@ -17778,6 +18780,21 @@
       "image_height": 426,
       "photo_scope": "The Revenant",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Persistent Noble/Spirit controller",
+      "play": "Use hand information and catastrophe pressure to disrupt enemy turns; exploit Undying to remain an awkward board presence.",
+      "needs": "Healing restores damaged energy dots and a collector handles scoring while he interferes.",
+      "caution": "Undying drops a carried stone and cannot stop removal from his own killing signature. Nearly fatal wounds can still leave him energy-starved.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -18042,6 +19059,13 @@
       "image_height": 426,
       "photo_scope": "The Beast",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Animal/Noble melee deterrent",
+      "play": "Use long reach and Terror to punish approaches, then exploit Awake the Beast when an enemy first targets him to improve the response.",
+      "needs": "Healing and movement support help deliver him; Animal or Noble support depends on the chosen faction.",
+      "caution": "An opponent can avoid triggering his best bonuses. Do not build the whole turn around being attacked.",
+      "sources": []
     }
   },
   {
@@ -18301,7 +19325,42 @@
       "image_height": 426,
       "photo_scope": "Anya Bartol",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Noble support that transforms into a killer",
+      "play": "Heal and protect positioning as Anya, then arrange four energy to remove the necklace when Striga has a worthwhile victim.",
+      "needs": "A compatible energy donor enables transformation; healing matters because wounds carry into the new form.",
+      "caution": "Transformation is one continuing activation. It does not reset wounds or grant a second Jog if Anya already jogged.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Remove Necklace / Lose Control!",
+        "kind": "transformation",
+        "condition": "Replaces Anya; wounds, energy, stones and modifications carry over.",
+        "character_ids": [
+          "striga-anya-77"
+        ]
+      }
+    ],
+    "summoned_by": [
+      {
+        "ability": "Replace Necklace / Regain Control",
+        "kind": "transformation",
+        "condition": "Replaces Striga Anya; wounds, energy, stones and modifications carry over.",
+        "character_ids": [
+          "striga-anya-77"
+        ]
+      }
+    ]
   },
   {
     "id": "striga-anya-77",
@@ -18540,7 +19599,42 @@
       "image_height": 426,
       "photo_scope": "Striga Anya",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Transformed Spirit melee finisher",
+      "play": "Use the transformation's resources to attack a softened enemy, then exploit kill energy or revert when the support form is more valuable.",
+      "needs": "Anya is the entry route; compatible healing and enemy displacement help secure a profitable fight.",
+      "caution": "She is not selectable in the starting troupe. Returning to Anya retains wounds, stones and current modifications.",
+      "sources": [
+        {
+          "title": "The Liturgy of Leshavit",
+          "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+          "kind": "Official",
+          "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Remove Necklace / Lose Control!",
+        "kind": "transformation",
+        "condition": "Replaces Anya; wounds, energy, stones and modifications carry over.",
+        "character_ids": [
+          "anya-bartol-76"
+        ]
+      }
+    ],
+    "summons": [
+      {
+        "ability": "Replace Necklace / Regain Control",
+        "kind": "transformation",
+        "condition": "Replaces Striga Anya; wounds, energy, stones and modifications carry over.",
+        "character_ids": [
+          "anya-bartol-76"
+        ]
+      }
+    ]
   },
   {
     "id": "klaus-78",
@@ -18785,6 +19879,13 @@
       "image_height": 426,
       "photo_scope": "Klaus",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Cultist/Faun melee support and catastrophe enabler",
+      "play": "Keep enough Cultists nearby for his melee support, then use his beer trick only when the affected friendly catastrophes are useful.",
+      "needs": "Raegan and other Cultists exploit his support; a healer repairs risky close-range exchanges.",
+      "caution": "His defensive protection has conditions. Count nearby keywords and affected models before assuming the combo works.",
+      "sources": []
     }
   },
   {
@@ -19009,6 +20110,13 @@
       "image_height": 426,
       "photo_scope": "Raegan, Leshavult Priestess",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Cultist/Faun woodland healing and deck shaping",
+      "play": "Grow woods for positioning, use Malachite Ritual for useful recovery or energy, and bank cards when catastrophes trigger Expel.",
+      "needs": "Klaus provides linked protection; wood creators and Cultist support make her terrain plan consistent.",
+      "caution": "Expel banks newly drawn cards rather than removing every catastrophe. Its storage limit depends on the current turn number.",
+      "sources": []
     }
   },
   {
@@ -19258,6 +20366,13 @@
       "image_height": 426,
       "photo_scope": "Gwendoline, Leshavult Priestess",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Cultist deck banker and mobile healer",
+      "play": "Use Scry to hold a useful card for the right activation; Rejuvenate can repair and reposition an ally at once.",
+      "needs": "An efficient harvester covers Feeble, while compatible casters profit from a deliberately prepared card.",
+      "caution": "A banked card is valuable certainty, but spending too long preparing can concede the objective race.",
+      "sources": []
     }
   },
   {
@@ -19492,6 +20607,13 @@
       "image_height": 426,
       "photo_scope": "The Duchess",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Human/Noble initiative and attrition support",
+      "play": "Use initiative pressure to favour the critical turn, then convert a victim's wounds into recovery or energy for your side.",
+      "needs": "Human allies exploit her support; a durable frontliner gives her time to shape the exchange.",
+      "caution": "Her healing and energy tools have conditions. Do not rely on an opponent supplying a helpful catastrophe.",
+      "sources": []
     }
   },
   {
@@ -19721,6 +20843,13 @@
       "image_height": 426,
       "photo_scope": "Creep",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Rogue energy drain and exposed-target pressure",
+      "play": "Drain an enemy before allies engage, using his victim-related arcane setup to improve follow-up attacks.",
+      "needs": "Compatible Rogue support improves reliability, while a healer and genuine frontline fighter protect him.",
+      "caution": "His own melee output is limited. Draining a harmless model matters less than denying the enemy's next decisive action.",
+      "sources": []
     }
   },
   {
@@ -19960,6 +21089,13 @@
       "image_height": 426,
       "photo_scope": "Claudia Duvel",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Rogue ranged thief and flexible scorer",
+      "play": "Use Robbery against a softened carrier and make the most of Brace Yourself to keep pistol pressure efficient.",
+      "needs": "Rogue arcane support and healing help her operate near objectives; a fighter prepares theft opportunities.",
+      "caution": "Robbery's comparison must be satisfied. An easy pistol shot should not distract from a reachable scoring play.",
+      "sources": []
     }
   },
   {
@@ -20198,6 +21334,21 @@
       "image_height": 426,
       "photo_scope": "Peggy",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Pirate deployment and objective movement support",
+      "play": "Choose a self-sufficient Pirate for Treasure Map, then use X Marks the Spot to bring allies onto stones or a vulnerable carrier.",
+      "needs": "Swash exploits the advance; Powder Monkey and other Pirates balance combat, recovery and collection.",
+      "caution": "The advanced Pirate is exposed to ranged control. Peggy's own Slow makes careful supporting movement essential.",
+      "sources": [
+        {
+          "title": "Peggy",
+          "url": "https://www.moonstonethegame.com/latest/peggy-character-spotlight",
+          "kind": "Official",
+          "research_note": "Advance a self-sufficient Pirate; deployment mobility exposes it to ranged threats.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -20440,6 +21591,13 @@
       "image_height": 426,
       "photo_scope": "Swash",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Pirate melee attacker and Noble hunter",
+      "play": "Use reach, buckler and sword damage to dominate favourable engagements; the pistol supplies pressure when an attack lane is unavailable.",
+      "needs": "Pirate energy and movement support improve his attack economy, while healing keeps him contesting carriers.",
+      "caution": "Avoid a prolonged chase after collecting stones. Do not spend the whole activation shooting when a safer objective play exists.",
+      "sources": []
     }
   },
   {
@@ -20671,6 +21829,13 @@
       "image_height": 426,
       "photo_scope": "Powder Monkey",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Pirate/Animal recovery and flexible support",
+      "play": "Choose the mascot effect for the intended Pirate attack or defensive move; heal with rum and bomb only a favourable area.",
+      "needs": "Pirates exploit his versatile support; a durable fighter lets the monkey work behind the engagement.",
+      "caution": "Rum changes arcane and bombs threaten nearby friends. Decide whether the stat penalty matters before healing a caster.",
+      "sources": []
     }
   },
   {
@@ -20928,6 +22093,21 @@
       "image_height": 426,
       "photo_scope": "Knoll",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Troll regeneration support and long reach",
+      "play": "Apply lasting Troll recovery early enough to matter, then exploit Reclusive energy while staying in a useful support position.",
+      "needs": "Other Trolls make the healing efficient; movement support helps the group reach contested stones.",
+      "caution": "Reclusive needs spacing. An ally crowding him can remove the energy your next healing sequence requires.",
+      "sources": [
+        {
+          "title": "Knoll",
+          "url": "https://www.moonstonethegame.com/latest/knoll",
+          "kind": "Official",
+          "research_note": "Budget energy for Trollish Remedies and support Troll durability; current faction is authoritative.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -21169,6 +22349,21 @@
       "image_height": 426,
       "photo_scope": "Bjørn",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Norse/Gnome wound-powered attacker",
+      "play": "Use Bear Charge to disable enemy signatures, then exploit Berserk Fury's wound-scaled damage in a fight he can survive.",
+      "needs": "Norse healing and movement help manage his resource tradeoffs; a collector frees him to contest.",
+      "caution": "More wounds can improve output while reducing safety and energy generation. Do not damage him merely to chase a bigger number.",
+      "sources": [
+        {
+          "title": "Bjørn",
+          "url": "https://www.moonstonethegame.com/latest/bjorn-character-spotlight",
+          "kind": "Official",
+          "research_note": "Balance wound-powered damage with survival; charge can disable opposing signatures.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -21424,6 +22619,21 @@
       "image_height": 426,
       "photo_scope": "Liv",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Norse/Gnome rune support and healer",
+      "play": "Protect Norse allies, then use her own Arcane action to arrange unused hand cards for a following pivotal cast.",
+      "needs": "Olim or Young Jack can prepare her rune flip; a melee anchor screens her while she supports Norse allies and sets up later casts.",
+      "caution": "The predicted or manipulated result still has timing limits. Plan the actual card sequence rather than assuming blanket reliability.",
+      "sources": [
+        {
+          "title": "Liv",
+          "url": "https://www.moonstonethegame.com/latest/liv-character-spotlight",
+          "kind": "Official",
+          "research_note": "Sequence deck preparation and her own casting before arranging unused cards.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -21651,6 +22861,21 @@
       "image_height": 426,
       "photo_scope": "Olim",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Norse/Gnome objective and deck support",
+      "play": "Use Fortunate for a prepared elixir, Fetch for position, and Valhalla movement to support the right attacking ally.",
+      "needs": "Norse allies and Young Jack use his support; Gnome healing sustains the carrier group.",
+      "caution": "Bonus Jog distance does not automatically remove Slow. Count the real move before planning a stone escape.",
+      "sources": [
+        {
+          "title": "Olim",
+          "url": "https://www.moonstonethegame.com/latest/olim-character-spotlight",
+          "kind": "Official",
+          "research_note": "Set up Norse flips and charge lanes; older passives differ from the current card.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -21891,6 +23116,13 @@
       "image_height": 426,
       "photo_scope": "Eric, the Enlightened",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Woodland Cultist/Animal melee threat",
+      "play": "Start near useful woods for energy, use the javelin at reach, then choose Enchanted Bladestorm for a decisive exchange.",
+      "needs": "Wood creators enable his energy plan; Cultist support and healing sustain pressure.",
+      "caution": "Bladestorm trades away the javelin's benefits. Use it for an important fight rather than as an automatic opening buff.",
+      "sources": []
     }
   },
   {
@@ -22129,6 +23361,21 @@
       "image_height": 426,
       "photo_scope": "Dranyer",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Spirit keyword and movement utility",
+      "play": "Borrow a useful keyword with Mimic, then use shared-keyword movement or Cunning to support an ally or disrupt an enemy.",
+      "needs": "Spirit or Treefolk allies create natural matches; healing support covers aggressive positioning.",
+      "caution": "Borrowed keywords and swaps need the actual conditions to work. A failed cast can leave the intended escape unavailable.",
+      "sources": [
+        {
+          "title": "Big Tree, Little Tree, Transforming Fox",
+          "url": "https://www.moonstonethegame.com/latest/big-tree-little-tree-transforming-fox",
+          "kind": "Official",
+          "research_note": "Wood placement and mobile Spirit/Animal partners; current cards govern numerical effects.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -22355,6 +23602,21 @@
       "image_height": 426,
       "photo_scope": "Ruwt",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Treefolk woodland engine and survival utility",
+      "play": "Place wooded patches to control routes and enable allies, then preserve a created patch as an escape resource.",
+      "needs": "Other Treefolk exploit his terrain support; healing offsets New Growth's wound payment.",
+      "caution": "His survival trick consumes eligible woods. Spending every patch on convenience can remove his planned protection.",
+      "sources": [
+        {
+          "title": "Big Tree, Little Tree, Transforming Fox",
+          "url": "https://www.moonstonethegame.com/latest/big-tree-little-tree-transforming-fox",
+          "kind": "Official",
+          "research_note": "Wood placement and mobile Spirit/Animal partners; current cards govern numerical effects.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -22602,6 +23864,21 @@
       "image_height": 426,
       "photo_scope": "Snag",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Treefolk/Spirit attrition bruiser",
+      "play": "Engage a useful lane and apply Deadwood Curse where discard wounds threaten enemy energy or a late carrier.",
+      "needs": "Wood support improves routes; healing and slain-friendly triggers help him sustain a contest.",
+      "caution": "The curse spreads to the target’s friends. Its catastrophe can hurt your own nearby models, so check spacing before casting.",
+      "sources": [
+        {
+          "title": "Big Tree, Little Tree, Transforming Fox",
+          "url": "https://www.moonstonethegame.com/latest/big-tree-little-tree-transforming-fox",
+          "kind": "Official",
+          "research_note": "Wood placement and mobile Spirit/Animal partners; current cards govern numerical effects.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -22864,6 +24141,21 @@
       "image_height": 426,
       "photo_scope": "Gump",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Durable Treefolk anchor and pull control",
+      "play": "Use forest-linked sustain to hold a scoring lane, then pull enemies where woods and friendly Treefolk make the outcome worthwhile.",
+      "needs": "Ruwt creates terrain and supports Treefolk; a healer and mobile collector cover the slow anchor.",
+      "caution": "Ponderous prevents normal reaction steps. Leave him somewhere useful before the opponent begins repositioning.",
+      "sources": [
+        {
+          "title": "Big Tree, Little Tree, Transforming Fox",
+          "url": "https://www.moonstonethegame.com/latest/big-tree-little-tree-transforming-fox",
+          "kind": "Official",
+          "research_note": "Wood placement and mobile Spirit/Animal partners; current cards govern numerical effects.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -23091,6 +24383,21 @@
       "image_height": 426,
       "photo_scope": "Jobie",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Disposable Goblin objective trick and resurrection target",
+      "play": "Use deep-stone tricks to alter an objective, accepting sacrifice when the placement creates a better scoring position.",
+      "needs": "The Mortician or another compatible reanimator is central to making his repeated deaths productive.",
+      "caution": "Do not treat him as a self-sufficient collector. Check the exact stone-placement result before sacrificing him.",
+      "sources": [
+        {
+          "title": "Player discussion: starter tactics",
+          "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+          "kind": "Community",
+          "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -23322,6 +24629,13 @@
       "image_height": 426,
       "photo_scope": "The Tax Collector",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin carrier control and stone theft",
+      "play": "Tax an enemy carrier to deny movement or drain its energy, then use Friskal Stimulus to favour melee against a heavily loaded victim.",
+      "needs": "Friendly carriers make Rebate more useful; Goblin allies offer a limited inheritance recovery route.",
+      "caution": "Inheritance places a depth-one stone nearby instead of handing it directly to him. The enemy can pay to cancel his tax or signature theft.",
+      "sources": []
     }
   },
   {
@@ -23565,6 +24879,13 @@
       "image_height": 426,
       "photo_scope": "Portly Pete",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin/Soldier carrier protector and later-turn fighter",
+      "play": "Let another model open the turn, then use his activated-state bonuses and Soldier movement to defend a scoring group.",
+      "needs": "Goblin carriers and Soldiers exploit his support; a healer preserves his role through repeated contests.",
+      "caution": "He cannot be your first activation. Your opening plan needs another character with useful work to do.",
+      "sources": []
     }
   },
   {
@@ -23768,7 +25089,48 @@
       "image_height": 426,
       "photo_scope": "Brave Sir Pidge",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned armoured distraction and Noble duellist",
+      "play": "Use Pidge to occupy a useful engagement or make a Noble spend resources dealing with his challenge.",
+      "needs": "A legal summoner supplies his actions; Soldier support can make the distraction more credible.",
+      "caution": "He cannot activate independently and has only one wound. A Noble Challenge prevents his own damage suffered only against a Noble during that action; magical attacks still threaten his one wound.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon Reinforcements",
+        "kind": "summon",
+        "condition": "Cannot bring a character into play if already in play.",
+        "character_ids": [
+          "negroli-108"
+        ]
+      },
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      }
+    ]
   },
   {
     "id": "terrible-musician-100",
@@ -23975,7 +25337,56 @@
       "image_height": 426,
       "photo_scope": "Terrible Musician",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned debuff and push utility",
+      "play": "Position the musician so Din weakens the intended enemy, then push when the shared energy cost protects a scoring play.",
+      "needs": "Negroli or Roary can bring him in directly; a stronger attacker exploits the debuff.",
+      "caution": "He uses his summoner's energy and vanishes if that summoner is lost. Do not spend a whole support activation on an irrelevant nuisance.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon Reinforcements",
+        "kind": "summon",
+        "condition": "Cannot bring a character into play if already in play.",
+        "character_ids": [
+          "negroli-108"
+        ]
+      },
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon the Choir",
+        "kind": "summon",
+        "condition": "When deployed or entering play; cannot duplicate a character in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      }
+    ]
   },
   {
     "id": "flay-bearer-of-knowledge-101",
@@ -24182,7 +25593,55 @@
       "image_height": 426,
       "photo_scope": "Flay, Bearer of Knowledge",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned arcane reliability support",
+      "play": "Stay near the summoner for Tome's arcane boost; use the active knowledge boost when another model's pivotal cast justifies the cost.",
+      "needs": "Greymair benefits directly from stronger Reanimate; other legal Psychopomp summoners can also create him.",
+      "caution": "The extra arcane does not create extra energy. Keep the fragile Familiar safe rather than paying to move it into danger.",
+      "sources": [
+        {
+          "title": "Greymair",
+          "url": "https://www.moonstonethegame.com/latest/greymair-character-spotlight",
+          "kind": "Official",
+          "research_note": "Drain Life can reset an energy-starved ally; Familiars support arcane reliability.",
+          "checked_on": "2026-09-16"
+        },
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon a Helping Hand",
+        "kind": "summon",
+        "condition": "Cannot bring a character into play if already in play.",
+        "character_ids": [
+          "greymair-107"
+        ]
+      },
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      }
+    ]
   },
   {
     "id": "lampy-darkson-102",
@@ -24389,7 +25848,55 @@
       "image_height": 426,
       "photo_scope": "Lampy Darkson",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned targeting and range support",
+      "play": "Move the lamp near the enemy your casters want to affect, making follow-up arcane attempts more reliable.",
+      "needs": "Greymair brings him in directly, while shooters and control casters exploit his positional effects.",
+      "caution": "His forward position is vulnerable, and moving him spends the summoner's energy. Pick a target worth exposing the Familiar for.",
+      "sources": [
+        {
+          "title": "Greymair",
+          "url": "https://www.moonstonethegame.com/latest/greymair-character-spotlight",
+          "kind": "Official",
+          "research_note": "Drain Life can reset an energy-starved ally; Familiars support arcane reliability.",
+          "checked_on": "2026-09-16"
+        },
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon a Helping Hand",
+        "kind": "summon",
+        "condition": "Cannot bring a character into play if already in play.",
+        "character_ids": [
+          "greymair-107"
+        ]
+      },
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      }
+    ]
   },
   {
     "id": "jeremy-lord-of-the-deep-103",
@@ -24597,7 +26104,48 @@
       "image_height": 426,
       "photo_scope": "Jeremy, Lord of the Deep",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned aquatic interference",
+      "play": "Use water-friendly movement to reach a useful blocking position, then splash only when the target and terrain satisfy the damage condition.",
+      "needs": "Sen'Ara naturally supplies both the summon and water; compatible water casters strengthen the setting.",
+      "caution": "Outside the necessary water position he is mostly a fragile blocker. His actions still consume the summoner's energy.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon from the Depths",
+        "kind": "summon",
+        "condition": "When deployed or entering play; cannot duplicate a character in play.",
+        "character_ids": [
+          "sen-ara-114"
+        ]
+      },
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      }
+    ]
   },
   {
     "id": "teacake-of-torment-104",
@@ -24804,7 +26352,48 @@
       "image_height": 426,
       "photo_scope": "Teacake of Torment",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned wound recovery resource",
+      "play": "Keep Teacake close enough for a valuable friendly heal, then decide whether resting is better than spending further shared energy.",
+      "needs": "Jerry brings him in without a casting activation; wounded frontliners turn his recovery into value.",
+      "caution": "Healing costs Teacake wounds, and regrowing limits his remaining actions. Do not plan him as an independent energetic medic.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon Intermission Snacks",
+        "kind": "summon",
+        "condition": "When deployed or entering play; cannot duplicate a character in play.",
+        "character_ids": [
+          "jerry-heir-117"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      }
+    ]
   },
   {
     "id": "echo-of-the-forgotten-king-105",
@@ -25059,7 +26648,32 @@
       "image_height": 426,
       "photo_scope": "Echo of the Forgotten King",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Spirit/Noble damage centre with unusual resources",
+      "play": "Start him in the troupe when he is the main plan, donate energy before his activation, and spend wounds only where the action earns its risk.",
+      "needs": "Igor, Nanny or Greymair can supply recovery or resources; Viscount helps feed and protect the King.",
+      "caution": "He generates no base energy and cannot be reanimated. Spending his wound pool too freely leaves the centrepiece easy to finish.",
+      "sources": [
+        {
+          "title": "Cohort of the King",
+          "url": "https://www.moonstonethegame.com/latest/cohort-of-the-king",
+          "kind": "Official",
+          "research_note": "Starting Echo is more reliable than summoning; donate energy/healing to preserve his wound pool.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Summon the Forgotten King",
+        "kind": "summon",
+        "condition": "Shades only; no friendly Echo in play. Igor is slain on success.",
+        "character_ids": [
+          "igor-the-servant-110"
+        ]
+      }
+    ]
   },
   {
     "id": "serif-106",
@@ -25284,6 +26898,21 @@
       "image_height": 426,
       "photo_scope": "Serif",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Risen/Soldier ranged support and death-trigger shooter",
+      "play": "Hold a protected backfield lane, fire the crossbow at softened targets, and keep the once-per-turn death-trigger shot in mind.",
+      "needs": "Negroli improves Soldier attacks against wounded enemies; resurrection support returns the shooter when needed.",
+      "caution": "His damage reduction excludes melee. Do not let a strong fighter engage the crossbowman just to preserve a firing lane.",
+      "sources": [
+        {
+          "title": "The Shambling Soldiers of Moonreach",
+          "url": "https://www.moonstonethegame.com/latest/the-shambling-soldiers-of-moonreach",
+          "kind": "Official",
+          "research_note": "Wound enemies before Soldier attacks; plan resurrection placement and death triggers.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -25528,7 +27157,40 @@
       "image_height": 426,
       "photo_scope": "Greymair",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Risen healer, reset engine and Familiar summoner",
+      "play": "Use Drain Life when a crippled friendly model is better reset than left inactive, then Reanimate and salve to restore useful resources.",
+      "needs": "Viktor improves returned allies; Negroli supports Soldier pressure and Flay improves casting reliability.",
+      "caution": "A deliberate sacrifice drops what the model was carrying and has timing costs. Judge the scoring consequence before recycling it.",
+      "sources": [
+        {
+          "title": "Greymair",
+          "url": "https://www.moonstonethegame.com/latest/greymair-character-spotlight",
+          "kind": "Official",
+          "research_note": "Drain Life can reset an energy-starved ally; Familiars support arcane reliability.",
+          "checked_on": "2026-09-16"
+        },
+        {
+          "title": "The Shambling Soldiers of Moonreach",
+          "url": "https://www.moonstonethegame.com/latest/the-shambling-soldiers-of-moonreach",
+          "kind": "Official",
+          "research_note": "Wound enemies before Soldier attacks; plan resurrection placement and death triggers.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Summon a Helping Hand",
+        "kind": "summon",
+        "condition": "Cannot bring a character into play if already in play.",
+        "character_ids": [
+          "flay-bearer-of-knowledge-101",
+          "lampy-darkson-102"
+        ]
+      }
+    ]
   },
   {
     "id": "negroli-108",
@@ -25758,7 +27420,33 @@
       "image_height": 426,
       "photo_scope": "Negroli",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Risen/Soldier combat leader",
+      "play": "Wound an intended victim before nearby Soldiers or Risen attack, then use summons for extra engagements and support triggers.",
+      "needs": "Serif supplies ranged pressure and Greymair returns damaged allies; a mobile collector covers the scoring race.",
+      "caution": "The aura's attack bonus depends on a wounded target. Do not treat it as a permanent blanket stat increase.",
+      "sources": [
+        {
+          "title": "The Shambling Soldiers of Moonreach",
+          "url": "https://www.moonstonethegame.com/latest/the-shambling-soldiers-of-moonreach",
+          "kind": "Official",
+          "research_note": "Wound enemies before Soldier attacks; plan resurrection placement and death triggers.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Summon Reinforcements",
+        "kind": "summon",
+        "condition": "Cannot bring a character into play if already in play.",
+        "character_ids": [
+          "brave-sir-pidge-99",
+          "terrible-musician-100"
+        ]
+      }
+    ]
   },
   {
     "id": "angerboda-109",
@@ -26029,6 +27717,13 @@
       "image_height": 426,
       "photo_scope": "Angerboda",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Giant/Risen attrition attacker",
+      "play": "Use reach and Frostbite pressure when a friendly death makes the strike more effective; Chill helps prepare a valuable target.",
+      "needs": "In Shades, resurrection support extends her presence; in Commonwealth, Norse or Giant support funds useful attacks.",
+      "caution": "Her anti-healing signature needs a meaningful victim. Low energy makes unsupported pursuits poor value.",
+      "sources": []
     }
   },
   {
@@ -26289,7 +27984,24 @@
       "image_height": 426,
       "photo_scope": "Igor, the Servant",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Spirit resource donor and conditional King summoner",
+      "play": "Support Nobles with Eternal Servitude and exploit death-driven arcane reliability for Reanimate; summon the King only when that trade suits the game.",
+      "needs": "Compatible Nobles use the donation well; in Shades, Echo can turn those resources into major pressure.",
+      "caution": "The King summon is Shades-only, slays Igor on success and cannot duplicate an Echo already in play.",
+      "sources": []
+    },
+    "summons": [
+      {
+        "ability": "Summon the Forgotten King",
+        "kind": "summon",
+        "condition": "Shades only; no friendly Echo in play. Igor is slain on success.",
+        "character_ids": [
+          "echo-of-the-forgotten-king-105"
+        ]
+      }
+    ]
   },
   {
     "id": "viktor-petty-graverobber-111",
@@ -26552,6 +28264,13 @@
       "image_height": 426,
       "photo_scope": "Viktor Petty, Graverobber",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Rogue collector and resurrection placement support",
+      "play": "Use the first-harvest depth benefit to collect efficiently, and position Guiding Lantern so returning allies enter somewhere useful.",
+      "needs": "Compatible reanimators exploit his placement and healing support; a defender protects the collecting route.",
+      "caution": "Resurrection support does little without a legal reanimator. Positioning around returning models should not cost a safe stone.",
+      "sources": []
     }
   },
   {
@@ -26821,6 +28540,13 @@
       "image_height": 426,
       "photo_scope": "Viscount de Faulte",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Noble/Risen energy thief and melee deterrent",
+      "play": "Take energy from the target whose next action matters, then donate it where your troupe can immediately exploit it.",
+      "needs": "Noble support improves resource exchanges; in Shades, Echo turns donated energy into powerful attacks.",
+      "caution": "An initiative trick is not a substitute for board position. Avoid draining a model that has already finished all meaningful work.",
+      "sources": []
     }
   },
   {
@@ -27068,6 +28794,21 @@
       "image_height": 426,
       "photo_scope": "Marley",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Spirit defensive leader and mobility engine",
+      "play": "Keep Spirits in Resonance's support area and use Blink to reposition; choose Incorporeal Form when safe passage outweighs harvesting.",
+      "needs": "Spirit allies exploit resistance and mobility; an efficient collector lets Marley spend activations on support.",
+      "caution": "Incorporeal Form is optional and prevents harvesting only while active. It does not stop magical damage or all direct wounds.",
+      "sources": [
+        {
+          "title": "Visitors from the Deadlands",
+          "url": "https://www.moonstonethegame.com/latest/visitors-from-the-deadlands",
+          "kind": "Official",
+          "research_note": "Marley improves Spirit mobility and resist hands; protect curse casters.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -27304,7 +29045,32 @@
       "image_height": 426,
       "photo_scope": "Sen'Ara",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Spirit water controller and aquatic summoner",
+      "play": "Place water to support movement, use its teleport routes, and pull enemies where the water-linked damage becomes a real threat.",
+      "needs": "Jeremy provides extra board presence; in Shades, other water users exploit her terrain investment.",
+      "caution": "Water placement must retain useful access and sight lines. A lure is dangerous when it delivers an attacker into your support models.",
+      "sources": [
+        {
+          "title": "Visitors from the Deadlands",
+          "url": "https://www.moonstonethegame.com/latest/visitors-from-the-deadlands",
+          "kind": "Official",
+          "research_note": "Marley improves Spirit mobility and resist hands; protect curse casters.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Summon from the Depths",
+        "kind": "summon",
+        "condition": "When deployed or entering play; cannot duplicate a character in play.",
+        "character_ids": [
+          "jeremy-lord-of-the-deep-103"
+        ]
+      }
+    ]
   },
   {
     "id": "morag-115",
@@ -27577,6 +29343,21 @@
       "image_height": 426,
       "photo_scope": "Morag",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faun/Spirit energy-sensitive control and recovery",
+      "play": "Use Shadowstride for useful positioning, then choose Reclaim Life or Hunting Ritual according to the wound exchange needed now.",
+      "needs": "Compatible Spirit or Faun support helps either faction; a healer balances self-inflicted resource costs.",
+      "caution": "Her unusual resistance depends on the actual colour condition. Do not assume every enemy arcane attempt fails to affect her.",
+      "sources": [
+        {
+          "title": "Visitors from the Deadlands",
+          "url": "https://www.moonstonethegame.com/latest/visitors-from-the-deadlands",
+          "kind": "Official",
+          "research_note": "Marley improves Spirit mobility and resist hands; protect curse casters.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -27832,7 +29613,32 @@
       "image_height": 426,
       "photo_scope": "Abra Cadaverous",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Spirit melee summoner and resurrection threat",
+      "play": "Use reach and enhanced damage to wound an enemy, then choose the Psychopomp that best supports the next action.",
+      "needs": "Spirit mobility and resource support compensate for low base energy; healing sustains his big wound pool.",
+      "caution": "Fashion from Flesh needs actual enemy wounds in melee. A kill offers an alternative benefit rather than every possible payoff at once.",
+      "sources": []
+    },
+    "summons": [
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "brave-sir-pidge-99",
+          "terrible-musician-100",
+          "flay-bearer-of-knowledge-101",
+          "lampy-darkson-102",
+          "jeremy-lord-of-the-deep-103",
+          "teacake-of-torment-104",
+          "urchin-120",
+          "sprog-121",
+          "pookie-122"
+        ]
+      }
+    ]
   },
   {
     "id": "jerry-heir-117",
@@ -28090,7 +29896,32 @@
       "image_height": 426,
       "photo_scope": "Jerry Heir",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Spirit movement disruption and snack support",
+      "play": "Apply Stage Fright to move an enemy at the Discard Step, threatening its carrier position while retaining resources for your own safety.",
+      "needs": "Teacake provides recovery, while compatible melee allies exploit a displaced victim.",
+      "caution": "Moving an enemy can open a better route for it. Choose the resulting position before spending the control action.",
+      "sources": [
+        {
+          "title": "Visitors from the Deadlands",
+          "url": "https://www.moonstonethegame.com/latest/visitors-from-the-deadlands",
+          "kind": "Official",
+          "research_note": "Marley improves Spirit mobility and resist hands; protect curse casters.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Summon Intermission Snacks",
+        "kind": "summon",
+        "condition": "When deployed or entering play; cannot duplicate a character in play.",
+        "character_ids": [
+          "teacake-of-torment-104"
+        ]
+      }
+    ]
   },
   {
     "id": "roary-118",
@@ -28316,7 +30147,48 @@
       "image_height": 426,
       "photo_scope": "Roary",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Spirit/Psychopomp support conductor",
+      "play": "Use Conductor for efficient Psychopomp harvesting or specialist actions, boosted by the friendly Psychopomp count; Parade then repositions the group.",
+      "needs": "Several summoners create options; energy support helps cover both Roary's actions and his own Thralls.",
+      "caution": "Encore only returns a Psychopomp slain earlier this turn, once per turn. It cannot summon an arbitrary fresh character.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Summon the Choir",
+        "kind": "summon",
+        "condition": "When deployed or entering play; cannot duplicate a character in play.",
+        "character_ids": [
+          "terrible-musician-100"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "brave-sir-pidge-99",
+          "terrible-musician-100",
+          "flay-bearer-of-knowledge-101",
+          "lampy-darkson-102",
+          "jeremy-lord-of-the-deep-103",
+          "teacake-of-torment-104",
+          "urchin-120",
+          "sprog-121",
+          "pookie-122"
+        ]
+      }
+    ]
   },
   {
     "id": "nanny-119",
@@ -28558,7 +30430,34 @@
       "image_height": 426,
       "photo_scope": "Nanny",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Spirit healer, resource support and Babeling summoner",
+      "play": "Choose the Nursery result for the debuff needed, then use Milkies or Lullaby to restore an ally's useful resources.",
+      "needs": "Babelings specifically improve her defence; Echo and other resource-hungry allies value her support.",
+      "caution": "Colour determines the Babeling and duplicates in play are forbidden. Lullaby trades away energy, so time it carefully.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Summon the Nursery",
+        "kind": "summon",
+        "condition": "Once per turn; colour determines Babeling. Cannot duplicate a character in play.",
+        "character_ids": [
+          "urchin-120",
+          "sprog-121",
+          "pookie-122"
+        ]
+      }
+    ]
   },
   {
     "id": "urchin-120",
@@ -28763,7 +30662,48 @@
       "image_height": 426,
       "photo_scope": "Urchin",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned direct-wound support and evasive blocker",
+      "play": "Use He Hit Me! for a reliable wound on a nearly finished target, or add an engagement before a stronger ally attacks.",
+      "needs": "Nanny supplies an escape destination as well as a natural summon route; another legal summoner can also create him.",
+      "caution": "He Hit Me! costs the summoner energy and is not automatic retaliation. His escape needs a friendly Nanny and its printed timing.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      },
+      {
+        "ability": "Summon the Nursery",
+        "kind": "summon",
+        "condition": "Once per turn; colour determines Babeling. Cannot duplicate a character in play.",
+        "character_ids": [
+          "nanny-119"
+        ]
+      }
+    ]
   },
   {
     "id": "sprog-121",
@@ -28970,7 +30910,48 @@
       "image_height": 426,
       "photo_scope": "Sprog",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned shove support and evasive blocker",
+      "play": "Use He Pushed Me! to shift another model off a useful position, then exploit the opening with a collector or stronger attacker.",
+      "needs": "Nanny provides the natural entry route and retreat destination; Roary can enable a useful Psychopomp action.",
+      "caution": "His shove is a paid once-per-turn action, not a reactive attack trigger. Plan shared energy and the direction before using it.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      },
+      {
+        "ability": "Summon the Nursery",
+        "kind": "summon",
+        "condition": "Once per turn; colour determines Babeling. Cannot duplicate a character in play.",
+        "character_ids": [
+          "nanny-119"
+        ]
+      }
+    ]
   },
   {
     "id": "pookie-122",
@@ -29175,7 +31156,48 @@
       "image_height": 426,
       "photo_scope": "Pookie",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned stat debuff and evasive blocker",
+      "play": "Use He Called me Names! before the target's valuable melee or Arcane action, choosing the penalty that changes the turn.",
+      "needs": "Nanny supplies a natural summon route and defensive escape destination; stronger allies exploit the weakened enemy.",
+      "caution": "The debuff is a paid once-per-turn action rather than automatic retaliation. Ordinary actions still use the summoner's energy.",
+      "sources": [
+        {
+          "title": "A Party of Parading Psychopomps!",
+          "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+          "kind": "Official",
+          "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Fashion from Flesh",
+        "kind": "summon",
+        "condition": "Once per turn, after causing wounds to an enemy in melee; cannot duplicate a character in play.",
+        "character_ids": [
+          "abra-cadaverous-116"
+        ]
+      },
+      {
+        "ability": "Summon an Encore!",
+        "kind": "resummon",
+        "condition": "Once per turn; only a Psychopomp slain earlier this turn and not currently in play.",
+        "character_ids": [
+          "roary-118"
+        ]
+      },
+      {
+        "ability": "Summon the Nursery",
+        "kind": "summon",
+        "condition": "Once per turn; colour determines Babeling. Cannot duplicate a character in play.",
+        "character_ids": [
+          "nanny-119"
+        ]
+      }
+    ]
   },
   {
     "id": "barnakelle-123",
@@ -29456,6 +31478,21 @@
       "image_height": 426,
       "photo_scope": "Barnakelle",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Water-enabled Troll/Pirate reanimator",
+      "play": "Begin near water for the energy needed to Reanimate; use water entry and energy donation to support a renewed attack.",
+      "needs": "In Shades, water creators make the plan reliable; in Dominion, Troll allies exploit Dead Troll's Finger.",
+      "caution": "The donation lowers arcane, so melee recipients often suit it best. Check water access before relying on a resurrection sequence.",
+      "sources": [
+        {
+          "title": "Barnakelle",
+          "url": "https://www.moonstonethegame.com/latest/barnakelle",
+          "kind": "Official",
+          "research_note": "Water enables reanimation; energy donation can favour melee Trolls over casters.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -29723,6 +31760,21 @@
       "image_height": 426,
       "photo_scope": "Commodore Delahaye",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Pirate shooting leader and faction-specific movement support",
+      "play": "Mark an important enemy with the Black Spot and concentrate Pirate shots; use his faction benefit for terrain or carrier movement.",
+      "needs": "Pirate pistols exploit the arcane bonus, while Cheepaky improves the reload economy.",
+      "caution": "Shades receives deployed water; Dominion receives the limited Slow-ignore benefit. Treasure Map happens outside the turn and cannot use it.",
+      "sources": [
+        {
+          "title": "Commodore Delahaye",
+          "url": "https://www.moonstonethegame.com/latest/commodore-delahaye",
+          "kind": "Official",
+          "research_note": "Faction-specific mobility versus water; focus Pirate pistols on the Black Spot.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -29987,6 +32039,21 @@
       "image_height": 426,
       "photo_scope": "Cheepaky",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Durable Pirate reload support and minor healer",
+      "play": "Keep shooters unengaged so Stocked to the Gills can reload them, then use Gone Fishin' to repair important wounds.",
+      "needs": "Commodore boosts concentrated pistol pressure; in Shades, water creators improve the fishing support.",
+      "caution": "Free reload still obeys the action's restrictions. Do not move the support crab into a useless duel just because he is tough.",
+      "sources": [
+        {
+          "title": "Chezapeaky",
+          "url": "https://www.moonstonethegame.com/latest/chezapeaky-character-spotlight",
+          "kind": "Official",
+          "research_note": "Free reload support and water-assisted healing; keep shooters unengaged.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -30248,6 +32315,21 @@
       "image_height": 426,
       "photo_scope": "Brigid",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Pirate flexible caster and fallback spell user",
+      "play": "Use Poor Unfortunate Souls for the resource exchange your next Pirate needs; borrow a slain friend's Arcane action when it solves the current problem.",
+      "needs": "Compatible Pirates exploit her support, and allies with valuable Arcane actions expand her fallback options.",
+      "caution": "Energy and healing have opposing costs. Copied actions retain requirements, and Feeble makes independent harvesting inefficient.",
+      "sources": [
+        {
+          "title": "Brigid",
+          "url": "https://www.moonstonethegame.com/latest/brigid-character-spotlight",
+          "kind": "Official",
+          "research_note": "Flexible copied arcane actions; energy/wound exchanges have real costs.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -30515,6 +32597,21 @@
       "image_height": 426,
       "photo_scope": "Banshee",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Spirit bleeding skirmisher",
+      "play": "Apply Bleed to a target worth weakening at discard, then use disruption to defend scoring routes and avoid prolonged exposure.",
+      "needs": "In Dominion, Faeries cast more reliably at bleeding enemies; in Shades, Spirit mobility and curses fit her attrition plan.",
+      "caution": "Leech arrives at its printed timing and requires nearby wounds. Do not rely on later healing to survive an immediate killing blow.",
+      "sources": [
+        {
+          "title": "Banshee",
+          "url": "https://www.moonstonethegame.com/latest/banshee",
+          "kind": "Official",
+          "research_note": "Bleeding support and disruption; Faerie/Spirit options need compatible faction.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -30744,6 +32841,21 @@
       "image_height": 426,
       "photo_scope": "Iris & Hellebore",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie melee safety and reaction coordinator",
+      "play": "Hold resources to move friendly Faeries after enemy actions; save Perfect Form for the exchange where changing a revealed card matters most.",
+      "needs": "Melee Faeries turn her safety tools into pressure, while healing and a collector cover the support budget.",
+      "caution": "Perfect Form is once per game and needs energy plus a card in hand. Spending everything on her own attacks can strand allies.",
+      "sources": [
+        {
+          "title": "Iris & Hellebore",
+          "url": "https://www.moonstonethegame.com/latest/iris-and-hellebore",
+          "kind": "Official",
+          "research_note": "Faerie melee support and reaction energy; verify current once-per-game Perfect Form.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -30978,6 +33090,21 @@
       "image_height": 426,
       "photo_scope": "Dentia",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faerie/Rogue monster hunter and energy disruptor",
+      "play": "Use Sleepy Time on an already Weakling or Feeble target to drain its energy and raise Evade, then exploit her high-Evade melee bonuses.",
+      "needs": "Butterfingers helps prepare Weakling targets; Faerie healing and Rogue support sustain the follow-up.",
+      "caution": "Her monster-fighting bonuses depend on the enemy's positive Evade. Sedatives and Sleepy Time retain their printed conditions.",
+      "sources": [
+        {
+          "title": "Dentia",
+          "url": "https://www.moonstonethegame.com/latest/dentia-character-spotlight",
+          "kind": "Official",
+          "research_note": "Energy and Weakling manipulation; Faerie endurance depends on avoiding counterplay.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -31221,6 +33348,21 @@
       "image_height": 426,
       "photo_scope": "Old Polly",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Gnome/Rogue arcane economy and exhausted-target pressure",
+      "play": "Support Rogues with information and a cheaper Arcane action, then punish enemies left without energy.",
+      "needs": "The complete Faculty unlocks shared keywords; Muridae can improve Rogue arcane in a compatible core.",
+      "caution": "Wily Old Weasel has a limited use. Allocate the discount before planning several supposedly cheap casts.",
+      "sources": [
+        {
+          "title": "The Faculty",
+          "url": "https://www.moonstonethegame.com/latest/the-faculty-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Shared keywords enable cross-support; Overclock costs wounds and must be budgeted.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -31459,6 +33601,21 @@
       "image_height": 426,
       "photo_scope": "Prof. Boffinsworth",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Gnome/Animal healer and protective support",
+      "play": "Heal wounded Animals efficiently and position protection around the model most likely to lose important energy dots.",
+      "needs": "Animal allies exploit his support; the complete Faculty opens additional cross-support opportunities.",
+      "caution": "He does not automatically count as an Animal alone. Early protection may spend the energy needed for later healing.",
+      "sources": [
+        {
+          "title": "The Faculty",
+          "url": "https://www.moonstonethegame.com/latest/the-faculty-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Shared keywords enable cross-support; Overclock costs wounds and must be budgeted.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -31702,6 +33859,21 @@
       "image_height": 426,
       "photo_scope": "Flinders Memphis",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Gnome/Machine action support and rifle pressure",
+      "play": "Support qualifying Machines with Overclock, choosing the extra action that most improves scoring, healing or damage now.",
+      "needs": "The complete Faculty expands Machine options; reload-equipped allies also benefit from his keyword support.",
+      "caution": "Overclock inflicts a wound and has action limits. Do not donate an action that costs the recipient its next-turn energy dot.",
+      "sources": [
+        {
+          "title": "The Faculty",
+          "url": "https://www.moonstonethegame.com/latest/the-faculty-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Shared keywords enable cross-support; Overclock costs wounds and must be budgeted.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -31951,6 +34123,21 @@
       "image_height": 426,
       "photo_scope": "Matilda",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Human/Animal mobile ranged attacker",
+      "play": "Use Astrazan Tactics to deliver a stronger attack and reposition, keeping the opponent chasing rather than pinning her down.",
+      "needs": "Quack improves Human arcane and Animal healing sustains her; Faculty support can broaden action options.",
+      "caution": "Boingy prevents later harvesting that turn. Decide whether this is a shooting turn or an objective turn before bouncing.",
+      "sources": [
+        {
+          "title": "Bing, Boing, Boom",
+          "url": "https://www.moonstonethegame.com/latest/bing-boing-boom-matilda",
+          "kind": "Official",
+          "research_note": "Mobile ranged pressure and disengagement; movement actions restrict harvesting.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -32188,6 +34375,21 @@
       "image_height": 426,
       "photo_scope": "Bejiminy",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin/Animal melee nuisance and woodland runner",
+      "play": "Use the branch flip and wood-friendly Jog to reach contested space; Jitterbug forces enemy approaches to spend extra movement resources.",
+      "needs": "Wenda and Syril support the flip plan; healing makes his large wound pool last through the contest.",
+      "caution": "Jitterbug restricts a Jog destination, not every movement method. Enemies can still step or use other placements to engage.",
+      "sources": [
+        {
+          "title": "Soggy Bottoms",
+          "url": "https://www.moonstonethegame.com/latest/soggy-bottoms-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Use qualifying catastrophe flips with Wenda; movement and Troll/Animal support matter.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -32450,6 +34652,21 @@
       "image_height": 426,
       "photo_scope": "Wenda Wetbones",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin flip engine and movement support",
+      "play": "Build around qualifying flips that Clutter Chaos turns into energy, then reposition Goblins, Trolls or Animals and repair the wound cost.",
+      "needs": "Syril can turn a qualifying flip into a catastrophe; tough allies absorb the wounds more comfortably.",
+      "caution": "Not every catastrophe or wound source qualifies. Check the flip timing and condition before counting the extra energy.",
+      "sources": [
+        {
+          "title": "Soggy Bottoms",
+          "url": "https://www.moonstonethegame.com/latest/soggy-bottoms-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Use qualifying catastrophe flips with Wenda; movement and Troll/Animal support matter.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -32691,6 +34908,21 @@
       "image_height": 426,
       "photo_scope": "Stilts Kim",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin mobile collector and Troll/Animal support",
+      "play": "Use the activation flip to reposition before other movement, then Gribblebog Grub to help a useful Animal or Troll.",
+      "needs": "Wenda makes qualifying bad flips productive; a harvesting helper offsets the stilt-bound collection tax.",
+      "caution": "Harvesting costs extra, and Gribblebog Grub can also benefit enemy Animals and Trolls. Check the whole pulse before using it.",
+      "sources": [
+        {
+          "title": "Soggy Bottoms",
+          "url": "https://www.moonstonethegame.com/latest/soggy-bottoms-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Use qualifying catastrophe flips with Wenda; movement and Troll/Animal support matter.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -32953,6 +35185,21 @@
       "image_height": 426,
       "photo_scope": "Syril Swampfoot",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin/Animal swamp healer and flip coordinator",
+      "play": "Use Healing to sustain the risky flip engine and Sink into the Bog to deny a valuable enemy move; keep the water interaction useful.",
+      "needs": "Wenda converts qualifying catastrophe costs into resources; Trolls and Animals exploit the swamp setting.",
+      "caution": "Goblin Mayhem has a once-per-turn limit. Turning a good flip into a catastrophe needs a real payoff, not merely a thematic combo.",
+      "sources": [
+        {
+          "title": "Soggy Bottoms",
+          "url": "https://www.moonstonethegame.com/latest/soggy-bottoms-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Use qualifying catastrophe flips with Wenda; movement and Troll/Animal support matter.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -33191,7 +35438,32 @@
       "image_height": 426,
       "photo_scope": "Streatham and Pickles",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Rogue movement/healing leader and Pickles summoner",
+      "play": "Use Pickles to pressure a carrier, then Purrloin the stone to keep the cat mobile; fund Fiddler for a coordinated scoring move.",
+      "needs": "In Leshavult, Skuggi discounts the opening Fiddler; compatible Rogues exploit healing from successful theft.",
+      "caution": "Pickles spends Streatham's energy. Budget the cat's movement, theft attempt and transfer alongside Streatham's own support actions.",
+      "sources": [
+        {
+          "title": "Lesh Miserables",
+          "url": "https://www.moonstonethegame.com/latest/lesh-miserables-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Banked-card knives, turn-one movement discount and Pickles stone transfers.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summons": [
+      {
+        "ability": "Partner in Crime",
+        "kind": "summon",
+        "condition": "On deployment, in your deployment zone; Pickles uses Streatham’s energy.",
+        "character_ids": [
+          "pickles-139"
+        ]
+      }
+    ]
   },
   {
     "id": "pickles-139",
@@ -33418,7 +35690,32 @@
       "image_height": 426,
       "photo_scope": "Streatham and Pickles",
       "attribution": "Goblin King Games"
-    }
+    },
+    "strategy_guide": {
+      "role": "Summoned Rogue thief and Giant energy support",
+      "play": "Steal a stone in a favourable melee exchange, then let Streatham transfer it; finish a turn near a friendly Giant to supply its next Replenish-Step energy.",
+      "needs": "Streatham is the only summon route; compatible Giants convert the energy support into valuable attacks.",
+      "caution": "Pickles has no independent energy and only four wounds. His evasive movement still consumes Streatham's shared budget.",
+      "sources": [
+        {
+          "title": "Lesh Miserables",
+          "url": "https://www.moonstonethegame.com/latest/lesh-miserables-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Banked-card knives, turn-one movement discount and Pickles stone transfers.",
+          "checked_on": "2026-09-16"
+        }
+      ]
+    },
+    "summoned_by": [
+      {
+        "ability": "Partner in Crime",
+        "kind": "summon",
+        "condition": "On deployment, in your deployment zone; Pickles uses Streatham’s energy.",
+        "character_ids": [
+          "streatham-138"
+        ]
+      }
+    ]
   },
   {
     "id": "nancy-priston-140",
@@ -33640,6 +35937,21 @@
       "image_height": 426,
       "photo_scope": "Nancy Priston",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Goblin/Rogue card banker and flexible resource caster",
+      "play": "Set aside useful cards and replenish the Rogue group's supply; choose Streetwise's effect after checking the available numbers and targets.",
+      "needs": "Dominion Rogues exploit card control; healing and a defender keep the banker operating safely.",
+      "caution": "A higher card increases one effect but reduces how many models receive it. Plan the real tradeoff rather than always choosing the largest number.",
+      "sources": [
+        {
+          "title": "Lesh Miserables",
+          "url": "https://www.moonstonethegame.com/latest/lesh-miserables-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Banked-card knives, turn-one movement discount and Pickles stone transfers.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   },
   {
@@ -33876,6 +36188,21 @@
       "image_height": 426,
       "photo_scope": "Skuggi",
       "attribution": "Goblin King Games"
+    },
+    "strategy_guide": {
+      "role": "Faun/Rogue mobile thief and banked-card attacker",
+      "play": "Use the opening high-cost discount to enable a friendly play, then banked cards extend Trick Knives while his signature threatens carrier theft.",
+      "needs": "In Leshavult, Streatham rewards theft and Kavanagh supplies cards; compatible Rogue banking supports repeated knife pressure.",
+      "caution": "Trick Knives' once-per-game limit is ignored only under its banked-card condition. Shadow Fade still needs a safe placement destination.",
+      "sources": [
+        {
+          "title": "Lesh Miserables",
+          "url": "https://www.moonstonethegame.com/latest/lesh-miserables-troupe-spotlight",
+          "kind": "Official",
+          "research_note": "Banked-card knives, turn-one movement discount and Pickles stone transfers.",
+          "checked_on": "2026-09-16"
+        }
+      ]
     }
   }
 ]

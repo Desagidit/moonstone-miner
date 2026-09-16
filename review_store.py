@@ -41,7 +41,8 @@ def apply_reviews(cards,store=None):
   c['review']={'status':'verified' if all(s=='verified' for s in checks.values()) else ('in_progress' if overlay else 'unverified'),'fields':checks,'notes':{g:overlay.get('groups',{}).get(g,{}).get('note','') for g in GROUPS},'issues':issues,'flags':[i['code'] for i in issues],'updated_at':overlay.get('updated_at')}
  from suggested_partners import attach_suggestions
  from miniatures import attach_miniatures
- return attach_miniatures(attach_suggestions(cards,source_hash()),source_hash())
+ from character_guides import attach_guides
+ return attach_guides(attach_miniatures(attach_suggestions(cards,source_hash()),source_hash()),source_hash())
 def export(cards):
  atomic_json(DATA/'characters.json',cards)
  path=DATA/'moonstone.sqlite';temp=DATA/'moonstone.next.sqlite'

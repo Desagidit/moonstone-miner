@@ -1,5 +1,5 @@
 const L=TeamLogic,$=id=>document.getElementById(id),clone=v=>JSON.parse(JSON.stringify(v));
-let cards=[],focus=null,teamIds=[],query={mode:'and',groups:[]},factionFilter=false;
+let cards=[],focus=null,teamIds=[],query={mode:'and',groups:[]},factionFilter=false,visits=[],visitIndex=-1;
 const fields={keyword:'Keyword',tag:'Custom tag',faction:'Faction',eligibility:'Selectable / summon',melee:'Melee',arcane:'Arcane',evade:'Evade',range:'Melee range',hp:'Health',energy:'Energy',base:'Base size',version:'Card version',review:'Review status'};
 function node(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n}
 function option(value,text){const n=node('option',text);n.value=value;return n}
@@ -9,21 +9,49 @@ function persist(){try{localStorage.setItem('moonstone-troupe-v1',JSON.stringify
 function chips(parent,labels){parent.replaceChildren();for(const label of labels)parent.append(node('span',label,'chip tag'))}
 function summary(id,field){const values=L.tally(members(),field);chips($(id),values.map(v=>`${v.label} ×${v.count}`));if(!values.length)$(id).append(node('span','None yet','help'))}
 function refreshTeam(){const list=$('team');list.replaceChildren();for(const c of members()){const row=node('div',undefined,'member'+(L.compatible(c,$('faction').value)?'':' incompatible'));const b=node('button',c.name);b.onclick=()=>show(c);const rm=node('button','×');rm.setAttribute('aria-label','Remove '+c.name);rm.onclick=()=>remove(c);row.append(b,rm);list.append(row)}const current=members(),n=current.length,size=Number($('size').value),bad=current.filter(c=>!L.compatible(c,$('faction').value)||!c.eligibility.selectable||current.some(t=>t.id!==c.id&&L.conflict(c,t)));const noFaction=n>0&&!L.commonFactions(current).length;$('team-status').textContent=`${n} / ${size} characters`+(bad.length?` · ${bad.length} incompatible`:'')+(noFaction?' · no shared faction':'')+(n>size?' · over game size':n===size&&!bad.length&&!noFaction?($('faction').value==='Undecided'?' · choose a faction':' · ready'):'');$('team-status').className=bad.length||n>size||noFaction?'invalid':'';summary('tag-summary','custom_tags');summary('keyword-summary','keywords');if(focus)renderPartners(focus)}
-function remove(c){teamIds=teamIds.filter(id=>id!==c.id);persist();refreshTeam();renderCards();if(focus)show(focus)}
-function add(c){const reason=L.reason(c,members(),$('faction').value,Number($('size').value));if(reason){$('notice').textContent=reason;return}teamIds.push(c.id);$('notice').textContent='';persist();refreshTeam();renderCards();show(c)}
+function remove(c){teamIds=teamIds.filter(id=>id!==c.id);persist();refreshTeam();renderCards();if(focus)show(focus,false)}
+function add(c,keepFocus=false){const reason=L.reason(c,members(),$('faction').value,Number($('size').value));if(reason){$('notice').textContent=reason;return}teamIds.push(c.id);$('notice').textContent='';persist();refreshTeam();renderCards();show(keepFocus&&focus?focus:c,!keepFocus)}
 function renderCards(){const q=$('find').value.toLowerCase().trim();const filtered=cards.filter(c=>(!q||[c.name,...c.keywords,...c.custom_tags].join(' ').toLowerCase().includes(q))&&L.matches(c,query)&&(!factionFilter||L.compatible(c,$('faction').value)));const sort=$('sort').value;filtered.sort((a,b)=>sort==='name'?a.name.localeCompare(b.name):(L.numeric[sort](b)??-Infinity)-(L.numeric[sort](a)??-Infinity)||a.name.localeCompare(b.name));$('result-count').textContent=`${filtered.length} / ${cards.length}`;const list=$('catalogue');const scrollTop=list.scrollTop;list.replaceChildren();for(const c of filtered){const incompatible=!L.compatible(c,$('faction').value);const b=node('button',undefined,'character'+(focus?.id===c.id?' active':'')+(incompatible?' incompatible':''));b.append(node('strong',c.name),node('small',c.factions.join(' / ')+(c.eligibility.summoned_only?' · Summon':'')),node('div',`HP ${c.stats.health} · Energy ${c.stats.energy} · Melee ${c.stats.melee??'—'} · Arcane ${c.stats.arcane??'—'} · Evade ${c.stats.evade??'—'}`,'statline'),node('small',c.keywords.join(' · ')));if(incompatible)b.append(node('span','Outside '+$('faction').value,'compatibility'));if(teamIds.includes(c.id))b.append(node('span','In your troupe','help'));b.onclick=()=>{show(c);renderCards()};list.append(b)}if(!filtered.length)list.append(node('p','No cards match these filters.'));list.scrollTop=scrollTop}
-function show(c){
+function show(c,recordVisit=true){
+ if(recordVisit&&visits[visitIndex]!==c.id){visits=visits.slice(0,visitIndex+1);visits.push(c.id);visitIndex=visits.length-1}
  focus=c;renderPartners(c);const p=$('focused');p.replaceChildren();
  const actions=node('div',undefined,'focus-actions');
  const inTeam=teamIds.includes(c.id),reason=L.reason(c,members(),$('faction').value,Number($('size').value));
  const b=node('button',inTeam?'Remove from troupe':'Add to troupe','primary');b.disabled=!inTeam&&!!reason;b.onclick=()=>inTeam?remove(c):add(c);actions.append(b);
- if(!inTeam&&reason)actions.append(node('span',reason,'compatibility'));
- const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.target='_blank';review.rel='noopener';actions.append(review);
- if(c.miniature?.store_url){const store=node('a','Mini store ↗');store.href=c.miniature.store_url;store.target='_blank';store.rel='noopener';actions.append(store)}
- if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);actions.append(photo)}
- p.append(actions);
+ const navigation=node('div',undefined,'card-navigation');
+ for(const [label,offset] of [['Previous',-1],['Next',1]]){const nav=node('button',label);nav.type='button';nav.disabled=offset<0?visitIndex<=0:visitIndex>=visits.length-1;nav.setAttribute('aria-label',label+' viewed character');nav.onclick=()=>{const next=visitIndex+offset;if(next<0||next>=visits.length)return;visitIndex=next;show(cards.find(v=>v.id===visits[visitIndex]),false);renderCards()};navigation.append(nav)}
+ actions.append(navigation);
+ const links=node('div',undefined,'focus-links');
+ if(!inTeam&&reason)links.append(node('span',reason,'compatibility'));
+ const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.target='_blank';review.rel='noopener';links.append(review);
+ if(c.miniature?.store_url){const store=node('a','Mini store ↗');store.href=c.miniature.store_url;store.target='_blank';store.rel='noopener';links.append(store)}
+ if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);links.append(photo)}
+ p.append(actions,links);
  const imageFrame=node('div',undefined,'focus-image-frame'),image=node('img');image.src='/'+c.source.image_path+'?quality=360';image.alt='Original cards for '+c.name;image.className='focused-image';imageFrame.append(image);p.append(imageFrame);
- const zl=node('label','Card zoom');zl.htmlFor='focus-zoom';const zoom=node('input');zoom.id='focus-zoom';zoom.type='range';zoom.min=100;zoom.max=250;zoom.value=100;zoom.oninput=()=>image.style.width=zoom.value+'%';p.append(zl,zoom);
+ renderRelated(c,p);renderGuide(c,p);
+}
+function renderRelated(c,parent){
+ for(const [key,title] of [['summons','Summons / transformations'],['summoned_by','Called into play by']]){
+  if(!c[key]?.length)continue;
+  const section=node('section',undefined,'related-characters');section.append(node('h3',title));
+  for(const relation of c[key]){
+   const row=node('div',undefined,'related-row');row.append(node('span',relation.ability+': ','help'));
+   for(const id of relation.character_ids){const target=cards.find(v=>v.id===id);if(!target)continue;const link=node('button',target.name,'related-name');link.type='button';link.onclick=()=>{show(target);renderCards()};row.append(link)}
+   if(relation.condition)row.append(node('small',relation.condition,'help'));
+   section.append(row);
+  }
+  parent.append(section);
+ }
+}
+function renderGuide(c,parent){
+ const guide=c.strategy_guide;if(!guide)return;
+ const section=node('section',undefined,'strategy-guide');section.append(node('h3','Quick strategy guide'),node('p',guide.role,'guide-role'));
+ for(const [field,label] of [['play','Game plan'],['needs','Needs help with'],['caution','Watch out']]){const paragraph=node('p');paragraph.append(node('strong',label+': '),node('span',guide[field]));section.append(paragraph)}
+ section.append(node('p','Based on current cards and tactical judgement, with published advice linked below.','help'));
+ const sources=node('div',undefined,'guide-sources');
+ const card=node('a','Current card ↗');card.href=c.source.card_url;card.target='_blank';card.rel='noopener';sources.append(card);
+ for(const source of guide.sources){const link=node('a',source.kind+': '+source.title+' ↗');link.href=source.url;link.target='_blank';link.rel='noopener';sources.append(link)}
+ section.append(sources);parent.append(section);
 }
 function openMiniature(c){
  const mini=c.miniature;if(!mini?.image_url)return;
@@ -43,7 +71,7 @@ function renderPartners(c){
  for(const suggested of set.partners){
   const partner=cards.find(v=>v.id===suggested.character_id);if(!partner)continue;
   const row=node('div',undefined,'partner'),name=node('button',partner.name,'partner-name');name.onclick=()=>{show(partner);renderCards()};
-  const reason=L.reason(partner,members(),$('faction').value,Number($('size').value)),inTeam=teamIds.includes(partner.id),b=node('button',inTeam?'Added':'Add','partner-add');b.disabled=inTeam||!!reason;b.title=reason||'Add '+partner.name+' to troupe';b.setAttribute('aria-label',b.title);b.onclick=()=>{add(partner);show(c)};
+  const reason=L.reason(partner,members(),$('faction').value,Number($('size').value)),inTeam=teamIds.includes(partner.id),b=node('button',inTeam?'Added':'Add','partner-add');b.disabled=inTeam||!!reason;b.title=reason||'Add '+partner.name+' to troupe';b.setAttribute('aria-label',b.title);b.onclick=()=>add(partner,true);
   row.append(name,node('p',suggested.reason,'partner-reason'),b);if(reason&&!inTeam)row.append(node('small',reason,'compatibility'));target.append(row);
  }
 }
@@ -52,5 +80,5 @@ $('faction-filter').onclick=()=>{if($('faction').value==='Undecided')return;fact
 function choices(field){if(field==='keyword'||field==='tag'||field==='faction')return [...new Set(cards.flatMap(c=>field==='keyword'?c.keywords:field==='tag'?c.custom_tags:c.factions))].sort().map(v=>[v,v]);if(field==='eligibility')return [['selectable','Selectable'],['summon','Summon']];if(field==='review')return [['verified','Verified'],['in_progress','In progress'],['unverified','Unverified']];return null}
 function defaultRule(){return {field:'hp',op:'gte',value:'8'}}
 function renderFilters(){const target=$('filter-groups');target.replaceChildren();query.groups.forEach((g,i)=>{const box=node('div',undefined,'filter-group');const head=node('div',undefined,'group-head');head.append(node('span','Group '+(i+1)),labelledSelect('Combine rules in group '+(i+1),[['and','AND — every rule'],['or','OR — any rule']],g.mode,v=>{g.mode=v;renderCards()}));const del=node('button','×');del.setAttribute('aria-label','Remove filter group '+(i+1));del.onclick=()=>{query.groups.splice(i,1);renderFilters();renderCards()};head.append(del);box.append(head);g.rules.forEach((r,j)=>{const row=node('div',undefined,'rule');row.append(labelledSelect('Filter field',Object.entries(fields),r.field,v=>{r.field=v;r.op=L.numeric[v]?'gte':'eq';r.value=L.numeric[v]?'0':choices(v)[0]?.[0]||'';renderFilters();renderCards()}));const ops=L.numeric[r.field]?[['eq','='],['ne','≠'],['gte','≥'],['lte','≤'],['gt','>'],['lt','<']]:[['eq','is'],['ne','is not']];row.append(labelledSelect('Comparison',ops,r.op,v=>{r.op=v;renderCards()}));const vals=choices(r.field);if(vals)row.append(labelledSelect('Filter value',vals,r.value,v=>{r.value=v;renderCards()}));else{const v=node('input');v.type='number';v.value=r.value;v.setAttribute('aria-label','Filter value');v.oninput=()=>{r.value=v.value;renderCards()};row.append(v)}const remove=node('button','×');remove.setAttribute('aria-label','Remove rule '+(j+1));remove.onclick=()=>{g.rules.splice(j,1);renderFilters();renderCards()};row.append(remove);box.append(row)});const add=node('button','Add rule');add.onclick=()=>{g.rules.push(defaultRule());renderFilters();renderCards()};box.append(add);target.append(box)})}
-$('add-group').onclick=()=>{query.groups.push({mode:'and',rules:[defaultRule()]});renderFilters();renderCards()};$('clear-filters').onclick=()=>{query={mode:'and',groups:[]};$('outer-mode').value='and';factionFilter=false;updateFactionFilter();renderFilters();renderCards()};$('outer-mode').onchange=()=>{query.mode=$('outer-mode').value;renderCards()};$('find').oninput=renderCards;$('sort').onchange=renderCards;for(const id of ['faction','size'])$(id).onchange=()=>{updateFactionFilter();persist();refreshTeam();renderCards();if(focus)show(focus)};
+$('add-group').onclick=()=>{query.groups.push({mode:'and',rules:[defaultRule()]});renderFilters();renderCards()};$('clear-filters').onclick=()=>{query={mode:'and',groups:[]};$('outer-mode').value='and';factionFilter=false;updateFactionFilter();renderFilters();renderCards()};$('outer-mode').onchange=()=>{query.mode=$('outer-mode').value;renderCards()};$('find').oninput=renderCards;$('sort').onchange=renderCards;for(const id of ['faction','size'])$(id).onchange=()=>{updateFactionFilter();persist();refreshTeam();renderCards();if(focus)show(focus,false)};
 (async()=>{try{const r=await fetch('/api/cards');if(!r.ok)throw new Error('Could not load cards');cards=(await r.json()).cards;try{const saved=JSON.parse(localStorage.getItem('moonstone-troupe-v1')||'null');if(saved){teamIds=[...new Set(saved.ids)].filter(id=>cards.some(c=>c.id===id&&c.eligibility.selectable));if(teamIds.length&&['Undecided','Commonwealth','Dominion','Leshavult','Shades'].includes(saved.faction))$('faction').value=saved.faction;if([4,5,6].includes(saved.size))$('size').value=saved.size}}catch{}$('load-status').textContent=cards.length+' cards';updateFactionFilter();renderFilters();refreshTeam();show(cards.find(c=>c.eligibility.selectable&&L.compatible(c,$('faction').value))||cards[0]);renderCards()}catch(e){$('load-status').textContent=e.message}})();

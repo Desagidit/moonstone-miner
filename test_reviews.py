@@ -43,14 +43,22 @@ class ReviewTests(unittest.TestCase):
    import sqlite3
    with sqlite3.connect(self.data/'moonstone.sqlite') as db:
     self.assertEqual(db.execute('SELECT COUNT(*) FROM suggested_partners').fetchone()[0],504)
+    record=json.loads(db.execute('SELECT record_json FROM characters WHERE id=?',(result[137]['id'],)).fetchone()[0])
+    self.assertEqual(record['strategy_guide'],result[137]['strategy_guide'])
+    self.assertEqual(record['summons'],result[137]['summons'])
    db.close()
    reloaded=json.loads((self.data/'characters.json').read_text(encoding='utf-8'))
    self.assertEqual(reloaded[0]['suggested_partners'],result[0]['suggested_partners'])
    self.assertEqual(reloaded[0]['miniature'],result[0]['miniature'])
+   self.assertEqual(reloaded[0]['strategy_guide'],result[0]['strategy_guide'])
+   self.assertEqual(reloaded[137]['summons'],result[137]['summons'])
    self.assertIn('cdn.shopify.com',result[0]['miniature']['image_url'])
   # A changed source must not retain tactical inferences from the old bundle.
   self.assertNotIn('suggested_partners',store.apply_reviews(copy.deepcopy(self.cards))[0])
   self.assertNotIn('miniature',store.apply_reviews(copy.deepcopy(self.cards))[0])
+  changed=store.apply_reviews(copy.deepcopy(self.cards))
+  self.assertNotIn('strategy_guide',changed[0])
+  self.assertNotIn('summons',changed[137])
  def test_validation(self):
   with self.assertRaises(ValueError):store.validate_group('factions',{'factions':['Invented']})
   with self.assertRaises(ValueError):store.validate_group('identity',{'source':{}})

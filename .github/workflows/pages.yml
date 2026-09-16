@@ -36,6 +36,11 @@ jobs:
         run: python suggested_partners.py --check
       - name: Validate miniature metadata
         run: python miniatures.py --check
+      - name: Validate guides and summon links
+        run: |
+          python character_guides.py --check
+          python test_character_guides.py
+          python test_reviews.py
       - name: Generate high-resolution cards
         run: python render_card_images.py
       - name: Export static builder

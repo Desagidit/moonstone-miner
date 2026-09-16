@@ -1,0 +1,226 @@
+{
+  "gnomes": {
+    "title": "Commonwealth Gnomes (guest tactics)",
+    "url": "https://www.moonstonethegame.com/latest/commonwealth-gnomes",
+    "kind": "Official",
+    "research_note": "Militia combinations and objective play; older aura/ability values differ from current cards.",
+    "checked_on": "2026-09-16"
+  },
+  "faculty": {
+    "title": "The Faculty",
+    "url": "https://www.moonstonethegame.com/latest/the-faculty-troupe-spotlight",
+    "kind": "Official",
+    "research_note": "Shared keywords enable cross-support; Overclock costs wounds and must be budgeted.",
+    "checked_on": "2026-09-16"
+  },
+  "peggy": {
+    "title": "Peggy",
+    "url": "https://www.moonstonethegame.com/latest/peggy-character-spotlight",
+    "kind": "Official",
+    "research_note": "Advance a self-sufficient Pirate; deployment mobility exposes it to ranged threats.",
+    "checked_on": "2026-09-16"
+  },
+  "rogues": {
+    "title": "Lesh Miserables",
+    "url": "https://www.moonstonethegame.com/latest/lesh-miserables-troupe-spotlight",
+    "kind": "Official",
+    "research_note": "Banked-card knives, turn-one movement discount and Pickles stone transfers.",
+    "checked_on": "2026-09-16"
+  },
+  "swamp": {
+    "title": "Soggy Bottoms",
+    "url": "https://www.moonstonethegame.com/latest/soggy-bottoms-troupe-spotlight",
+    "kind": "Official",
+    "research_note": "Use qualifying catastrophe flips with Wenda; movement and Troll/Animal support matter.",
+    "checked_on": "2026-09-16"
+  },
+  "greymair": {
+    "title": "Greymair",
+    "url": "https://www.moonstonethegame.com/latest/greymair-character-spotlight",
+    "kind": "Official",
+    "research_note": "Drain Life can reset an energy-starved ally; Familiars support arcane reliability.",
+    "checked_on": "2026-09-16"
+  },
+  "echo": {
+    "title": "Cohort of the King",
+    "url": "https://www.moonstonethegame.com/latest/cohort-of-the-king",
+    "kind": "Official",
+    "research_note": "Starting Echo is more reliable than summoning; donate energy/healing to preserve his wound pool.",
+    "checked_on": "2026-09-16"
+  },
+  "risen": {
+    "title": "The Shambling Soldiers of Moonreach",
+    "url": "https://www.moonstonethegame.com/latest/the-shambling-soldiers-of-moonreach",
+    "kind": "Official",
+    "research_note": "Wound enemies before Soldier attacks; plan resurrection placement and death triggers.",
+    "checked_on": "2026-09-16"
+  },
+  "lesh": {
+    "title": "The Liturgy of Leshavit",
+    "url": "https://www.moonstonethegame.com/latest/liturgy-of-leshavult",
+    "kind": "Official",
+    "research_note": "Energy enabling, linked Witches and carefully positioned catastrophes.",
+    "checked_on": "2026-09-16"
+  },
+  "trees": {
+    "title": "Big Tree, Little Tree, Transforming Fox",
+    "url": "https://www.moonstonethegame.com/latest/big-tree-little-tree-transforming-fox",
+    "kind": "Official",
+    "research_note": "Wood placement and mobile Spirit/Animal partners; current cards govern numerical effects.",
+    "checked_on": "2026-09-16"
+  },
+  "boris": {
+    "title": "Boris, Bunnies and Beasts",
+    "url": "https://www.moonstonethegame.com/latest/boris-bunnies-beasts",
+    "kind": "Official",
+    "research_note": "Boris is a summoner; Animals and donated energy support his plan.",
+    "checked_on": "2026-09-16"
+  },
+  "fauns": {
+    "title": "The Leader, The Warrior and The Toodles",
+    "url": "https://www.moonstonethegame.com/latest/the-leader-the-warrior-and-the-toodles-hunting-horns-troupe-amp-wendigo-strategy",
+    "kind": "Official",
+    "research_note": "Hoff supports Fauns; Jayda supplies ranged reach, Toodles support.",
+    "checked_on": "2026-09-16"
+  },
+  "faeries": {
+    "title": "Feeble Faeries and How to Fizzlepop Them",
+    "url": "https://www.moonstonethegame.com/latest/feeble-faeries-and-how-to-fizzlepop-them-faerie-counter-strategy",
+    "kind": "Official",
+    "research_note": "Pulses avoid targeted defensive tools; reach, energy depletion and magic resistance counter Faeries.",
+    "checked_on": "2026-09-16"
+  },
+  "barnakelle": {
+    "title": "Barnakelle",
+    "url": "https://www.moonstonethegame.com/latest/barnakelle",
+    "kind": "Official",
+    "research_note": "Water enables reanimation; energy donation can favour melee Trolls over casters.",
+    "checked_on": "2026-09-16"
+  },
+  "brigid": {
+    "title": "Brigid",
+    "url": "https://www.moonstonethegame.com/latest/brigid-character-spotlight",
+    "kind": "Official",
+    "research_note": "Flexible copied arcane actions; energy/wound exchanges have real costs.",
+    "checked_on": "2026-09-16"
+  },
+  "commodore": {
+    "title": "Commodore Delahaye",
+    "url": "https://www.moonstonethegame.com/latest/commodore-delahaye",
+    "kind": "Official",
+    "research_note": "Faction-specific mobility versus water; focus Pirate pistols on the Black Spot.",
+    "checked_on": "2026-09-16"
+  },
+  "chezapeaky": {
+    "title": "Chezapeaky",
+    "url": "https://www.moonstonethegame.com/latest/chezapeaky-character-spotlight",
+    "kind": "Official",
+    "research_note": "Free reload support and water-assisted healing; keep shooters unengaged.",
+    "checked_on": "2026-09-16"
+  },
+  "iris": {
+    "title": "Iris & Hellebore",
+    "url": "https://www.moonstonethegame.com/latest/iris-and-hellebore",
+    "kind": "Official",
+    "research_note": "Faerie melee support and reaction energy; verify current once-per-game Perfect Form.",
+    "checked_on": "2026-09-16"
+  },
+  "dentia": {
+    "title": "Dentia",
+    "url": "https://www.moonstonethegame.com/latest/dentia-character-spotlight",
+    "kind": "Official",
+    "research_note": "Energy and Weakling manipulation; Faerie endurance depends on avoiding counterplay.",
+    "checked_on": "2026-09-16"
+  },
+  "banshee": {
+    "title": "Banshee",
+    "url": "https://www.moonstonethegame.com/latest/banshee",
+    "kind": "Official",
+    "research_note": "Bleeding support and disruption; Faerie/Spirit options need compatible faction.",
+    "checked_on": "2026-09-16"
+  },
+  "firespitter": {
+    "title": "The Firespitter Revisited",
+    "url": "https://www.moonstonethegame.com/latest/firespitter-revisited",
+    "kind": "Official",
+    "research_note": "Fire damage and catastrophe planning; current card governs repeat casting.",
+    "checked_on": "2026-09-16"
+  },
+  "matilda": {
+    "title": "Bing, Boing, Boom",
+    "url": "https://www.moonstonethegame.com/latest/bing-boing-boom-matilda",
+    "kind": "Official",
+    "research_note": "Mobile ranged pressure and disengagement; movement actions restrict harvesting.",
+    "checked_on": "2026-09-16"
+  },
+  "community": {
+    "title": "Player discussion: starter tactics",
+    "url": "https://www.reddit.com/r/moonstonethegame/comments/1rkm3g2/new_to_game_looking_for_advice/",
+    "kind": "Community",
+    "research_note": "Players emphasise Goblin setup, healer coverage, and pairing Jobie with a reanimator. A reply incorrectly lists Jobie as dual faction: current card is Dominion only.",
+    "checked_on": "2026-09-16"
+  },
+  "nobles": {
+    "title": "Noble Intentions",
+    "url": "https://www.moonstonethegame.com/latest/noble-intentions-commonwealth-noble-troupe-spotlight",
+    "kind": "Official",
+    "research_note": "Move armoured fighters before carrying stones; support and energy budget matter more than taking every expensive Noble.",
+    "checked_on": "2026-09-16"
+  },
+  "pirates": {
+    "title": "Goblin Pirate Strategy",
+    "url": "https://www.moonstonethegame.com/latest/goblin-pirates-subfaction-focus",
+    "kind": "Official",
+    "research_note": "Energy support and safe hit-and-run positioning; current cards supersede older costs.",
+    "checked_on": "2026-09-16"
+  },
+  "olim": {
+    "title": "Olim",
+    "url": "https://www.moonstonethegame.com/latest/olim-character-spotlight",
+    "kind": "Official",
+    "research_note": "Set up Norse flips and charge lanes; older passives differ from the current card.",
+    "checked_on": "2026-09-16"
+  },
+  "knoll": {
+    "title": "Knoll",
+    "url": "https://www.moonstonethegame.com/latest/knoll",
+    "kind": "Official",
+    "research_note": "Budget energy for Trollish Remedies and support Troll durability; current faction is authoritative.",
+    "checked_on": "2026-09-16"
+  },
+  "monsters": {
+    "title": "Fantastic Monsters and How to Field Them",
+    "url": "https://www.moonstonethegame.com/latest/fantasticmonsters",
+    "kind": "Official",
+    "research_note": "Large models need energy and objective support; current targeting restrictions take precedence.",
+    "checked_on": "2026-09-16"
+  },
+  "liv": {
+    "title": "Liv",
+    "url": "https://www.moonstonethegame.com/latest/liv-character-spotlight",
+    "kind": "Official",
+    "research_note": "Sequence deck preparation and her own casting before arranging unused cards.",
+    "checked_on": "2026-09-16"
+  },
+  "bjorn": {
+    "title": "Bjørn",
+    "url": "https://www.moonstonethegame.com/latest/bjorn-character-spotlight",
+    "kind": "Official",
+    "research_note": "Balance wound-powered damage with survival; charge can disable opposing signatures.",
+    "checked_on": "2026-09-16"
+  },
+  "spirits": {
+    "title": "Visitors from the Deadlands",
+    "url": "https://www.moonstonethegame.com/latest/visitors-from-the-deadlands",
+    "kind": "Official",
+    "research_note": "Marley improves Spirit mobility and resist hands; protect curse casters.",
+    "checked_on": "2026-09-16"
+  },
+  "pomps": {
+    "title": "A Party of Parading Psychopomps!",
+    "url": "https://www.moonstonethegame.com/latest/a-party-of-parading-psychopomps",
+    "kind": "Official",
+    "research_note": "Thralls share summoner energy; Roary can enable efficient harvesting and specialist actions.",
+    "checked_on": "2026-09-16"
+  }
+}
