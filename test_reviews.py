@@ -46,8 +46,11 @@ class ReviewTests(unittest.TestCase):
    db.close()
    reloaded=json.loads((self.data/'characters.json').read_text(encoding='utf-8'))
    self.assertEqual(reloaded[0]['suggested_partners'],result[0]['suggested_partners'])
+   self.assertEqual(reloaded[0]['miniature'],result[0]['miniature'])
+   self.assertIn('cdn.shopify.com',result[0]['miniature']['image_url'])
   # A changed source must not retain tactical inferences from the old bundle.
   self.assertNotIn('suggested_partners',store.apply_reviews(copy.deepcopy(self.cards))[0])
+  self.assertNotIn('miniature',store.apply_reviews(copy.deepcopy(self.cards))[0])
  def test_validation(self):
   with self.assertRaises(ValueError):store.validate_group('factions',{'factions':['Invented']})
   with self.assertRaises(ValueError):store.validate_group('identity',{'source':{}})

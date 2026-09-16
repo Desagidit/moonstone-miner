@@ -18,10 +18,23 @@ function show(c){
  const inTeam=teamIds.includes(c.id),reason=L.reason(c,members(),$('faction').value,Number($('size').value));
  const b=node('button',inTeam?'Remove from troupe':'Add to troupe','primary');b.disabled=!inTeam&&!!reason;b.onclick=()=>inTeam?remove(c):add(c);actions.append(b);
  if(!inTeam&&reason)actions.append(node('span',reason,'compatibility'));
- const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.target='_blank';review.rel='noopener';actions.append(review);p.append(actions);
+ const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.target='_blank';review.rel='noopener';actions.append(review);
+ if(c.miniature?.store_url){const store=node('a','Mini store ↗');store.href=c.miniature.store_url;store.target='_blank';store.rel='noopener';actions.append(store)}
+ if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);actions.append(photo)}
+ p.append(actions);
  const imageFrame=node('div',undefined,'focus-image-frame'),image=node('img');image.src='/'+c.source.image_path+'?quality=360';image.alt='Original cards for '+c.name;image.className='focused-image';imageFrame.append(image);p.append(imageFrame);
  const zl=node('label','Card zoom');zl.htmlFor='focus-zoom';const zoom=node('input');zoom.id='focus-zoom';zoom.type='range';zoom.min=100;zoom.max=250;zoom.value=100;zoom.oninput=()=>image.style.width=zoom.value+'%';p.append(zl,zoom);
 }
+function openMiniature(c){
+ const mini=c.miniature;if(!mini?.image_url)return;
+ $('mini-title').textContent=mini.photo_scope||c.name;$('mini-image').alt='Painted miniature: '+(mini.photo_scope||c.name);
+ $('mini-loading').textContent='Loading photo…';$('mini-image').hidden=true;
+ $('mini-image').onload=()=>{$('mini-image').hidden=false;$('mini-loading').textContent=''};
+ $('mini-image').onerror=()=>{$('mini-image').hidden=true;$('mini-loading').textContent='Photo could not load. You can view the miniature in the store.'};
+ $('mini-image').src=mini.image_url;$('mini-store').href=mini.store_url;$('mini-dialog').showModal();
+}
+$('mini-close').onclick=()=>$('mini-dialog').close();
+$('mini-dialog').onclick=e=>{if(e.target===$('mini-dialog'))$('mini-dialog').close()};
 function renderPartners(c){
  const target=$('partners');target.replaceChildren();$('partner-heading').textContent='Partners for '+c.name;
  const set=L.partnerSet(c,$('faction').value,members());
