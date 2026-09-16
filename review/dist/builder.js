@@ -1,6 +1,7 @@
 const L=TeamLogic,$=id=>document.getElementById(id),clone=v=>JSON.parse(JSON.stringify(v));
 let cards=[],focus=null,teamIds=[],filterSettings={},visits=[],visitIndex=-1,savedTroupes=[],activeTroupeId=null,troupeName='New troupe',favouriteIds=new Set(),draggedMemberId=null,factionQuickFilter=false;
-const fields={favourite:'Favourite',keyword:'Keyword',tag:'Custom tag',faction:'Faction',eligibility:'Summon',melee:'Melee',arcane:'Arcane',evade:'Evade',range:'Melee range',hp:'Health',energy:'Energy',base:'Base size'};
+const fields={favourite:'Favourite',keyword:'Keyword',keyword2:'Keyword 2',tag:'Tags',faction:'Faction',eligibility:'Summon',melee:'Melee',arcane:'Arcane',evade:'Evade',range:'Melee range',hp:'Health',energy:'Energy',base:'Base size'};
+const tagDescriptions={Healer:'Can heal or restore wounds.',Tank:'Has at least 8 health.',Energetic:'Has at least 4 energy.',Blue:'Has a blue arcane action.',Green:'Has a green arcane action.',Red:'Has a red arcane action.',Shover:'Has an action, arcane action or passive that moves another character.',Woodland:'Creates or interacts with wood tiles.',Wet:'Creates or interacts with water tiles.'};
 function node(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n}
 function option(value,text){const n=node('option',text);n.value=value;return n}
 function labelledSelect(label,values,value,fn){const s=node('select');s.setAttribute('aria-label',label);for(const [v,t] of values)s.append(option(v,t));s.value=value;s.onchange=()=>fn(s.value);return s}
@@ -44,7 +45,7 @@ $('troupe-name-form').onsubmit=e=>{e.preventDefault();if(!nameDialogAction)retur
 function svgNode(tag,attributes){const element=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [key,value] of Object.entries(attributes))element.setAttribute(key,value);return element}
 function renderTroupeChart(){const axes=L.metricAxes,values=L.troupeMetrics(members()),parent=$('troupe-chart');parent.replaceChildren();const svg=svgNode('svg',{viewBox:'-10 0 380 320',role:'img','aria-label':'Troupe profile: '+axes.map(key=>key+' '+values[key].toFixed(1)+' out of 5').join(', '),class:'troupe-radar'});const point=(index,scale)=>{const angle=-Math.PI/2+index*Math.PI/3;return [180+Math.cos(angle)*scale,160+Math.sin(angle)*scale]},points=scale=>axes.map((_,i)=>point(i,scale).join(',')).join(' ');for(let level=1;level<=5;level++)svg.append(svgNode('polygon',{points:points(level*20),class:'radar-grid'}));axes.forEach((key,index)=>{const [x,y]=point(index,100);svg.append(svgNode('line',{x1:180,y1:160,x2:x,y2:y,class:'radar-spoke'}));const [lx,ly]=point(index,126),label=svgNode('text',{x:lx,y:ly,'text-anchor':index===0||index===3?'middle':index<3?'start':'end','dominant-baseline':'middle',class:'radar-label'});label.textContent=key;svg.append(label)});svg.append(svgNode('polygon',{points:axes.map((key,i)=>point(i,values[key]*20).join(',')).join(' '),class:'radar-area'}));axes.forEach((key,i)=>{const [cx,cy]=point(i,values[key]*20);svg.append(svgNode('circle',{cx,cy,r:3,class:'radar-dot'}))});parent.append(svg);const summary=$('metric-summary');summary.replaceChildren();for(const key of axes){const row=node('span');row.append(node('span',key),node('strong',values[key].toFixed(1)));summary.append(row)}}
 function chips(parent,labels){parent.replaceChildren();for(const label of labels)parent.append(node('span',label,'chip tag'))}
-function summary(id,field){const values=L.tally(members(),field);chips($(id),values.map(v=>`${v.label} ×${v.count}`));if(!values.length)$(id).append(node('span','None yet','help'))}
+function summary(id,field){const values=L.tally(members(),field);chips($(id),values.map(v=>`${v.label} ×${v.count}`));values.forEach((v,i)=>{$(id).children[i].title=field==='custom_tags'?(tagDescriptions[v.label]||v.label):v.label+' keyword: '+v.count+' in your troupe'});if(!values.length)$(id).append(node('span','None yet','help'))}
 function refreshTeam(){
  const list=$('team');list.replaceChildren();const current=members();$('troupe-heading').textContent=activeTroupeId||current.length?'Your Troupe: '+troupeName:'Your Troupe';
  for(let index=0;index<6;index++){
@@ -53,8 +54,8 @@ function refreshTeam(){
   if(c){
    row.draggable=true;row.setAttribute('data-member-id',c.id);
    const handle=node('button','','drag-handle');handle.type='button';handle.title='Drag to reorder, or use arrow keys';handle.setAttribute('aria-label','Reorder '+c.name+'. Use up and down arrow keys.');handle.onkeydown=e=>{if(e.key!=='ArrowUp'&&e.key!=='ArrowDown')return;e.preventDefault();const target=index+(e.key==='ArrowUp'?-1:1);reorderMember(c.id,target);const replacement=[...$('team').children].find(n=>n.getAttribute('data-member-id')===c.id);replacement?.children[1]?.focus()};
-   const open=node('button',c.name,'member-name');open.type='button';open.onclick=()=>{show(c);renderCards()};
-   const removeButton=node('button','×','member-remove');removeButton.type='button';removeButton.setAttribute('aria-label','Remove '+c.name);removeButton.onclick=()=>remove(c);
+   const open=node('button',c.name,'member-name');open.type='button';open.title='View '+c.name+' card';open.onclick=()=>{show(c);renderCards()};
+   const removeButton=node('button','×','member-remove');removeButton.type='button';removeButton.title='Remove '+c.name+' from troupe';removeButton.setAttribute('aria-label','Remove '+c.name);removeButton.onclick=()=>remove(c);
    row.append(handle,open,removeButton);
    row.ondragstart=e=>{draggedMemberId=c.id;if(e.dataTransfer){e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',c.id)}row.setAttribute('data-dragging','true')};
    row.ondragend=()=>{draggedMemberId=null;for(const slot of $('team').children){slot.removeAttribute('data-drag-over');slot.removeAttribute('data-dragging')}};
@@ -84,11 +85,11 @@ function renderCards(){
   const panel=node('div',undefined,'character'+(focus?.id===c.id?' active':'')+(incompatible?' incompatible':''));
   const open=node('button',undefined,'character-open');open.type='button';open.setAttribute('aria-label','View '+c.name);
   const heading=node('span',undefined,'character-heading');heading.append(node('strong',c.name));
-  if(inTeam){const tick=node('span','✓','troupe-tick');tick.title='In your troupe';tick.setAttribute('role','img');tick.setAttribute('aria-label','In your troupe');heading.append(tick)}
+  if(inTeam&&!incompatible){const tick=node('span','✓','troupe-tick');tick.title='In your troupe';tick.setAttribute('role','img');tick.setAttribute('aria-label','In your troupe');heading.append(tick)}else if(incompatible){const blocked=node('span','×','troupe-incompatible');blocked.title='Incompatible with troupe faction: '+troupeFactions().join(' / ');blocked.setAttribute('role','img');blocked.setAttribute('aria-label',blocked.title);heading.append(blocked)}
   open.append(heading,node('small',c.factions.join(' / ')+(c.eligibility.summoned_only?' · Summon':'')),node('div',`HP ${c.stats.health} · Energy ${c.stats.energy} · Melee ${c.stats.melee??'—'} · Arcane ${c.stats.arcane??'—'} · Evade ${c.stats.evade??'—'}`,'statline'));
   const footer=node('div',undefined,'character-footer'),star=node('button',favourite?'★':'☆','favourite-star'+(favourite?' selected':''));star.type='button';star.title=(favourite?'Remove from':'Add to')+' favourites';star.setAttribute('aria-label',(favourite?'Remove '+c.name+' from':'Add '+c.name+' to')+' favourites');star.setAttribute('aria-pressed',String(favourite));star.onclick=e=>{e.stopPropagation();toggleFavourite(c)};
   footer.append(node('small',c.keywords.join(' · ')),star);panel.append(open,footer);
-  if(incompatible)panel.append(node('span','Outside '+troupeFactions().join(' / '),'compatibility'));
+
   panel.onclick=()=>{show(c);renderCards()};list.append(panel);
  }
  if(!filtered.length)list.append(node('p','No cards match these filters.'));list.scrollTop=scrollTop;
@@ -100,12 +101,12 @@ function show(c,recordVisit=true){
  const inTeam=teamIds.includes(c.id),reason=troupeReason(c);
  const b=node('button',inTeam?'Remove from troupe':'Add to troupe','primary');b.disabled=!inTeam&&!!reason;b.onclick=()=>inTeam?remove(c):add(c);actions.append(b);
  const navigation=node('div',undefined,'card-navigation');
- for(const [label,offset] of [['Previous',-1],['Next',1]]){const nav=node('button',label);nav.type='button';nav.disabled=offset<0?visitIndex<=0:visitIndex>=visits.length-1;nav.setAttribute('aria-label',label+' viewed character');nav.onclick=()=>{const next=visitIndex+offset;if(next<0||next>=visits.length)return;visitIndex=next;show(cards.find(v=>v.id===visits[visitIndex]),false);renderCards()};navigation.append(nav)}
+ for(const [label,offset] of [['Previous',-1],['Next',1]]){const nav=node('button',label);nav.type='button';nav.disabled=offset<0?visitIndex<=0:visitIndex>=visits.length-1;nav.setAttribute('aria-label',label+' viewed character');nav.title=offset<0?'Go back to the previously viewed character':'Go forward in browsing history';nav.onclick=()=>{const next=visitIndex+offset;if(next<0||next>=visits.length)return;visitIndex=next;show(cards.find(v=>v.id===visits[visitIndex]),false);renderCards()};navigation.append(nav)}
  actions.append(navigation);
  const links=node('div',undefined,'focus-links');
  if(!inTeam&&reason)links.append(node('span',reason,'compatibility'));
- const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.target='_blank';review.rel='noopener';links.append(review);
- if(c.miniature?.store_url){const store=node('a','Mini store ↗');store.href=c.miniature.store_url;store.target='_blank';store.rel='noopener';links.append(store)}
+ const review=node('a','Review this card ↗');review.href='/?page='+c.source.pdf_page;review.title='Open the official character card';review.target='_blank';review.rel='noopener';links.append(review);
+ if(c.miniature?.store_url){const store=node('a','Mini store ↗');store.href=c.miniature.store_url;store.title='Open the miniature in the official store';store.target='_blank';store.rel='noopener';links.append(store)}
  if(c.miniature?.image_url){const photo=node('button','▧','mini-photo');photo.type='button';photo.title='View painted miniature';photo.setAttribute('aria-label','View painted miniature for '+c.name);photo.onclick=()=>openMiniature(c);links.append(photo)}
  actions.append(...links.children);p.append(actions);
  const imageFrame=node('div',undefined,'focus-image-frame'),image=node('img');image.src='/'+c.source.image_path+'?quality=360';image.alt='Original cards for '+c.name;image.className='focused-image';imageFrame.append(image);p.append(imageFrame);
@@ -156,21 +157,21 @@ function renderPartners(c){
   row.append(name,node('p',suggested.reason,'partner-reason'),b);if(reason&&!inTeam)row.append(node('small',reason,'compatibility'));target.append(row);
  }
 }
-function choices(field){if(field==='favourite')return [['yes','Yes'],['no','No']];if(field==='keyword'||field==='tag'||field==='faction')return [...new Set(cards.flatMap(c=>field==='keyword'?c.keywords:field==='tag'?c.custom_tags:c.factions))].sort().map(v=>[v,v]);return null}
+function choices(field){if(field==='keyword2')field='keyword';if(field==='keyword'||field==='tag'||field==='faction')return [...new Set(cards.flatMap(c=>field==='keyword'?c.keywords:field==='tag'?c.custom_tags:c.factions))].sort().map(v=>[v,v]);return null}
 function sliderValues(field){return [...new Set(cards.map(c=>L.numeric[field](c)).filter(v=>typeof v==='number'&&Number.isFinite(v)))].sort((a,b)=>a-b)}
 function minimumField(field){return !!L.numeric[field]&&!['base','version'].includes(field)}
 function filterLabel(field){return minimumField(field)?'Min '+fields[field].toLowerCase():fields[field]}
-function matchesFilters(c){return Object.entries(filterSettings).every(([field,setting])=>!setting.active||L.match(c,{field,op:minimumField(field)?'gte':'eq',value:setting.value},{favourites:favouriteIds}))}
+function matchesFilters(c){return Object.entries(filterSettings).every(([field,setting])=>!setting.active||L.match(c,{field:field==='keyword2'?'keyword':field,op:minimumField(field)?'gte':'eq',value:setting.value},{favourites:favouriteIds}))}
 function renderFilters(){const parent=$('filter-fields');parent.replaceChildren();for(const field of Object.keys(fields)){
  const setting=filterSettings[field]||(filterSettings[field]={value:'',active:false}),row=node('div',undefined,'filter-row'),label=node('label',filterLabel(field));label.htmlFor='filter-'+field;
- const slider=!!L.numeric[field],toggle=field==='eligibility',values=slider?sliderValues(field):choices(field),control=node(slider||toggle?'input':'select');control.id='filter-'+field;control.setAttribute('aria-label',filterLabel(field));
+ const slider=!!L.numeric[field],toggle=field==='eligibility'||field==='favourite',values=slider?sliderValues(field):choices(field),control=node(slider||toggle?'input':'select');control.id='filter-'+field;control.setAttribute('aria-label',filterLabel(field));
  const clear=node('button','×','filter-clear');clear.type='button';clear.setAttribute('aria-label','Clear '+fields[field]+' filter');clear.title='Exclude '+fields[field]+' from search';
  let content=control,readout=null;
  if(slider){control.type='range';control.min=0;control.max=values.length;control.step=1;control.value=setting.active?values.indexOf(Number(setting.value))+1:0;control.className='discrete-slider';content=node('div',undefined,'slider-setting');const track=node('div',undefined,'slider-track'),dots=node('div',undefined,'slider-dots');dots.setAttribute('aria-hidden','true');for(let i=0;i<=values.length;i++)dots.append(node('span'));track.append(dots,control);readout=node('output',undefined,'slider-value');readout.htmlFor=control.id;content.append(track,readout)}
- else if(toggle){control.type='checkbox';control.className='summon-toggle';control.setAttribute('role','switch');control.checked=setting.active;content=node('div',undefined,'toggle-setting');content.append(control)}
+ else if(toggle){control.type='checkbox';control.className='summon-toggle';control.setAttribute('role','switch');control.title=field==='favourite'?'Show favourites only; off includes all characters':'Show summons only; off includes all characters';control.checked=setting.active;content=node('div',undefined,'toggle-setting');content.append(control)}
  else{control.append(option('','Any'));for(const [value,text] of values)control.append(option(value,text));control.value=setting.value}
  const updateRow=()=>{row.className='filter-row'+(setting.active?' filter-active':'');row.setAttribute('data-active',String(setting.active));clear.disabled=!setting.active;if(readout){readout.textContent=setting.active?(field==='base'?setting.value+' mm':'≥ '+setting.value):'Any';control.setAttribute('aria-valuetext',readout.textContent)}};
- const edit=()=>{if(slider){const index=Number(control.value);setting.active=Number.isInteger(index)&&index>0&&index<=values.length;setting.value=setting.active?String(values[index-1]):''}else if(toggle){setting.active=control.checked;setting.value=control.checked?'summon':''}else{setting.value=control.value;setting.active=control.value!==''}updateRow();renderCards()};if(slider)control.oninput=edit;else control.onchange=edit;
+ const edit=()=>{if(slider){const index=Number(control.value);setting.active=Number.isInteger(index)&&index>0&&index<=values.length;setting.value=setting.active?String(values[index-1]):''}else if(toggle){setting.active=control.checked;setting.value=control.checked?(field==='favourite'?'yes':'summon'):''}else{setting.value=control.value;setting.active=control.value!==''}updateRow();renderCards()};if(slider)control.oninput=edit;else control.onchange=edit;
  clear.onclick=()=>{setting.active=false;setting.value='';if(toggle)control.checked=false;else control.value=slider?'0':'';updateRow();renderCards()};updateRow();row.append(label,content,clear);parent.append(row);
 }}
 $('clear-filters').onclick=()=>{factionQuickFilter=false;filterSettings={};renderFilters();renderCards()};$('find').oninput=renderCards;$('sort').onchange=renderCards;
