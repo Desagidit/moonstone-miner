@@ -1,11 +1,11 @@
 const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict'),L=require('./review/dist/team_logic.js');
-const nodes=new Map();class E{constructor(){this.children=[];this.style={};this.value=''}set id(v){nodes.set(v,this)}append(...v){this.children.push(...v)}replaceChildren(...v){this.children=v}setAttribute(k,v){this.attributes??={};this.attributes[k]=String(v)}showModal(){this.open=true}close(){this.open=false} }
-for(const id of ['troupe-name','saved-troupes','save-troupe','new-troupe','load-troupe','delete-troupe','storage-status','troupe-chart','metric-summary','mini-dialog','mini-title','mini-image','mini-loading','mini-store','mini-close','partners','partner-heading','faction','faction-filter','size','find','sort','team','team-status','tag-summary','keyword-summary','notice','catalogue','result-count','focused','filter-groups','add-group','clear-filters','outer-mode','load-status']){const e=new E();e.id=id}
-nodes.get('troupe-name').value='New troupe';nodes.get('faction').value='Undecided';nodes.get('size').value='6';nodes.get('sort').value='name';
+const nodes=new Map();class E{constructor(){this.children=[];this.style={};this.value=''}set id(v){nodes.set(v,this)}append(...v){this.children.push(...v)}replaceChildren(...v){this.children=v}setAttribute(k,v){this.attributes??={};this.attributes[k]=String(v)}removeAttribute(k){delete this.attributes?.[k]}getAttribute(k){return this.attributes?.[k]}focus(){}showModal(){this.open=true}close(){this.open=false} }
+for(const id of ['troupe-name','saved-troupes','save-troupe','new-troupe','load-troupe','delete-troupe','storage-status','troupe-chart','metric-summary','mini-dialog','mini-title','mini-image','mini-loading','mini-store','mini-close','partners','partner-heading','troupe-faction','find','sort','team','team-status','tag-summary','keyword-summary','notice','catalogue','result-count','focused','filter-groups','add-group','clear-filters','outer-mode','load-status']){const e=new E();e.id=id}
+nodes.get('troupe-name').value='New troupe';nodes.get('sort').value='name';
 const cards=JSON.parse(fs.readFileSync('data/characters.json','utf8')),storage=new Map();
 const ctx=vm.createContext({TeamLogic:L,console,document:{getElementById:id=>nodes.get(id),createElement:()=>new E(),createElementNS:()=>new E()},localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},fetch:async()=>({ok:true,json:async()=>({cards})})});
 vm.runInContext(fs.readFileSync(process.argv.includes('--static')?'site/builder.js':'review/dist/builder.js','utf8'),ctx);
-(async()=>{await new Promise(r=>setImmediate(r));assert.equal(vm.runInContext('cards.length',ctx),141);assert.ok(nodes.get('catalogue').children.every(n=>!n.className.includes('incompatible')));assert.ok(nodes.get('faction-filter').disabled);assert.ok(!nodes.get('focused').children.some(n=>n.className==='panel'));
+(async()=>{await new Promise(r=>setImmediate(r));assert.equal(vm.runInContext('cards.length',ctx),141);assert.ok(nodes.get('catalogue').children.every(n=>!n.className.includes('incompatible')));assert.equal(nodes.get('team').children.length,6);assert.ok(!nodes.has('faction')&&!nodes.has('size'));assert.ok(!nodes.get('focused').children.some(n=>n.className==='panel'));
  const actions=nodes.get('focused').children[0];const miniButton=actions.children.find(n=>n.className==='mini-photo');assert.ok(miniButton);miniButton.onclick();assert.equal(nodes.get('mini-dialog').open,true);assert.equal(nodes.get('mini-image').src,cards[0].miniature.image_url);assert.equal(nodes.get('mini-store').href,cards[0].miniature.store_url);nodes.get('mini-image').onload();assert.equal(nodes.get('mini-image').hidden,false);nodes.get('mini-image').onerror();assert.equal(nodes.get('mini-image').hidden,true);assert.match(nodes.get('mini-loading').textContent,/could not load/);nodes.get('mini-close').onclick();assert.equal(nodes.get('mini-dialog').open,false);miniButton.onclick();nodes.get('mini-dialog').onclick({target:nodes.get('mini-dialog')});assert.equal(nodes.get('mini-dialog').open,false);
  const partnerRows=nodes.get('partners').children.filter(n=>n.className==='partner');assert.equal(partnerRows.length,3);assert.match(nodes.get('partner-heading').textContent,/Baron/);
  const partnerVisitCount=vm.runInContext('visits.length',ctx);
@@ -24,15 +24,12 @@ vm.runInContext(fs.readFileSync(process.argv.includes('--static')?'site/builder.
  vm.runInContext("query.groups[0].rules[0].value='yes';renderCards()",ctx);tileFor(cards[0]).children[1].children[1].onclick({stopPropagation(){}});assert.match(nodes.get('result-count').textContent,/^0 \/ 141/);
  storage.set('moonstone-favourites-v1',JSON.stringify([cards[0].id,cards[0].id,'unknown',null]));vm.runInContext('favouriteIds=new Set();restoreFavourites()',ctx);assert.equal(vm.runInContext('favouriteIds.size',ctx),1);
  vm.runInContext("query={mode:'and',groups:[]};renderCards()",ctx);assert.equal(tileFor(cards[0]).children[1].children[1].textContent,'★');vm.runInContext('toggleFavourite(cards[0])',ctx);
- nodes.get('faction').value='Dominion';nodes.get('faction').onchange();assert.match(nodes.get('team-status').textContent,/2 incompatible/);
- assert.ok(nodes.get('catalogue').children[0].className.includes('incompatible'));
- nodes.get('faction-filter').onclick();assert.equal(vm.runInContext('factionFilter',ctx),true);assert.ok(nodes.get('catalogue').children.every(n=>!n.className.includes('incompatible')));
+ assert.equal(vm.runInContext('troupeFaction()',ctx),'Commonwealth');assert.ok(tileFor(cards[13]).className.includes('incompatible'));
  vm.runInContext('remove(cards[0])',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),1);
  assert.equal(JSON.parse(storage.get('moonstone-troupe-v1')).ids.length,1);
  nodes.get('add-group').onclick();assert.equal(vm.runInContext('query.groups.length',ctx),1);
  nodes.get('clear-filters').onclick();assert.equal(vm.runInContext('query.groups.length',ctx),0);
- vm.runInContext('show(cards[27])',ctx);assert.match(nodes.get('partners').children[0].textContent,/Dominion/);
- nodes.get('faction').value='Commonwealth';nodes.get('faction').onchange();assert.match(nodes.get('partners').children[0].textContent,/Commonwealth/);
+ vm.runInContext('show(cards[27])',ctx);assert.match(nodes.get('partners').children[0].textContent,/Commonwealth/);
  vm.runInContext('show(cards[63])',ctx);assert.match(nodes.get('partners').children[0].textContent,/summon support/);
  // Actual browsing, not catalogue order or troupe mutations.
  vm.runInContext('show(cards[137])',ctx);
@@ -43,12 +40,12 @@ vm.runInContext(fs.readFileSync(process.argv.includes('--static')?'site/builder.
  assert.equal(nav()[1].disabled,true);nav()[0].onclick();assert.equal(vm.runInContext('focus.id',ctx),cards[137].id);
  assert.equal(nav()[1].disabled,false);nav()[1].onclick();assert.equal(vm.runInContext('focus.id',ctx),cards[138].id);
  nav()[0].onclick();vm.runInContext('show(cards[62])',ctx);assert.equal(nav()[1].disabled,true);
- const before=vm.runInContext('visits.length',ctx);nodes.get('size').onchange();vm.runInContext('remove(cards[1])',ctx);assert.equal(vm.runInContext('visits.length',ctx),before);
+ const before=vm.runInContext('visits.length',ctx);vm.runInContext('remove(cards[1])',ctx);assert.equal(vm.runInContext('visits.length',ctx),before);
  const guide=nodes.get('focused').children.find(n=>n.className==='strategy-guide');assert.ok(guide);assert.equal(guide.children[0].textContent,'Quick strategy guide');
  assert.ok(!nodes.get('focused').children.some(n=>n.textContent==='Card zoom'));assert.ok(!nodes.has('focus-zoom'));
  for(const c of cards){vm.runInContext('show(cards.find(c=>c.id==='+JSON.stringify(c.id)+'),false)',ctx);assert.ok(nodes.get('focused').children.some(n=>n.className==='strategy-guide'))}
  // Named snapshots, dirty drafts, browser restoration and legacy migration.
- nodes.get('new-troupe').onclick();assert.equal(vm.runInContext('teamIds.length',ctx),0);assert.equal(nodes.get('faction').value,'Undecided');
+ nodes.get('new-troupe').onclick();assert.equal(vm.runInContext('teamIds.length',ctx),0);assert.equal(vm.runInContext('troupeFaction()',ctx),'Undecided');
  nodes.get('troupe-name').value='Alpha';nodes.get('troupe-name').oninput();vm.runInContext('add(cards[0]);add(cards[1])',ctx);nodes.get('save-troupe').onclick();
  const alpha=vm.runInContext('activeTroupeId',ctx);assert.equal(vm.runInContext('savedTroupes.length',ctx),1);assert.equal(nodes.get('storage-status').textContent,'Saved locally');
  assert.equal(nodes.get('metric-summary').children.length,6);const radar=nodes.get('troupe-chart').children[0];assert.equal(radar.attributes.role,'img');assert.match(radar.attributes['aria-label'],/Tank.*Damage.*Support.*Moonstone.*Complexity.*Range/);assert.equal(radar.children.filter(n=>n.attributes?.class==='radar-grid').length,5);assert.equal(vm.runInContext('L.troupeMetrics(members()).Damage',ctx),(cards[0].troupe_metrics.Damage+cards[1].troupe_metrics.Damage)/2);
@@ -60,8 +57,20 @@ vm.runInContext(fs.readFileSync(process.argv.includes('--static')?'site/builder.
  vm.runInContext('teamIds=[];savedTroupes=[];activeTroupeId=null;restoreTroupes()',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),1);assert.equal(vm.runInContext('savedTroupes.length',ctx),2);assert.equal(nodes.get('troupe-name').value,'Renamed Alpha');
  nodes.get('saved-troupes').value=alpha;nodes.get('delete-troupe').onclick();assert.equal(vm.runInContext('savedTroupes.length',ctx),1);assert.equal(vm.runInContext('activeTroupeId',ctx),null);assert.equal(vm.runInContext('teamIds.length',ctx),1);
  nodes.get('new-troupe').onclick();assert.equal(vm.runInContext('L.troupeMetrics(members()).Tank',ctx),0);
- storage.delete('moonstone-troupes-v2');storage.set('moonstone-troupe-v1',JSON.stringify({ids:[cards[0].id,cards[0].id,cards[63].id,'gone'],faction:'Commonwealth',size:5}));vm.runInContext('savedTroupes=[];activeTroupeId=null;restoreTroupes()',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),1);assert.equal(nodes.get('faction').value,'Commonwealth');assert.equal(nodes.get('size').value,'5');
+ storage.delete('moonstone-troupes-v2');storage.set('moonstone-troupe-v1',JSON.stringify({ids:[cards[0].id,cards[0].id,cards[63].id,'gone'],faction:'Commonwealth',size:5}));vm.runInContext('savedTroupes=[];activeTroupeId=null;restoreTroupes()',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),1);assert.equal(vm.runInContext('troupeFaction()',ctx),'Commonwealth');assert.equal(vm.runInContext('troupeSnapshot().size',ctx),6);
+ // Native dragging, keyboard ordering, derived faction and saved slot order.
+ nodes.get('new-troupe').onclick();vm.runInContext('add(cards[27]);add(cards[0]);add(cards[1])',ctx);assert.equal(vm.runInContext('troupeFaction()',ctx),'Commonwealth');
+ const dragFocus=vm.runInContext('focus.id',ctx),dragHistory=vm.runInContext('visits.length',ctx),startRow=nodes.get('team').children[2],targetRow=nodes.get('team').children[0];
+ const transfer={setData(){},effectAllowed:'',dropEffect:''};startRow.ondragstart({dataTransfer:transfer});let prevented=false;targetRow.ondragover({dataTransfer:transfer,preventDefault(){prevented=true}});assert.ok(prevented);assert.equal(targetRow.attributes['data-drag-over'],'true');targetRow.ondrop({preventDefault(){}});
+ assert.equal(vm.runInContext('teamIds[0]',ctx),cards[1].id);assert.equal(vm.runInContext('focus.id',ctx),dragFocus);assert.equal(vm.runInContext('visits.length',ctx),dragHistory);assert.equal(nodes.get('team').children.length,6);
+ assert.equal(JSON.parse(storage.get('moonstone-troupes-v2')).draft.ids[0],cards[1].id);
+ nodes.get('team').children[0].children[1].onkeydown({key:'ArrowDown',preventDefault(){}});assert.equal(vm.runInContext('teamIds[1]',ctx),cards[1].id);
+ nodes.get('save-troupe').onclick();const ordered=vm.runInContext('activeTroupeId',ctx),orderedIds=JSON.parse(JSON.stringify(vm.runInContext('teamIds',ctx)));nodes.get('new-troupe').onclick();nodes.get('saved-troupes').value=ordered;nodes.get('load-troupe').onclick();assert.deepEqual(JSON.parse(JSON.stringify(vm.runInContext('teamIds',ctx))),orderedIds);
+ // A dual-faction leader permits either route; a conflicting saved team is flagged against slot 1.
+ nodes.get('new-troupe').onclick();vm.runInContext('add(cards[27])',ctx);assert.deepEqual(JSON.parse(JSON.stringify(vm.runInContext('troupeFactions()',ctx))),['Commonwealth','Dominion']);assert.equal(vm.runInContext('troupeReason(cards[13])',ctx),'');vm.runInContext('add(cards[13])',ctx);assert.equal(vm.runInContext('troupeFaction()',ctx),'Dominion');assert.match(vm.runInContext('troupeReason(cards[0])',ctx),/Outside/);
+ vm.runInContext('teamIds=[cards[0].id,cards[13].id];repaintTroupe()',ctx);assert.ok(nodes.get('team').children[1].className.includes('incompatible'));vm.runInContext('reorderMember(cards[13].id,0)',ctx);assert.equal(vm.runInContext('troupeFaction()',ctx),'Dominion');assert.ok(nodes.get('team').children[1].className.includes('incompatible'));
+ nodes.get('new-troupe').onclick();vm.runInContext('for(const c of cards.filter(c=>c.eligibility.selectable&&c.factions.includes("Commonwealth")))if(teamIds.length<6)add(c);',ctx);assert.equal(vm.runInContext('teamIds.length',ctx),6);assert.match(vm.runInContext('troupeReason(cards.find(c=>c.eligibility.selectable&&c.factions.includes("Commonwealth")&&!teamIds.includes(c.id)))',ctx),/full/);
  storage.set('moonstone-troupes-v2','{bad json');vm.runInContext('restoreTroupes()',ctx);assert.match(nodes.get('storage-status').textContent,/could not be read/);
  ctx.localStorage.setItem=()=>{throw Error('Quota exceeded')};const savedCount=vm.runInContext('savedTroupes.length',ctx);nodes.get('save-troupe').onclick();assert.equal(vm.runInContext('savedTroupes.length',ctx),savedCount);assert.match(nodes.get('storage-status').textContent,/unavailable/);
- console.log('Builder state checks passed: add/remove, duplicate/summon rejection, summaries, faction changes, saved troupes, migration, radar averages, favourites and filters.');
+ console.log('Builder state checks passed: add/remove, duplicate/summon rejection, summaries, automatic faction, drag/keyboard ordering, saved troupes, migration, radar averages, favourites and filters.');
 })().catch(e=>{console.error(e);process.exitCode=1});
