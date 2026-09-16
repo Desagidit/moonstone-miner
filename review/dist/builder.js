@@ -131,9 +131,10 @@ function renderRelated(c,parent){
   parent.append(section);
  }
 }
+let strategySummaryOpen=true;
 function renderGuide(c,parent){
  const guide=c.strategy_guide;if(!guide)return;
- const section=node('section',undefined,'strategy-guide');section.append(node('h3','Quick strategy guide'),node('p',guide.role,'guide-role'));
+ const section=node('details',undefined,'strategy-guide');section.open=strategySummaryOpen;section.ontoggle=()=>{if(section.parentNode)strategySummaryOpen=section.open};section.append(node('summary','Strategy Summary'),node('p',guide.role,'guide-role'));
  for(const [field,label] of [['play','Game plan'],['needs','Needs help with'],['caution','Watch out']]){const paragraph=node('p');paragraph.append(node('strong',label+': '),node('span',guide[field]));section.append(paragraph)}
  section.append(node('p','Based on current cards and tactical judgement, with published advice linked below.','help'));
  const sources=node('div',undefined,'guide-sources');
@@ -152,15 +153,15 @@ function openMiniature(c){
 $('mini-close').onclick=()=>$('mini-dialog').close();
 $('mini-dialog').onclick=e=>{if(e.target===$('mini-dialog'))$('mini-dialog').close()};
 function renderPartners(c){
- const target=$('partners');target.replaceChildren();$('partner-heading').textContent='Partners for '+c.name;
+ const target=$('partners');target.replaceChildren();$('partner-heading').textContent='Suggested Partners';
  const set=L.partnerSet(c,troupeFaction(),members());
  if(!set){target.append(node('p','No compatible partner core for this troupe. Reorder or remove members to change its faction.','help'));return}
  target.append(node('p',set.faction+(c.eligibility.summoned_only?' · summon support core':' · four-character core'),'partner-faction'),node('p',set.plan,'partner-plan'));
  for(const suggested of set.partners){
   const partner=cards.find(v=>v.id===suggested.character_id);if(!partner)continue;
   const row=node('div',undefined,'partner'),name=node('button',partner.name,'partner-name');name.onclick=()=>{show(partner);renderCards()};
-  const reason=troupeReason(partner),inTeam=teamIds.includes(partner.id),b=node('button',inTeam?'Added':'Add','partner-add');b.disabled=inTeam||!!reason;b.title=reason||'Add '+partner.name+' to troupe';b.setAttribute('aria-label',b.title);b.onclick=()=>add(partner,true);
-  row.append(name,node('p',suggested.reason,'partner-reason'),b);if(reason&&!inTeam)row.append(node('small',reason,'compatibility'));target.append(row);
+  const reason=troupeReason(partner),inTeam=teamIds.includes(partner.id),b=node('button',inTeam?'✓':'+','partner-add');b.disabled=inTeam||!!reason;b.title=inTeam?'Already in your troupe':reason||'Add '+partner.name+' to troupe';b.setAttribute('aria-label',b.title);b.onclick=()=>add(partner,true);
+  const heading=node('div',undefined,'partner-heading');heading.append(name,b);row.append(heading,node('p',suggested.reason,'partner-reason'));if(reason&&!inTeam)row.append(node('small',reason,'compatibility'));target.append(row);
  }
 }
 function choices(field){if(field==='keyword2')field='keyword';if(field==='keyword'||field==='tag'||field==='faction')return [...new Set(cards.flatMap(c=>field==='keyword'?c.keywords:field==='tag'?c.custom_tags:c.factions))].sort().map(v=>[v,v]);return null}
