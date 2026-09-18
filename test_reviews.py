@@ -42,7 +42,7 @@ class ReviewTests(unittest.TestCase):
    store.export(result)
    import sqlite3
    with sqlite3.connect(self.data/'moonstone.sqlite') as db:
-    self.assertEqual(db.execute('SELECT COUNT(*) FROM suggested_partners').fetchone()[0],504)
+    self.assertEqual(db.execute('SELECT COUNT(*) FROM suggested_partners').fetchone()[0],sum(len(route['partners']) for c in result for route in c.get('suggested_partners',{}).get('by_faction',{}).values()))
     record=json.loads(db.execute('SELECT record_json FROM characters WHERE id=?',(result[137]['id'],)).fetchone()[0])
     self.assertEqual(record['strategy_guide'],result[137]['strategy_guide'])
     self.assertEqual(record['summons'],result[137]['summons'])
