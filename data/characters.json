@@ -22531,7 +22531,8 @@
     "name": "Knoll",
     "card_version": 1,
     "factions": [
-      "Dominion"
+      "Dominion",
+      "Leshavult"
     ],
     "faction_icon_hashes": [
       "0fc91cbd18b213f47fd60a6dcbceb6c900c94fefbfa11308ecdad906a40520ac"
@@ -22665,7 +22666,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -22676,7 +22677,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Printed split blue Dominion / green Leshavult symbol confirmed on original card, page 87.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -22688,11 +22689,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -22723,7 +22719,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -22767,6 +22762,29 @@
               "reason": "Wetland Wallower enables Bristlenose's water energy and Syril supplies movement denial.",
               "character_id": "syril-swampfoot-137",
               "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=137"
+            }
+          ]
+        },
+        "Leshavult": {
+          "plan": "Heal the Faun summoning engine while a durable melee threat protects your casters; leave space for Recluse.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Knoll repairs Boris's summoning wound costs while Bunny actions supply extra board presence.",
+              "character_id": "boris-the-bunny-summoner-63",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=63"
+            },
+            {
+              "page": 75,
+              "reason": "The Beast supplies frontline pressure while Knoll's healing sustains it.",
+              "character_id": "the-beast-75",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=75"
+            },
+            {
+              "page": 70,
+              "reason": "Rouse restores Boris's energy for summons and Bunny actions while Hoff shares the healing workload.",
+              "character_id": "chubs-70",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=70"
             }
           ]
         }

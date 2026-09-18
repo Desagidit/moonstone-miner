@@ -4,7 +4,7 @@
   "basis": "Tactical suggestions inferred from complete character cards, including signature moves; not official ratings or playtested rankings.",
   "rules_url": "https://www.moonstonethegame.com/troupe-building",
   "character_count": 141,
-  "faction_core_count": 168,
+  "faction_core_count": 169,
   "characters": {
     "1": {
       "default_faction": "Commonwealth",
@@ -2204,6 +2204,23 @@
             {
               "page": 137,
               "reason": "Wetland Wallower enables Bristlenose's water energy and Syril supplies movement denial."
+            }
+          ]
+        },
+        "Leshavult": {
+          "plan": "Heal the Faun summoning engine while a durable melee threat protects your casters; leave space for Recluse.",
+          "partners": [
+            {
+              "page": 63,
+              "reason": "Knoll repairs Boris's summoning wound costs while Bunny actions supply extra board presence."
+            },
+            {
+              "page": 75,
+              "reason": "The Beast supplies frontline pressure while Knoll's healing sustains it."
+            },
+            {
+              "page": 70,
+              "reason": "Rouse restores Boris's energy for summons and Bunny actions while Hoff shares the healing workload."
             }
           ]
         }

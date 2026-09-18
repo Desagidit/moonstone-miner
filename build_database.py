@@ -12,7 +12,7 @@ def verified_factions(n):
  if n==28:return ['Commonwealth','Dominion']
  if n in [37,38,39,44,62,63,73]:return ['Commonwealth','Leshavult']
  if n==41:return ['Commonwealth','Dominion']
- if n in [74,75,76,80]:return ['Dominion','Leshavult']
+ if n in [74,75,76,80,87]:return ['Dominion','Leshavult']
  if n==109:return ['Commonwealth','Shades']
  if n in [110,111,112,123,124,125,126,127]:return ['Dominion','Shades']
  if n==115:return ['Leshavult','Shades']

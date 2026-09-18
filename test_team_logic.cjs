@@ -29,3 +29,5 @@ assert.equal(L.partnerSet(cards[27],'Commonwealth').faction,'Commonwealth');asse
 assert.equal(L.partnerSet(cards[27],'Undecided',[cards[0]]).faction,'Commonwealth');
 assert.equal(L.partnerSet(cards[63],'Commonwealth').partners[0].character_id,cards[62].id);
 console.log('All '+cores+' partner cores pass builder legality; Evolution exclusions and faction routes passed.');
+
+const boris=cards.find(c=>c.name.startsWith("Boris,")),knoll=cards.find(c=>c.name==="Knoll");assert.deepEqual(knoll.factions,["Dominion","Leshavult"]);assert.deepEqual(L.commonFactions([boris,knoll]),["Leshavult"]);assert.equal(L.reason(knoll,[boris],"Undecided",6),"");assert.equal(L.reason(boris,[knoll],"Undecided",6),"");
