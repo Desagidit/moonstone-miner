@@ -41,6 +41,7 @@ jobs:
           python character_guides.py --check
           python test_character_guides.py
           python test_reviews.py
+          python test_factions.py
       - name: Generate high-resolution cards
         run: python render_card_images.py
       - name: Export static builder

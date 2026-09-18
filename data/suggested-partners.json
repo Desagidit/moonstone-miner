@@ -4,7 +4,7 @@
   "basis": "Tactical suggestions inferred from complete character cards, including signature moves; not official ratings or playtested rankings.",
   "rules_url": "https://www.moonstonethegame.com/troupe-building",
   "character_count": 141,
-  "faction_core_count": 169,
+  "faction_core_count": 174,
   "characters": {
     "1": {
       "default_faction": "Commonwealth",
@@ -1057,20 +1057,20 @@
             }
           ]
         },
-        "Leshavult": {
-          "plan": "Protect the Giant's wound-and-energy engine while adding a Faun escort and objectives.",
+        "Dominion": {
+          "plan": "Support a Giant front line with movement, healing and objective theft.",
           "partners": [
             {
-              "page": 61,
-              "reason": "Leshavit's Caress repairs Constant Bickering wounds and supplies Protection."
+              "page": 46,
+              "reason": "Healing between the Giants helps maintain a durable combat line."
             },
             {
-              "page": 37,
-              "reason": "Hoff provides a mobile melee escort while the Giant occupies contested ground."
+              "page": 84,
+              "reason": "Treasure Map and X Marks the Spot help reposition the combat group."
             },
             {
-              "page": 73,
-              "reason": "Burrowing Claws supplies efficient deep-stone collection."
+              "page": 41,
+              "reason": "Muridae supplies Rogue support and objective pressure while the Giant fights."
             }
           ]
         }
@@ -1401,6 +1401,23 @@
             {
               "page": 73,
               "reason": "Burrowing Claws supplies deep-stone collection while Daniel supports the combat line."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Use Daniel's movement and group healing to support a Human combat line.",
+          "partners": [
+            {
+              "page": 2,
+              "reason": "Rallying Cry supplies the Humans with energy while Daniel provides movement and healing."
+            },
+            {
+              "page": 3,
+              "reason": "Flintlock supplies ranged pressure behind the supported frontline."
+            },
+            {
+              "page": 39,
+              "reason": "Healing repairs wounds and Blighted Elixir can support energy supply."
             }
           ]
         }
@@ -2377,6 +2394,23 @@
               "reason": "Conductor boosts Snag's Spirit Arcane and Leshavit's Caress sustains him."
             }
           ]
+        },
+        "Shades": {
+          "plan": "Combine Spirit curses and mobility with resurrection support.",
+          "partners": [
+            {
+              "page": 115,
+              "reason": "Morag adds Spirit mobility and wound manipulation to the curse plan."
+            },
+            {
+              "page": 113,
+              "reason": "Marley's Reanimate and Spirit movement support a flexible board presence."
+            },
+            {
+              "page": 116,
+              "reason": "Abra Cadaverous supplies Reanimate and additional summoned board presence."
+            }
+          ]
         }
       }
     },
@@ -2419,6 +2453,23 @@
             {
               "page": 98,
               "reason": "Goblin City Guard protects Jobie while carrying a stone; Pete supplies durable ordinary harvesting."
+            }
+          ]
+        },
+        "Shades": {
+          "plan": "Use Jobie's harvesting and death tricks with Reanimate and repositioning support.",
+          "partners": [
+            {
+              "page": 111,
+              "reason": "Guiding Lantern redirects Jobie's return and Keep 'em Fresh restores returned health."
+            },
+            {
+              "page": 113,
+              "reason": "Marley's Reanimate benefits from Jobie's resurrection rules."
+            },
+            {
+              "page": 116,
+              "reason": "Abra Cadaverous supplies another Reanimate user and additional bodies."
             }
           ]
         }
@@ -3515,6 +3566,23 @@
               "reason": "Summoned Pickles can give a nearby Giant energy; Loubard adds melee reach and stays near allies for Blind Faith."
             }
           ]
+        },
+        "Commonwealth": {
+          "plan": "Support Rogue stone theft with movement and a nearby Giant for Pickles.",
+          "partners": [
+            {
+              "page": 41,
+              "reason": "Muridae supports Rogue objectives and supplies movement tricks."
+            },
+            {
+              "page": 62,
+              "reason": "Pickles can restore a nearby Giant's energy while Loubard provides melee reach."
+            },
+            {
+              "page": 37,
+              "reason": "Hunting Horn supplies repositioning while Hoff adds melee pressure and healing."
+            }
+          ]
         }
       }
     },
@@ -3535,6 +3603,23 @@
             {
               "page": 141,
               "reason": "Streatham supports this Rogue's stolen-stone healing and movement; Skuggi adds a melee thief."
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Select Streatham to summon Pickles, then support Rogue theft near a Giant.",
+          "partners": [
+            {
+              "page": 138,
+              "reason": "Required named summoner; Purrloin transfers a stone collected by Pickles."
+            },
+            {
+              "page": 62,
+              "reason": "Giant Hugs for Pickles gives Loubard energy when positioned within 2 inches."
+            },
+            {
+              "page": 41,
+              "reason": "Muridae supports Rogue objective play alongside Streatham and Pickles."
             }
           ]
         }

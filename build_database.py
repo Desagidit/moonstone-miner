@@ -1,6 +1,7 @@
 """Build a lossless source archive and queryable Moonstone card catalogue."""
 import argparse, hashlib, json, re, sqlite3, unicodedata
 from pathlib import Path
+from functools import lru_cache
 import pdfplumber
 
 ROOT=Path(__file__).resolve().parent
@@ -8,18 +9,25 @@ PDF=ROOT/'data/sources/character-cards-all-aug-2026.pdf'
 URL='https://www.moonstonethegame.com/s/'+PDF.name
 MOVES=['High Guard','Falling Swing','Thrust','Sweeping Cut','Rising Attack','Low Guard']
 NAME_FIXES={18:'Shabbaroon',20:'Boom Boom McBoom',33:'Sir Guillemot Poppycock',79:'Raegan, Leshavult Priestess',95:'Gump',125:'Cheepaky',127:'Banshee',129:'Dentia',132:'Flinders Memphis',140:'Nancy Priston'}
-def verified_factions(n):
- if n==28:return ['Commonwealth','Dominion']
- if n in [37,38,39,44,62,63,73]:return ['Commonwealth','Leshavult']
- if n==41:return ['Commonwealth','Dominion']
- if n in [74,75,76,80,87]:return ['Dominion','Leshavult']
- if n==109:return ['Commonwealth','Shades']
- if n in [110,111,112,123,124,125,126,127]:return ['Dominion','Shades']
- if n==115:return ['Leshavult','Shades']
- if n in [14,15,16,17,18,19,20,21,22,23,24,25,26,27,29,46,47,48,49,50,51,52,53,54,55,56,57,58,81,82,83,84,85,86,87,96,97,98,128,129,134,135,136,137,140]:return ['Dominion']
- if 99<=n<=122:return ['Shades']
- if 59<=n<=80 or n in [91,92,93,94,95,138,139,141]:return ['Leshavult']
- return ['Commonwealth']
+@lru_cache(maxsize=1)
+def faction_manifest():
+ manifest=json.loads((ROOT/'data/faction-symbols.json').read_text(encoding='utf-8'))
+ if manifest['source_sha256']!=hashlib.sha256(PDF.read_bytes()).hexdigest():raise ValueError('Faction symbols must be audited for this card bundle.')
+ return manifest
+
+def verified_factions(n,hashes=None):
+ manifest=faction_manifest()
+ if hashes is None:
+  hashes=[h for h,entry in manifest['symbols'].items() if n in entry['pages']]
+ if not hashes:
+  if str(n) not in manifest['iconless_summons']:raise ValueError(f'Page {n}: missing faction symbol on a recruitable card.')
+  return manifest['iconless_summons'][str(n)]
+ factions=[]
+ for h in hashes:
+  if h not in manifest['symbols']:raise ValueError(f'Page {n}: unknown faction symbol {h}; visual verification required.')
+  for faction in manifest['symbols'][h]['factions']:
+   if faction not in factions:factions.append(faction)
+ return factions
 LIGATURES={'\ue324':'y','\ue311':'l','\ue315':'g','\ue325':'e','\ue412':'o'}
 def clean(s):
  for a,b in LIGATURES.items():s=s.replace(a,b)
@@ -104,22 +112,20 @@ def build(render=False):
    # Keep the faction icon's exact image hash for repeatable mapping and review.
    icon_images=[im for im in p.images if im['x0']>130 and im['x0']<180 and im['top']<15 and im['width']<70]
    ih=[hashlib.sha256(im['stream'].get_data()).hexdigest() for im in icon_images]
-   image=p.to_image(resolution=360).original
-   bg=image.getpixel((20,20)); r,g,b=bg[:3]
-   faction='Shades' if max(r,g,b)-min(r,g,b)<45 and b>r else ('Leshavult' if g>r else ('Dominion' if r>g+18 else 'Commonwealth'))
-   for h in ih:icons.setdefault(h,{'pages':[],'inferred_faction':faction})['pages'].append(n)
+   factions=verified_factions(n,ih)
+   for h in ih:icons.setdefault(h,{'pages':[],'verified_factions':factions})['pages'].append(n)
    flags=[]
    if not name:flags.append('missing_name')
    if any(stats[k] is None for k in ['melee','melee_range_inches','arcane','evade']):flags.append('special_or_missing_stat')
    if any('\ue000'<=ch<='\uf8ff' for ch in name):flags.append('unmapped_name_glyph')
    if not abilities:flags.append('ability_segmentation')
    flags.extend(['ability_segmentation_needs_review','multiple_faction_membership_needs_review'])
-   record={'id':slug(name)+'-'+str(n),'name':name,'card_version':int(version[1]) if version else 1,'factions':verified_factions(n),'faction_icon_hashes':ih,'keywords':[k.strip() for k in keywords.split(',') if k.strip()],'base_size_mm':int(base[1]) if base else None,'stats':stats,'health_track':dots,'abilities':abilities,'signature_move':sig,'raw_front_text':region(p,(0,0,180,p.height)),'raw_back_text':sigtext,'source':{'character_urls':[],'card_url':URL+'#page='+str(n),'pdf_page':n,'image_path':f'data/cards/{n:03}.png'},'review':{'status':'unverified','flags':flags}}
+   record={'id':slug(name)+'-'+str(n),'name':name,'card_version':int(version[1]) if version else 1,'factions':factions,'faction_icon_hashes':ih,'keywords':[k.strip() for k in keywords.split(',') if k.strip()],'base_size_mm':int(base[1]) if base else None,'stats':stats,'health_track':dots,'abilities':abilities,'signature_move':sig,'raw_front_text':region(p,(0,0,180,p.height)),'raw_back_text':sigtext,'source':{'character_urls':[],'card_url':URL+'#page='+str(n),'pdf_page':n,'image_path':f'data/cards/{n:03}.png'},'review':{'status':'unverified','flags':flags}}
    # Link only names actually found in official page text; never fabricate character URLs.
    for page in (out/'sources').glob('*.html'):
     html=clean(page.read_text(encoding='utf-8'))
     if name and name.lower() in re.sub('<[^>]+>',' ',html).lower():record['source']['character_urls'].append('https://www.moonstonethegame.com/'+page.stem)
-   image.save(out/'cards'/f'{n:03}.png')
+   p.to_image(resolution=360).original.save(out/'cards'/f'{n:03}.png')
    glyphs.append({'page':n,'characters':[{k:c.get(k) for k in ['text','x0','x1','top','bottom','fontname','size','non_stroking_color']} for c in cs],'graphics':[{k:q.get(k) for k in ['object_type','x0','x1','top','bottom','fill','non_stroking_color']} for q in p.curves+p.rects]})
    records.append(record)
    p.close()

@@ -133,7 +133,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -324,7 +324,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -335,7 +335,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -347,11 +347,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -382,7 +377,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -585,7 +579,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -596,7 +590,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -608,11 +602,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -643,7 +632,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -837,7 +825,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -848,7 +836,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -860,11 +848,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -895,7 +878,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -1082,7 +1064,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -1093,7 +1075,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -1105,11 +1087,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -1140,7 +1117,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -1341,7 +1317,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -1352,7 +1328,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -1364,11 +1340,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -1399,7 +1370,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -1600,7 +1570,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -1611,7 +1581,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -1623,11 +1593,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -1658,7 +1623,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -1854,7 +1818,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -1865,7 +1829,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -1877,11 +1841,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -1912,7 +1871,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -2117,7 +2075,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -2128,7 +2086,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -2140,11 +2098,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -2175,7 +2128,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -2371,7 +2323,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -2382,7 +2334,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -2394,11 +2346,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -2429,7 +2376,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -2623,7 +2569,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -2634,7 +2580,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -2646,11 +2592,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -2681,7 +2622,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -2884,7 +2824,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -2895,7 +2835,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -2907,11 +2847,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -2942,7 +2877,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -3155,7 +3089,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -3166,7 +3100,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -3178,11 +3112,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -3213,7 +3142,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -3416,7 +3344,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -3427,7 +3355,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -3439,11 +3367,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -3474,7 +3397,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -3688,7 +3610,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -3699,7 +3621,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -3711,11 +3633,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -3746,7 +3663,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -3947,7 +3863,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -3958,7 +3874,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -3970,11 +3886,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -4005,7 +3916,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -4204,7 +4114,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -4215,7 +4125,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -4227,11 +4137,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -4262,7 +4167,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -4481,7 +4385,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -4492,7 +4396,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -4504,11 +4408,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -4539,7 +4438,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -4736,7 +4634,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -4747,7 +4645,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -4759,11 +4657,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -4794,7 +4687,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -4987,7 +4879,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -4998,7 +4890,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -5010,11 +4902,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -5045,7 +4932,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -5230,7 +5116,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -5241,7 +5127,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -5253,11 +5139,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -5288,7 +5169,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -5473,7 +5353,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -5484,7 +5364,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -5496,11 +5376,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -5531,7 +5406,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -5729,7 +5603,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -5740,7 +5614,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -5752,11 +5626,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -5787,7 +5656,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -5994,7 +5862,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -6005,7 +5873,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -6017,11 +5885,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -6052,7 +5915,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -6243,7 +6105,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -6254,7 +6116,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -6266,11 +6128,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -6301,7 +6158,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -6508,7 +6364,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -6519,7 +6375,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -6531,11 +6387,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -6566,7 +6417,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -6771,7 +6621,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -6782,7 +6632,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -6794,11 +6644,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -6829,7 +6674,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -7043,7 +6887,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -7054,7 +6898,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -7066,11 +6910,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -7101,7 +6940,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -7329,7 +7167,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -7340,7 +7178,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -7352,11 +7190,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -7387,7 +7220,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -7582,7 +7414,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -7593,7 +7425,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -7605,11 +7437,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -7640,7 +7467,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -7843,7 +7669,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -7854,7 +7680,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -7866,11 +7692,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -7906,7 +7727,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -8101,7 +7921,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -8112,7 +7932,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -8124,11 +7944,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -8159,7 +7974,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -8354,7 +8168,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -8365,7 +8179,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -8377,11 +8191,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -8412,7 +8221,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -8622,7 +8430,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -8633,7 +8441,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -8645,11 +8453,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -8680,7 +8483,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -8875,7 +8677,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -8886,7 +8688,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -8898,11 +8700,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -8933,7 +8730,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -9126,7 +8922,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -9137,7 +8933,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -9149,11 +8945,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -9184,7 +8975,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -9381,7 +9171,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -9392,7 +9182,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -9404,11 +9194,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -9439,7 +9224,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -9655,7 +9439,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -9666,7 +9450,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -9678,11 +9462,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -9713,7 +9492,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -9936,7 +9714,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -9947,7 +9725,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -9959,11 +9737,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -9994,7 +9767,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -10214,7 +9986,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -10225,7 +9997,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -10237,11 +10009,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -10272,7 +10039,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -10482,7 +10248,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -10493,7 +10259,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -10505,11 +10271,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -10540,7 +10301,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -10760,7 +10520,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -10771,7 +10531,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -10783,11 +10543,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -10818,7 +10573,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -11003,7 +10757,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -11014,7 +10768,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -11026,11 +10780,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -11071,7 +10820,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -11152,7 +10900,7 @@
     "card_version": 3,
     "factions": [
       "Commonwealth",
-      "Leshavult"
+      "Dominion"
     ],
     "faction_icon_hashes": [
       "1c362cb84486ed69c1eb438dcd1ed64295d3dd9812b2fe620f4277c718fef3f3"
@@ -11277,7 +11025,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -11288,7 +11036,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -11300,11 +11048,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -11335,7 +11078,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -11378,26 +11120,26 @@
             }
           ]
         },
-        "Leshavult": {
-          "plan": "Protect the Giant's wound-and-energy engine while adding a Faun escort and objectives.",
+        "Dominion": {
+          "plan": "Support a Giant front line with movement, healing and objective theft.",
           "partners": [
             {
-              "page": 61,
-              "reason": "Leshavit's Caress repairs Constant Bickering wounds and supplies Protection.",
-              "character_id": "kalista-leshavult-priestess-61",
-              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=61"
+              "page": 46,
+              "reason": "Healing between the Giants helps maintain a durable combat line.",
+              "character_id": "bristlenose-46",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=46"
             },
             {
-              "page": 37,
-              "reason": "Hoff provides a mobile melee escort while the Giant occupies contested ground.",
-              "character_id": "hoff-37",
-              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=37"
+              "page": 84,
+              "reason": "Treasure Map and X Marks the Spot help reposition the combat group.",
+              "character_id": "peggy-84",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=84"
             },
             {
-              "page": 73,
-              "reason": "Burrowing Claws supplies efficient deep-stone collection.",
-              "character_id": "jackalope-73",
-              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=73"
+              "page": 41,
+              "reason": "Muridae supplies Rogue support and objective pressure while the Giant fights.",
+              "character_id": "muridae-41",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=41"
             }
           ]
         }
@@ -11570,7 +11312,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -11581,7 +11323,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -11593,11 +11335,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -11628,7 +11365,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -11824,7 +11560,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -11835,7 +11571,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -11847,11 +11583,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -11882,7 +11613,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -12086,7 +11816,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -12097,7 +11827,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -12109,11 +11839,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -12144,7 +11869,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -12350,7 +12074,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -12361,7 +12085,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -12373,11 +12097,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -12408,7 +12127,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -12603,7 +12321,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -12614,7 +12332,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -12626,11 +12344,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -12661,7 +12374,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -12862,7 +12574,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -12873,7 +12585,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -12885,11 +12597,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -12920,7 +12627,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -13121,7 +12827,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -13132,7 +12838,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -13144,11 +12850,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -13179,7 +12880,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -13374,7 +13074,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -13385,7 +13085,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -13397,11 +13097,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -13432,7 +13127,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -13658,7 +13352,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -13669,7 +13363,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -13681,11 +13375,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -13716,7 +13405,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -13906,7 +13594,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -13917,7 +13605,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -13929,11 +13617,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -13974,7 +13657,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -14169,7 +13851,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -14180,7 +13862,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -14192,11 +13874,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -14227,7 +13904,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -14419,7 +14095,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -14430,7 +14106,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -14442,11 +14118,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -14477,7 +14148,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -14664,7 +14334,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -14675,7 +14345,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -14687,11 +14357,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -14722,7 +14387,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -14917,7 +14581,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -14928,7 +14592,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -14940,11 +14604,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -14975,7 +14634,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -15060,6 +14718,7 @@
     "name": "Brother Daniel",
     "card_version": 2,
     "factions": [
+      "Commonwealth",
       "Leshavult"
     ],
     "faction_icon_hashes": [
@@ -15177,7 +14836,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -15188,7 +14847,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -15200,11 +14859,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -15235,7 +14889,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -15277,6 +14930,29 @@
               "reason": "Burrowing Claws supplies deep-stone collection while Daniel supports the combat line.",
               "character_id": "jackalope-73",
               "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=73"
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Use Daniel's movement and group healing to support a Human combat line.",
+          "partners": [
+            {
+              "page": 2,
+              "reason": "Rallying Cry supplies the Humans with energy while Daniel provides movement and healing.",
+              "character_id": "eric-the-squire-2",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=2"
+            },
+            {
+              "page": 3,
+              "reason": "Flintlock supplies ranged pressure behind the supported frontline.",
+              "character_id": "flintlock-3",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=3"
+            },
+            {
+              "page": 39,
+              "reason": "Healing repairs wounds and Blighted Elixir can support energy supply.",
+              "character_id": "mr-toodles-39",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=39"
             }
           ]
         }
@@ -15446,7 +15122,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -15457,7 +15133,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -15469,11 +15145,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -15504,7 +15175,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -15706,7 +15376,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -15717,7 +15387,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -15729,11 +15399,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -15764,7 +15429,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -15991,7 +15655,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -16002,7 +15666,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -16014,11 +15678,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -16049,7 +15708,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -16287,7 +15945,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -16298,7 +15956,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -16310,11 +15968,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -16345,7 +15998,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -17388,7 +17040,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -17399,7 +17051,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -17411,11 +17063,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -17446,7 +17093,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -17645,7 +17291,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -17656,7 +17302,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -17668,11 +17314,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -17703,7 +17344,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -17899,7 +17539,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -17910,7 +17550,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -17922,11 +17562,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -17957,7 +17592,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -18155,7 +17789,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -18166,7 +17800,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -18178,11 +17812,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -18213,7 +17842,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -18418,7 +18046,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -18429,7 +18057,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -18441,11 +18069,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -18476,7 +18099,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -18679,7 +18301,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -18690,7 +18312,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -18702,11 +18324,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -18737,7 +18354,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -18944,7 +18560,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -18955,7 +18571,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -18967,11 +18583,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -19002,7 +18613,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -19228,7 +18838,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -19239,7 +18849,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -19251,11 +18861,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -19286,7 +18891,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -19515,7 +19119,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -19526,7 +19130,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -19538,11 +19142,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -19573,7 +19172,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -19789,7 +19387,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -19800,7 +19398,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -19812,11 +19410,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -19847,7 +19440,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -20383,7 +19975,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -20394,7 +19986,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -20406,11 +19998,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -20441,7 +20028,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -20618,7 +20204,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -20629,7 +20215,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -20641,11 +20227,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -20676,7 +20257,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -20860,7 +20440,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -20871,7 +20451,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -20883,11 +20463,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -20918,7 +20493,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -21134,7 +20708,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -21145,7 +20719,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -21157,11 +20731,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -21192,7 +20761,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -21378,7 +20946,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -21389,7 +20957,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -21401,11 +20969,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -21436,7 +20999,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -21630,7 +21192,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -21641,7 +21203,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -21653,11 +21215,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -21688,7 +21245,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -21884,7 +21440,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -21895,7 +21451,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -21907,11 +21463,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -21942,7 +21493,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -22150,7 +21700,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -22161,7 +21711,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -22173,11 +21723,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -22208,7 +21753,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -22393,7 +21937,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -22404,7 +21948,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -22416,11 +21960,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -22451,7 +21990,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -22677,7 +22215,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "Printed split blue Dominion / green Leshavult symbol confirmed on original card, page 87.",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -22949,7 +22487,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -22960,7 +22498,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -22972,11 +22510,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -23007,7 +22540,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -23225,7 +22757,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -23236,7 +22768,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -23248,11 +22780,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -23283,7 +22810,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -23475,7 +23001,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -23486,7 +23012,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -23498,11 +23024,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -23533,7 +23054,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -23738,7 +23258,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -23749,7 +23269,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -23761,11 +23281,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -23796,7 +23311,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -23988,7 +23502,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -23999,7 +23513,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -24011,11 +23525,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -24046,7 +23555,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -24243,7 +23751,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -24254,7 +23762,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -24266,11 +23774,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -24301,7 +23804,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -24386,7 +23888,8 @@
     "name": "Snag",
     "card_version": 1,
     "factions": [
-      "Leshavult"
+      "Leshavult",
+      "Shades"
     ],
     "faction_icon_hashes": [
       "f9b22277332075432f7f100897fe97920152cc66388b08e92e8ca12860bf5708"
@@ -24512,7 +24015,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -24523,7 +24026,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -24535,11 +24038,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -24570,7 +24068,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -24612,6 +24109,29 @@
               "reason": "Conductor boosts Snag's Spirit Arcane and Leshavit's Caress sustains him.",
               "character_id": "kalista-leshavult-priestess-61",
               "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=61"
+            }
+          ]
+        },
+        "Shades": {
+          "plan": "Combine Spirit curses and mobility with resurrection support.",
+          "partners": [
+            {
+              "page": 115,
+              "reason": "Morag adds Spirit mobility and wound manipulation to the curse plan.",
+              "character_id": "morag-115",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=115"
+            },
+            {
+              "page": 113,
+              "reason": "Marley's Reanimate and Spirit movement support a flexible board presence.",
+              "character_id": "marley-113",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=113"
+            },
+            {
+              "page": 116,
+              "reason": "Abra Cadaverous supplies Reanimate and additional summoned board presence.",
+              "character_id": "abra-cadaverous-116",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=116"
             }
           ]
         }
@@ -24795,7 +24315,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -24806,7 +24326,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -24818,11 +24338,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -24853,7 +24368,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -24941,7 +24455,8 @@
     "name": "Jobie",
     "card_version": 1,
     "factions": [
-      "Dominion"
+      "Dominion",
+      "Shades"
     ],
     "faction_icon_hashes": [
       "5bba347801832869217618e28f25eed7559e57e5746b5d7c13c3cacab92018b2"
@@ -25049,7 +24564,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -25060,7 +24575,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -25072,11 +24587,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -25107,7 +24617,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -25147,6 +24656,29 @@
               "reason": "Goblin City Guard protects Jobie while carrying a stone; Pete supplies durable ordinary harvesting.",
               "character_id": "portly-pete-98",
               "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=98"
+            }
+          ]
+        },
+        "Shades": {
+          "plan": "Use Jobie's harvesting and death tricks with Reanimate and repositioning support.",
+          "partners": [
+            {
+              "page": 111,
+              "reason": "Guiding Lantern redirects Jobie's return and Keep 'em Fresh restores returned health.",
+              "character_id": "viktor-petty-graverobber-111",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=111"
+            },
+            {
+              "page": 113,
+              "reason": "Marley's Reanimate benefits from Jobie's resurrection rules.",
+              "character_id": "marley-113",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=113"
+            },
+            {
+              "page": 116,
+              "reason": "Abra Cadaverous supplies another Reanimate user and additional bodies.",
+              "character_id": "abra-cadaverous-116",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=116"
             }
           ]
         }
@@ -25302,7 +24834,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -25313,7 +24845,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -25325,11 +24857,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -25360,7 +24887,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -25560,7 +25086,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -25571,7 +25097,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -25583,11 +25109,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -25618,7 +25139,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -27385,7 +26905,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -27396,7 +26916,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -27408,11 +26928,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -27443,7 +26958,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -27644,7 +27158,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -27655,7 +27169,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -27667,11 +27181,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -27702,7 +27211,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -27908,7 +27416,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -27919,7 +27427,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -27931,11 +27439,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -27966,7 +27469,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -28181,7 +27683,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -28192,7 +27694,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -28204,11 +27706,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -28239,7 +27736,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -28462,7 +27958,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -28473,7 +27969,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -28485,11 +27981,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -28520,7 +28011,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -28736,7 +28226,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -28747,7 +28237,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -28759,11 +28249,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -28794,7 +28279,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -29025,7 +28509,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -29036,7 +28520,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -29048,11 +28532,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -29083,7 +28562,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -29311,7 +28789,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -29322,7 +28800,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -29334,11 +28812,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -29369,7 +28842,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -29593,7 +29065,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -29604,7 +29076,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -29616,11 +29088,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -29651,7 +29118,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -29852,7 +29318,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -29863,7 +29329,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -29875,11 +29341,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -29910,7 +29371,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -30134,7 +29594,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -30145,7 +29605,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -30157,11 +29617,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -30192,7 +29647,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -30436,7 +29890,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -30447,7 +29901,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -30459,11 +29913,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -30494,7 +29943,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -30726,7 +30174,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -30737,7 +30185,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -30749,11 +30197,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -30784,7 +30227,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -30988,7 +30430,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -30999,7 +30441,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -31011,11 +30453,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -31046,7 +30483,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -31276,7 +30712,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -31287,7 +30723,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -31299,11 +30735,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -31334,7 +30765,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -32333,7 +31763,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -32344,7 +31774,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -32356,11 +31786,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -32391,7 +31816,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -32626,7 +32050,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -32637,7 +32061,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -32649,11 +32073,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -32684,7 +32103,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -32908,7 +32326,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -32919,7 +32337,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -32931,11 +32349,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -32966,7 +32379,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -33195,7 +32607,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -33206,7 +32618,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -33218,11 +32630,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -33253,7 +32660,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -33485,7 +32891,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -33496,7 +32902,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -33508,11 +32914,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -33543,7 +32944,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -33763,7 +33163,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -33774,7 +33174,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -33786,11 +33186,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -33821,7 +33216,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -34017,7 +33411,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -34028,7 +33422,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -34040,11 +33434,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -34075,7 +33464,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -34285,7 +33673,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -34296,7 +33684,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -34308,11 +33696,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -34343,7 +33726,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -34545,7 +33927,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -34556,7 +33938,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -34568,11 +33950,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -34603,7 +33980,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -34812,7 +34188,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -34823,7 +34199,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -34835,11 +34211,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -34870,7 +34241,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -35083,7 +34453,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -35094,7 +34464,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -35106,11 +34476,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -35141,7 +34506,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -35343,7 +34707,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -35354,7 +34718,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -35366,11 +34730,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -35401,7 +34760,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -35626,7 +34984,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -35637,7 +34995,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -35649,11 +35007,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -35684,7 +35037,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -35891,7 +35243,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -35902,7 +35254,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -35914,11 +35266,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -35949,7 +35296,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -36175,7 +35521,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -36186,7 +35532,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -36198,11 +35544,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -36233,7 +35574,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -36321,6 +35661,7 @@
     "name": "Streatham",
     "card_version": 1,
     "factions": [
+      "Commonwealth",
       "Leshavult"
     ],
     "faction_icon_hashes": [
@@ -36437,7 +35778,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -36448,7 +35789,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -36460,11 +35801,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -36495,7 +35831,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -36538,6 +35873,29 @@
               "reason": "Summoned Pickles can give a nearby Giant energy; Loubard adds melee reach and stays near allies for Blind Faith.",
               "character_id": "loubard-62",
               "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=62"
+            }
+          ]
+        },
+        "Commonwealth": {
+          "plan": "Support Rogue stone theft with movement and a nearby Giant for Pickles.",
+          "partners": [
+            {
+              "page": 41,
+              "reason": "Muridae supports Rogue objectives and supplies movement tricks.",
+              "character_id": "muridae-41",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=41"
+            },
+            {
+              "page": 62,
+              "reason": "Pickles can restore a nearby Giant's energy while Loubard provides melee reach.",
+              "character_id": "loubard-62",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=62"
+            },
+            {
+              "page": 37,
+              "reason": "Hunting Horn supplies repositioning while Hoff adds melee pressure and healing.",
+              "character_id": "hoff-37",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=37"
             }
           ]
         }
@@ -36800,6 +36158,29 @@
               "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=141"
             }
           ]
+        },
+        "Commonwealth": {
+          "plan": "Select Streatham to summon Pickles, then support Rogue theft near a Giant.",
+          "partners": [
+            {
+              "page": 138,
+              "reason": "Required named summoner; Purrloin transfers a stone collected by Pickles.",
+              "character_id": "streatham-138",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=138"
+            },
+            {
+              "page": 62,
+              "reason": "Giant Hugs for Pickles gives Loubard energy when positioned within 2 inches.",
+              "character_id": "loubard-62",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=62"
+            },
+            {
+              "page": 41,
+              "reason": "Muridae supports Rogue objective play alongside Streatham and Pickles.",
+              "character_id": "muridae-41",
+              "source_url": "https://www.moonstonethegame.com/s/character-cards-all-aug-2026.pdf#page=41"
+            }
+          ]
         }
       }
     },
@@ -36951,7 +36332,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -36962,7 +36343,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -36974,11 +36355,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -37009,7 +36385,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
@@ -37213,7 +36588,7 @@
       "status": "in_progress",
       "fields": {
         "identity": "needs_review",
-        "factions": "needs_review",
+        "factions": "verified",
         "stats": "needs_review",
         "health_track": "needs_review",
         "abilities": "needs_review",
@@ -37224,7 +36599,7 @@
       },
       "notes": {
         "identity": "",
-        "factions": "",
+        "factions": "Global symbol audit: exact printed image hash mapped to visually verified single or split faction symbol.",
         "stats": "",
         "health_track": "",
         "abilities": "",
@@ -37236,11 +36611,6 @@
       "issues": [
         {
           "field": "identity",
-          "code": "needs_review",
-          "message": "Compare this field with the original card."
-        },
-        {
-          "field": "factions",
           "code": "needs_review",
           "message": "Compare this field with the original card."
         },
@@ -37271,7 +36641,6 @@
         }
       ],
       "flags": [
-        "needs_review",
         "needs_review",
         "needs_review",
         "needs_review",
